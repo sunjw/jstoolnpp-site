@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JSMinNpp - A javascript plugin for notepad++</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="divWrapper">
+		<div id="divHeader">
+			<h1>JSMinNpp</h1>
+			<ul id="nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="screenshots.html">Screenshots</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">Donate</a></li>
+			</ul>
+		</div>
+		<div id="divDownload">
+			<div id="divLabel">
+				Download:
+			</div>
+			<div class="floatLeft">
+				<div class="item floatLeft margin center">
+					<a class="dlJSMinNpp dlLink" href="#">
+						<span class="dlName">
+							JSMinNpp.zip
+						</span>
+						<span class="dlInfo">
+							x.y.z unicode
+						</span>
+					</a>
+					<a href="#" class="dlOthers">Other files</a>
+				</div>
+				<div class="item floatLeft margin center">
+					<a class="dlNpp dlLink" href="#">
+						<span class="dlName">
+							Notepad++
+						</span>
+						<span class="dlInfo">
+							x.y.z
+						</span>
+					</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="floatRight center">
+				<div>
+					<a href="http://sourceforge.net/projects/jsminnpp"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=351223&amp;type=16" width="150" height="40" alt="Get JSMinNpp at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+				</div>
+				<div>
+					<a href="http://sourceforge.net/donate/index.php?group_id=351223"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /> </a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="divListwHeader foldingList">
+			<h5>Search</h5>
+			<div class="container foldingContainer">
+				<form id="searchForm" action="../ds/search.jsp" method="get">
+					<input type="text" maxlength="100" size="40" name="q" value=""/>
+					<input type="submit" value="搜索"/>
+				</form>
+			</div>
+		</div>
+		<div class="divListwHeader foldingList">
+			<h5>基本</h5>
+			<ul class="container foldingContainer">
+				<li><a href="emacs/">Emacs</a></li>
+				<li><a href="living-in-emacs/l-emacs/">生活在 Emacs 中</a></li>
+			</ul>
+		</div>
+		<div class="divListwHeader foldingList">
+			<h5>xHTML, css, JavaScript</h5>
+			<ul class="container foldingContainer">
+				<li><a href="css_reference/">CSS 参考手册</a></li>
+				<li><a href="cheatsheet/html_colors_cheatsheet_v2.pdf">HTML Colors Cheatsheet v2</a></li>
+				<li><a href="jquery/">jQuery API Browser</a></li>
+			</ul>
+		</div>
+		<div class="divListwHeader foldingList">
+			<h5>AMP</h5>
+			<ul class="container foldingContainer">
+				<li><a href="apache/">Apache HTTP Server 2 Documentation</a></li>
+				<li><a href="mysql/">MySQL 5 参考手册</a></li>
+				<li><a href="php/">PHP Manual</a></li>
+			</ul>
+		</div>
+		<div class="divListwHeader foldingList">
+			<h5>JAVA</h5>
+			<ul class="container foldingContainer">
+				<li><a href="j2se/">Java&trade; 2 Platform Standard Edition 6 API 规范</a></li>
+				<li><a href="j2se-tutorial/">The Java&trade; Tutorials</a></li>
+				<li><a href="j2ee/">Java&trade; Platform Enterprise Edition, v 5.0 API Specifications</a></li>
+				<li><a href="j2ee-tutorial/">The Java EE 5 Tutorial</a></li>
+				<li><a href="cldcapi/">CLDC 1.1</a></li>
+				<li><a href="midp2/">Mobile Information Device Profile 2.0</a></li>
+				<li><a href="struts-1/">Struts 1.3.10 Documentation</a></li>
+				<li><a href="struts-2/">Struts 2 Core 2.1.6 API</a></li>
+				<li><a href="hibernate3/">Hibernate Core 3.3.1.GA API</a></li>
+				<li><a href="spring2/">Spring Framework API 2.0</a></li>
+				<li><a href="lucene/">Lucene (Search Engine)</a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.folding.min.js"></script>
+	<script type="text/javascript">
+	//<![CDATA[
+		jqFolding.setup({
+				triggerSelector : "h5"
+			});
+		$(jqFolding.init);
+	//]]>
+	</script>
+</body>
+</html>

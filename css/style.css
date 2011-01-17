@@ -1,0 +1,206 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+	background: url('../imgs/bkg.png') top repeat-x;
+	line-height: 1.1em;
+}
+.clear {
+	clear: both;
+}
+.center {
+	text-align: center;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+ul {
+	list-style-type: none;
+}
+
+input[type="submit"],input[type="button"] {
+	padding: 1px 4px;
+}
+
+#divWrapper {
+	width: 800px;
+	padding-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#divWrapper * {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+#divWrapper * * {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+#divWrapper a {
+	color: #32559B;
+}
+#divWrapper a:hover {
+	text-decoration: underline;
+}
+
+#divWrapper #divHeader {
+	margin-top: 0;
+	height: 80px;
+}
+#divWrapper #divHeader, #divWrapper #divHeader a {
+	color: White;
+}
+#divWrapper #divHeader h1 {
+	padding-top: 25px;
+	float: left;
+}
+#divWrapper #divHeader ul#nav {
+	float: right;
+	border-right: 1px solid #2F508C;
+	border-left: 1px solid #5373B0;
+}
+#divWrapper #divHeader ul#nav li {
+	float: left;
+	font-size: 20px;
+	border-left: 1px solid #2F508C;
+	border-right: 1px solid #5373B0;
+}
+#divWrapper #divHeader ul#nav li a {
+	display: block;
+	height: 70px;
+	line-height: 75px;
+	padding: 0 15px;
+}
+#divWrapper #divHeader ul#nav li a:hover {
+	background-color: #3366CC;
+	text-decoration: none;
+}
+
+#divWrapper #divDownload {
+	font-family: Georgia, serif;
+}
+
+#divWrapper #divDownload #divLabel {
+	color: #32559B;
+	margin-bottom: 10px;
+}
+
+#divWrapper #divDownload div.item {
+	position: relative;
+}
+#divWrapper #divDownload div.margin {
+	margin-right: 50px;
+}
+
+#divWrapper #divDownload a.dlLink {
+	display: block;
+	width: 250px;
+	height: 98px;
+	text-decoration: none;
+}
+
+#divWrapper #divDownload a.dlJSMinNpp {
+	background: url('../imgs/download-jsminnpp.png') top left no-repeat;
+}
+#divWrapper #divDownload a.dlNpp {
+	background: url('../imgs/download-npp.png') top left no-repeat;
+}
+#divWrapper #divDownload a.dlLink:hover {
+	background-position: top right;
+}
+
+#divWrapper #divDownload a.dlLink .dlName, #divWrapper #divDownload a.dlLink .dlInfo {
+	display: block;
+	position: absolute;
+	width: 250px;
+}
+#divWrapper #divDownload a.dlLink .dlName {
+	top: 30px;
+	left: 0;
+	font-size: x-large;
+	color: white;
+}
+#divWrapper #divDownload a.dlLink:hover .dlName {
+	text-decoration: underline;
+}
+
+#divWrapper #divDownload a.dlLink .dlInfo {
+	top: 60px;
+	left: 0;
+}
+#divWrapper #divDownload a.dlJSMinNpp .dlInfo {
+	color: #CDE6F5;
+}
+#divWrapper #divDownload a.dlNpp .dlInfo {
+	color: #346012;
+}
+
+#divWrapper #divDownload a.dlOthers {
+	height: 1.5em;
+	line-height: 1.5em;
+	font-size: small;
+}
+
+#divWrapper div.divListwHeader, #divWrapper div.divListwHeader h5 {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#divWrapper div.divListwHeader {
+	border: 1px solid #CDE6F5;
+	box-shadow: 3px 3px 3px #888;
+	-moz-box-shadow: 3px 3px 3px #888;
+	-webkit-box-shadow: 3px 3px 3px #888;
+	background-color: White;
+	font-family: Georgia;
+}
+#divWrapper div.divListwHeader h5 {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: White;
+	background-color: #3862A9;
+	padding: 5px 0 6px 1em;
+}
+#divWrapper div.divListwHeader h5:hover {
+	cursor: pointer;
+	/*background-color: #111111;*/
+}
+#divWrapper div.divListwHeader .container {
+	margin: 10px 15px;
+}
+#divWrapper div.divListwHeader .container form {
+	margin-left: 12px;
+}
+#divWrapper div.divListwHeader ul {
+	list-style-type: none;
+	
+}
+#divWrapper .container a {
+	display: block;
+	padding: 2px 10px;
+	
+	/*color: #999999;*/
+}
+#divWrapper .container a:hover {
+	background-color: #CDE6F5;
+	color: #32559B;
+	text-shadow: white 1px 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
