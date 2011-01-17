@@ -1,4 +1,5 @@
-﻿* {
+﻿/* Common */
+* {
 	padding: 0;
 	margin: 0;
 }
@@ -33,7 +34,9 @@ ul {
 input[type="submit"],input[type="button"] {
 	padding: 1px 4px;
 }
+/* Common */
 
+/* Wrapper */
 #divWrapper {
 	width: 800px;
 	padding-bottom: 40px;
@@ -56,7 +59,9 @@ input[type="submit"],input[type="button"] {
 #divWrapper a:hover {
 	text-decoration: underline;
 }
+/* Wrapper */
 
+/* Header */
 #divWrapper #divHeader {
 	margin-top: 0;
 	height: 80px;
@@ -68,28 +73,33 @@ input[type="submit"],input[type="button"] {
 	padding-top: 25px;
 	float: left;
 }
-#divWrapper #divHeader ul#nav {
+#divWrapper #divHeader #nav {
 	float: right;
 	border-right: 1px solid #2F508C;
 	border-left: 1px solid #5373B0;
 }
-#divWrapper #divHeader ul#nav li {
+#divWrapper #divHeader #nav li {
+	display: block;
 	float: left;
 	font-size: 20px;
 	border-left: 1px solid #2F508C;
 	border-right: 1px solid #5373B0;
+	position: relative;
 }
-#divWrapper #divHeader ul#nav li a {
+#divWrapper #divHeader #nav li a {
 	display: block;
+	float: left;
 	height: 70px;
 	line-height: 75px;
 	padding: 0 15px;
 }
-#divWrapper #divHeader ul#nav li a:hover {
+#divWrapper #divHeader #nav li a:hover {
 	background-color: #3366CC;
 	text-decoration: none;
 }
+/* Header */
 
+/* Dowload */
 #divWrapper #divDownload {
 	font-family: Georgia, serif;
 }
@@ -97,6 +107,7 @@ input[type="submit"],input[type="button"] {
 #divWrapper #divDownload #divLabel {
 	color: #32559B;
 	margin-bottom: 10px;
+	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 }
 
 #divWrapper #divDownload div.item {
@@ -104,6 +115,9 @@ input[type="submit"],input[type="button"] {
 }
 #divWrapper #divDownload div.margin {
 	margin-right: 50px;
+}
+#divWrapper #divDownload div.splitRight {
+	border-right: 1px solid #999999;
 }
 
 #divWrapper #divDownload a.dlLink {
@@ -154,42 +168,91 @@ input[type="submit"],input[type="button"] {
 	line-height: 1.5em;
 	font-size: small;
 }
+/* Dowload */
 
-#divWrapper div.divListwHeader, #divWrapper div.divListwHeader h5 {
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+/* List with header */
+#divWrapper div.divListwHeader, #divWrapper div.divListwHeader .listHeader {
 }
 #divWrapper div.divListwHeader {
-	border: 1px solid #CDE6F5;
-	box-shadow: 3px 3px 3px #888;
-	-moz-box-shadow: 3px 3px 3px #888;
-	-webkit-box-shadow: 3px 3px 3px #888;
 	background-color: White;
 	font-family: Georgia;
 }
-#divWrapper div.divListwHeader h5 {
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+
+/* List with header - header */
+#divWrapper div.divListwHeader .listHeader {
 	color: White;
-	background-color: #3862A9;
-	padding: 5px 0 6px 1em;
 }
-#divWrapper div.divListwHeader h5:hover {
+#divWrapper div.divListwHeader .listHeader:hover {
 	cursor: pointer;
 	/*background-color: #111111;*/
 }
+#divWrapper div.divListwHeader .listHeader, #divWrapper div.divListwHeader .listHeader .listHeaderLeft, #divWrapper div.divListwHeader .listHeader .listHeaderMiddle, #divWrapper div.divListwHeader .listHeader .listHeaderRight {
+	height: 30px;
+	line-height: 30px;
+} 
+#divWrapper div.divListwHeader .listHeader .listHeaderLeft, #divWrapper div.divListwHeader .listHeader .listHeaderMiddle, #divWrapper div.divListwHeader .listHeader .listHeaderRight {
+	float: left;
+} 
+#divWrapper div.divListwHeader .listHeader .listHeaderLeft {
+	width: 13px;
+	background: transparent url('../imgs/list-head-left.png') top center no-repeat;
+}
+#divWrapper div.divListwHeader .listHeader .listHeaderMiddle {
+	width: 748px;
+	background: transparent url('../imgs/list-head-middle.png') top center repeat-x;
+}
+#divWrapper div.divListwHeader .listHeader .listHeaderRight {
+	width: 19px;
+	background: transparent url('../imgs/list-head-right.png') top center no-repeat;
+}
+/* List with header - header */
+
+/* List with header - bottom */
+#divWrapper div.divListwHeader .listBottom, #divWrapper div.divListwHeader .listBottom .listBottomLeft, #divWrapper div.divListwHeader .listBottom .listBottomMiddle, #divWrapper div.divListwHeader .listBottom .listBottomRight {
+	height: 10px;
+} 
+#divWrapper div.divListwHeader .listBottom .listBottomLeft, #divWrapper div.divListwHeader .listBottom .listBottomMiddle, #divWrapper div.divListwHeader .listBottom .listBottomRight {
+	float: left;
+} 
+#divWrapper div.divListwHeader .listBottom .listBottomLeft {
+	width: 13px;
+	background: transparent url('../imgs/list-bottom-left.png') top center no-repeat;
+}
+#divWrapper div.divListwHeader .listBottom .listBottomMiddle {
+	width: 748px;
+	background: transparent url('../imgs/list-bottom-middle.png') top center repeat-x;
+}
+#divWrapper div.divListwHeader .listBottom .listBottomRight {
+	width: 19px;
+	background: transparent url('../imgs/list-bottom-right.png') top center no-repeat;
+}
+/* List with header - bottom */
+
+/* List with header - container */
+#divWrapper div.divListwHeader .listContainer .listContainerMiddle, #divWrapper div.divListwHeader .listContainer .listContainerRight {
+	float: left;
+} 
+#divWrapper div.divListwHeader .listContainer {
+	background: transparent url('../imgs/list-container-left.png') top left repeat-y;
+}
+#divWrapper div.divListwHeader .listContainer .listContainerMiddle {
+	margin: 10px 0 10px 13px;
+	width: 748px;
+	background-color: white;
+}
+#divWrapper div.divListwHeader .listContainer .listContainerRight {
+	width: 780px;
+	background: transparent url('../imgs/list-container-right.png') top right repeat-y;
+}
+/* List with header - container */
+
 #divWrapper div.divListwHeader .container {
 	margin: 10px 15px;
 }
 #divWrapper div.divListwHeader .container form {
 	margin-left: 12px;
 }
-#divWrapper div.divListwHeader ul {
-	list-style-type: none;
-	
-}
+
 #divWrapper .container a {
 	display: block;
 	padding: 2px 10px;
@@ -200,7 +263,6 @@ input[type="submit"],input[type="button"] {
 	background-color: #CDE6F5;
 	color: #32559B;
 	text-shadow: white 1px 1px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 }
+/* List with header */
+
