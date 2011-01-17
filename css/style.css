@@ -6,7 +6,7 @@
 body {
 	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 	background: url('../imgs/bkg.png') top repeat-x;
-	line-height: 1.1em;
+	line-height: 1.2em;
 }
 .clear {
 	clear: both;
@@ -37,48 +37,48 @@ input[type="submit"],input[type="button"] {
 /* Common */
 
 /* Wrapper */
-#divWrapper {
+.pageWrapper {
 	width: 800px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
-#divWrapper * {
+.pageWrapper * {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 15px;
 }
-#divWrapper * * {
+.pageWrapper * * {
 	margin-left: 0;
 	margin-right: 0;
 	margin-top: 0;
 }
-#divWrapper a {
+.pageWrapper a {
 	color: #32559B;
 }
-#divWrapper a:hover {
+.pageWrapper a:hover {
 	text-decoration: underline;
 }
 /* Wrapper */
 
 /* Header */
-#divWrapper #divHeader {
+#divHeader {
 	margin-top: 0;
 	height: 80px;
 }
-#divWrapper #divHeader, #divWrapper #divHeader a {
+#divHeader, #divHeader a {
 	color: White;
 }
-#divWrapper #divHeader h1 {
+#divHeader h1 {
 	padding-top: 25px;
 	float: left;
 }
-#divWrapper #divHeader #nav {
+#divHeader #nav {
 	float: right;
 	border-right: 1px solid #2F508C;
 	border-left: 1px solid #5373B0;
 }
-#divWrapper #divHeader #nav li {
+#divHeader #nav li {
 	display: block;
 	float: left;
 	font-size: 20px;
@@ -86,183 +86,220 @@ input[type="submit"],input[type="button"] {
 	border-right: 1px solid #5373B0;
 	position: relative;
 }
-#divWrapper #divHeader #nav li a {
+#divHeader #nav li a {
 	display: block;
 	float: left;
 	height: 70px;
 	line-height: 75px;
 	padding: 0 15px;
 }
-#divWrapper #divHeader #nav li a:hover {
+#divHeader #nav li a:hover {
 	background-color: #3366CC;
 	text-decoration: none;
 }
 /* Header */
 
 /* Dowload */
-#divWrapper #divDownload {
+#divDownload {
 	font-family: Georgia, serif;
 }
 
-#divWrapper #divDownload #divLabel {
+#divDownload #divLabel {
 	color: #32559B;
 	margin-bottom: 10px;
 	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 }
 
-#divWrapper #divDownload div.item {
+#divDownload div.item {
 	position: relative;
 }
-#divWrapper #divDownload div.margin {
+#divDownload div.margin {
 	margin-right: 50px;
 }
-#divWrapper #divDownload div.splitRight {
+#divDownload div.splitRight {
 	border-right: 1px solid #999999;
 }
 
-#divWrapper #divDownload a.dlLink {
+#divDownload a.dlLink {
 	display: block;
 	width: 250px;
 	height: 98px;
 	text-decoration: none;
 }
 
-#divWrapper #divDownload a.dlJSMinNpp {
+#divDownload a.dlJSMinNpp {
 	background: url('../imgs/download-jsminnpp.png') top left no-repeat;
 }
-#divWrapper #divDownload a.dlNpp {
+#divDownload a.dlNpp {
 	background: url('../imgs/download-npp.png') top left no-repeat;
 }
-#divWrapper #divDownload a.dlLink:hover {
+#divDownload a.dlLink:hover {
 	background-position: top right;
 }
 
-#divWrapper #divDownload a.dlLink .dlName, #divWrapper #divDownload a.dlLink .dlInfo {
+#divDownload a.dlLink .dlName, #divDownload a.dlLink .dlInfo {
 	display: block;
 	position: absolute;
 	width: 250px;
 }
-#divWrapper #divDownload a.dlLink .dlName {
+#divDownload a.dlLink .dlName {
 	top: 30px;
 	left: 0;
 	font-size: x-large;
 	color: white;
 }
-#divWrapper #divDownload a.dlLink:hover .dlName {
+#divDownload a.dlLink:hover .dlName {
 	text-decoration: underline;
 }
 
-#divWrapper #divDownload a.dlLink .dlInfo {
+#divDownload a.dlLink .dlInfo {
 	top: 60px;
 	left: 0;
 }
-#divWrapper #divDownload a.dlJSMinNpp .dlInfo {
+#divDownload a.dlJSMinNpp .dlInfo {
 	color: #CDE6F5;
 }
-#divWrapper #divDownload a.dlNpp .dlInfo {
+#divDownload a.dlNpp .dlInfo {
 	color: #346012;
 }
 
-#divWrapper #divDownload a.dlOthers {
+#divDownload a.dlOthers {
 	height: 1.5em;
 	line-height: 1.5em;
 	font-size: small;
 }
 /* Dowload */
 
-/* List with header */
-#divWrapper div.divListwHeader, #divWrapper div.divListwHeader .listHeader {
+/* Bread crumb */
+#divCrumb {
+	font-size: small;
+	color: #666;
 }
-#divWrapper div.divListwHeader {
+/* Bread crumb */
+
+/* List with header */
+.divListwHeader, .divListwHeader .listHeader {
+}
+.divListwHeader {
 	background-color: White;
-	font-family: Georgia;
 }
 
 /* List with header - header */
-#divWrapper div.divListwHeader .listHeader {
+.divListwHeader .listHeader {
 	color: White;
 }
-#divWrapper div.divListwHeader .listHeader:hover {
+.divListwHeader .listHeader:hover {
 	cursor: pointer;
 	/*background-color: #111111;*/
 }
-#divWrapper div.divListwHeader .listHeader, #divWrapper div.divListwHeader .listHeader .listHeaderLeft, #divWrapper div.divListwHeader .listHeader .listHeaderMiddle, #divWrapper div.divListwHeader .listHeader .listHeaderRight {
+.divListwHeader .listHeader a {
+	color: white;
+}
+.divListwHeader .listHeader a:hover {
+	text-decoration: underline;
+}
+
+.divListwHeader .listHeader, .divListwHeader .listHeader .listHeaderLeft, .divListwHeader .listHeader .listHeaderMiddle, .divListwHeader .listHeader .listHeaderRight {
 	height: 30px;
 	line-height: 30px;
 } 
-#divWrapper div.divListwHeader .listHeader .listHeaderLeft, #divWrapper div.divListwHeader .listHeader .listHeaderMiddle, #divWrapper div.divListwHeader .listHeader .listHeaderRight {
+.divListwHeader .listHeader .listHeaderLeft, .divListwHeader .listHeader .listHeaderMiddle, .divListwHeader .listHeader .listHeaderRight {
 	float: left;
 } 
-#divWrapper div.divListwHeader .listHeader .listHeaderLeft {
+.divListwHeader .listHeader .listHeaderLeft {
 	width: 13px;
 	background: transparent url('../imgs/list-head-left.png') top center no-repeat;
 }
-#divWrapper div.divListwHeader .listHeader .listHeaderMiddle {
+.divListwHeader .listHeader .listHeaderMiddle {
 	width: 748px;
 	background: transparent url('../imgs/list-head-middle.png') top center repeat-x;
 }
-#divWrapper div.divListwHeader .listHeader .listHeaderRight {
+.divListwHeader .listHeader .listHeaderRight {
 	width: 19px;
 	background: transparent url('../imgs/list-head-right.png') top center no-repeat;
 }
 /* List with header - header */
 
 /* List with header - bottom */
-#divWrapper div.divListwHeader .listBottom, #divWrapper div.divListwHeader .listBottom .listBottomLeft, #divWrapper div.divListwHeader .listBottom .listBottomMiddle, #divWrapper div.divListwHeader .listBottom .listBottomRight {
+.divListwHeader .listBottom, .divListwHeader .listBottom .listBottomLeft, .divListwHeader .listBottom .listBottomMiddle, .divListwHeader .listBottom .listBottomRight {
 	height: 10px;
 } 
-#divWrapper div.divListwHeader .listBottom .listBottomLeft, #divWrapper div.divListwHeader .listBottom .listBottomMiddle, #divWrapper div.divListwHeader .listBottom .listBottomRight {
+.divListwHeader .listBottom .listBottomLeft, .divListwHeader .listBottom .listBottomMiddle, .divListwHeader .listBottom .listBottomRight {
 	float: left;
 } 
-#divWrapper div.divListwHeader .listBottom .listBottomLeft {
+.divListwHeader .listBottom .listBottomLeft {
 	width: 13px;
 	background: transparent url('../imgs/list-bottom-left.png') top center no-repeat;
 }
-#divWrapper div.divListwHeader .listBottom .listBottomMiddle {
+.divListwHeader .listBottom .listBottomMiddle {
 	width: 748px;
 	background: transparent url('../imgs/list-bottom-middle.png') top center repeat-x;
 }
-#divWrapper div.divListwHeader .listBottom .listBottomRight {
+.divListwHeader .listBottom .listBottomRight {
 	width: 19px;
 	background: transparent url('../imgs/list-bottom-right.png') top center no-repeat;
 }
 /* List with header - bottom */
 
 /* List with header - container */
-#divWrapper div.divListwHeader .listContainer .listContainerMiddle, #divWrapper div.divListwHeader .listContainer .listContainerRight {
+.divListwHeader .listContainer .listContainerMiddle, .divListwHeader .listContainer .listContainerRight {
 	float: left;
 } 
-#divWrapper div.divListwHeader .listContainer {
+.divListwHeader .listContainer {
 	background: transparent url('../imgs/list-container-left.png') top left repeat-y;
 }
-#divWrapper div.divListwHeader .listContainer .listContainerMiddle {
-	margin: 10px 0 10px 13px;
-	width: 748px;
+.divListwHeader .listContainer .listContainerMiddle {
+	margin: 10px 0 10px 20px !important;
+	width: 740px;
 	background-color: white;
+	font-family: Georgia;
 }
-#divWrapper div.divListwHeader .listContainer .listContainerRight {
+.divListwHeader .listContainer .listContainerRight {
 	width: 780px;
 	background: transparent url('../imgs/list-container-right.png') top right repeat-y;
 }
 /* List with header - container */
 
-#divWrapper div.divListwHeader .container {
-	margin: 10px 15px;
-}
-#divWrapper div.divListwHeader .container form {
-	margin-left: 12px;
-}
-
-#divWrapper .container a {
-	display: block;
-	padding: 2px 10px;
-	
-	/*color: #999999;*/
-}
-#divWrapper .container a:hover {
-	background-color: #CDE6F5;
-	color: #32559B;
-	text-shadow: white 1px 1px;
-}
 /* List with header */
 
+/* Screenshots */
+ul#ulScreenshots li, ul#ulScreenshots li a {
+	float: left;
+	display: block;
+	font-size: small;
+}
+ul#ulScreenshots li {
+	margin-right: 20px;
+}
+ul#ulScreenshots li a:hover {
+	text-decoration: none;
+}
+ul#ulScreenshots li a * {
+	display: block;
+}
+ul#ulScreenshots li a img {
+	border-bottom: 3px solid white;
+}
+ul#ulScreenshots li a:hover img {
+	border-bottom: 3px solid #32559B;
+}
+ul#ulScreenshots li a span {
+	text-align: center;
+}
+
+#divScreenshots {
+	position: relative;
+}
+#divScreenshots #divMore{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* Screenshots */
+
+/* Footer */
+#divFooter {
+	font-size: small;
+	color: #666;
+}
+/* Footer */
