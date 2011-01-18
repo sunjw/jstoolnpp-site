@@ -59,6 +59,9 @@ input[type="submit"],input[type="button"] {
 .pageWrapper a:hover {
 	text-decoration: underline;
 }
+.pageWrapper a:visited {
+	color: #273C7B;
+}
 /* Wrapper */
 
 /* Header */
@@ -85,6 +88,7 @@ input[type="submit"],input[type="button"] {
 	border-left: 1px solid #2F508C;
 	border-right: 1px solid #5373B0;
 	position: relative;
+	font-weight: bold;
 }
 #divHeader #nav li a {
 	display: block;
@@ -108,6 +112,7 @@ input[type="submit"],input[type="button"] {
 	color: #32559B;
 	margin-bottom: 10px;
 	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+	font-weight: bold;
 }
 
 #divDownload div.item {
@@ -269,21 +274,17 @@ ul#ulScreenshots li, ul#ulScreenshots li a {
 	font-size: small;
 }
 ul#ulScreenshots li {
-	margin-right: 20px;
-}
-ul#ulScreenshots li a:hover {
-	text-decoration: none;
+	margin-right: 40px;
+	margin-bottom: 15px;
 }
 ul#ulScreenshots li a * {
 	display: block;
 }
 ul#ulScreenshots li a img {
-	border-bottom: 3px solid white;
-}
-ul#ulScreenshots li a:hover img {
-	border-bottom: 3px solid #32559B;
+	border: 1px solid #32559B;
 }
 ul#ulScreenshots li a span {
+	margin-top: 3px;
 	text-align: center;
 }
 
@@ -297,9 +298,15 @@ ul#ulScreenshots li a span {
 }
 /* Screenshots */
 
+/* Others */
+ul.indentList {
+	margin-left: 1em;
+}
+/* Others */
+
 /* Footer */
 #divFooter {
-	font-size: small;
+	font-size: x-small;
 	color: #666;
 }
 /* Footer */
