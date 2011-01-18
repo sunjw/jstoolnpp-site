@@ -24,9 +24,9 @@
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
-						<div id="divScreenshots" class="listContainerMiddle">
-							<?php include "gpl-2.0.php" ?>
-							<div class="clear"></div>
+						<div class="listContainerMiddle">
+							<a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">Full License Text</a>
+							<?php include "inc/gpl-2.0.php" ?>
 						</div>
 					</div>
 					<div class="clear"></div>

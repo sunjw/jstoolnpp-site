@@ -24,14 +24,13 @@
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
-						<div id="divScreenshots" class="listContainerMiddle">
+						<div class="listContainerMiddle">
 							<ul>
 								<li><a title="Intall through Plugin Manager" href="#Install_pm">Intall through Plugin Manager</a></li>
 								<li><a title="Intall Manually" href="#Install_manually">Intall Manually</a></li>
 								<li><a title="Uninstall JSMinNpp" href="#Uninstall">Uninstall JSMinNpp</a></li>
 								<li><a title="Report Bugs" href="#Report_bugs">Report Bugs</a></li>
 							</ul>
-							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -50,14 +49,13 @@
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
-						<div id="divScreenshots" class="listContainerMiddle">
+						<div class="listContainerMiddle">
 							<ul>
 								<li>1. Run Notepad++.</li>
 								<li>2. Open menu: "Plugins" - "Plugin Manager" - "Show Plugin Manager".</li>
 								<li>3. Under "Available" tab, select "JSMin".</li>
 								<li>4. Click "Install" button. Then Plugin Manager will do downloading and installing automatically.</li>
 							</ul>
-							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -76,14 +74,13 @@
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
-						<div id="divScreenshots" class="listContainerMiddle">
+						<div class="listContainerMiddle">
 							<ul>
 								<li>1. <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.6.1.uni.zip/download" target="_blank">Download JSMinNpp</a>.</li>
 								<li>2. Extract JSMinNpp.dll from JSMinNPP.x.y.z.uni.zip (or JSMinNPP.x.y.z.asc.zip) you just downloaded.</li>
 								<li>3. Copy JSMinNpp.dll to plugins directory under your Notepad++ installation path, like "C:\Program Files\Notepad++\plugins\".</li>
 								<li>4. Run Notepad++, you will see JSMinNpp in "Plugins" menu.</li>
 							</ul>
-							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -102,7 +99,7 @@
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
-						<div id="divScreenshots" class="listContainerMiddle">
+						<div class="listContainerMiddle">
 							<p>Uninstall through Plugin Manager:</p>
 							<ul class="indentList">
 								<li>1. Run Notepad++.</li>
@@ -116,7 +113,6 @@
 								<li>2. Go to plugins directory under your Notepad++ installation path, like "C:\Program Files\Notepad++\plugins\".</li>
 								<li>3. Delete JSMinNpp.dll.</li>
 							</ul>
-							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -135,9 +131,8 @@
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
-						<div id="divScreenshots" class="listContainerMiddle">
+						<div class="listContainerMiddle">
 							<p>If found any bugs or problem, you can visit <a href="http://sourceforge.net/projects/jsminnpp/support" target="_blank">JSMinNpp Support on Sourceforte.net</a> or feel free to email me: sunjw8888 at gmail.com.</p>
-							<div class="clear"></div>
 						</div>
 					</div>
 					<div class="clear"></div>

@@ -8,7 +8,7 @@
 				<span class="dlName">JSMinNpp.zip</span>
 				<span class="dlInfo">1.6.1 unicode</span>
 			</a>
-			<a class="dlOthers" href="http://sourceforge.net/projects/jsminnpp/files/" target="_blank">Other files</a>&nbsp;-&nbsp;<a class="dlOthers" href="changelog.php">Changelog</a>&nbsp;-&nbsp;<a class="dlOthers" href="JSMinNPP.uni.zip" target="_blank">Beta version</a>
+			<a class="dlOthers" href="changelog.php">Changelog</a>&nbsp;-&nbsp;<a class="dlOthers" href="download.php#beta">Beta version</a>&nbsp;-&nbsp;<a class="dlOthers" href="download.php">Other files</a>
 		</div>
 		<div class="item floatLeft margin center">
 			<a class="dlNpp dlLink" href="http://notepad-plus-plus.org/download" target="_blank">
