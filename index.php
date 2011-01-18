@@ -85,7 +85,7 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>You can just install JSMinNpp through Plugin Manager in Notepad++:</p>
+							<p>You can install JSMinNpp through Plugin Manager in Notepad++:</p>
 							<ul class="indentList">
 								<li>1. Run Notepad++.</li>
 								<li>2. Open menu: "Plugins" - "Plugin Manager" - "Show Plugin Manager".</li>
