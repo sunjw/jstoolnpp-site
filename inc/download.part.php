@@ -1,19 +1,22 @@
+<?php
+$download_array = parse_ini_file("version.ini", true);
+?>
 <div class="floatLeft splitRight">
 	<div id="divLabel">
 		Download:
 	</div>
 	<div class="floatLeft">
 		<div class="item floatLeft margin center">
-			<a class="dlJSMinNpp dlLink" href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.6.1.uni.zip/download" target="_blank">
-				<span class="dlName">JSMinNpp.zip</span>
-				<span class="dlInfo">1.6.1 unicode</span>
+			<a class="dlJSMinNpp dlLink" href="<?php echo $download_array["JSMinNpp"]["url"]; ?>" target="_blank">
+				<span class="dlName"><?php echo $download_array["JSMinNpp"]["name"]; ?></span>
+				<span class="dlInfo"><?php echo $download_array["JSMinNpp"]["version"]; ?></span>
 			</a>
 			<a class="dlOthers" href="changelog.php">Changelog</a>&nbsp;-&nbsp;<a class="dlOthers" href="download.php#beta">Beta version</a>&nbsp;-&nbsp;<a class="dlOthers" href="download.php">Other files</a>
 		</div>
 		<div class="item floatLeft margin center">
-			<a class="dlNpp dlLink" href="http://notepad-plus-plus.org/download" target="_blank">
-				<span class="dlName">Notepad++</span>
-				<span class="dlInfo">5.8.6</span>
+			<a class="dlNpp dlLink" href="<?php echo $download_array["NPP"]["url"]; ?>" target="_blank">
+				<span class="dlName"><?php echo $download_array["NPP"]["name"]; ?></span>
+				<span class="dlInfo"><?php echo $download_array["NPP"]["version"]; ?></span>
 			</a>
 		</div>
 	</div>

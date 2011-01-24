@@ -52,7 +52,7 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>Only unicode build: <a href="JSMinNpp.uni.zip">JSMinNpp.uni.zip</a></p>
+							<p>Only unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Beta/JSMinNPP.uni.zip/download" target="_blank">JSMinNpp.uni.zip</a></p>
 							<p>USE THIS VERSION AT YOUR OWN RISK.</p>
 						</div>
 					</div>
