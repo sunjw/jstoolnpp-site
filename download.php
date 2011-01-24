@@ -46,13 +46,13 @@
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
-					<div class="listHeaderMiddle"><a name="beta" title="Beta Version">Beta Version</a></div>
+					<div class="listHeaderMiddle"><a name="beta" title="Beta Version"></a>Beta Version</div>
 					<div class="listHeaderRight"></div>
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>Only unicode build: <a href="JSMinNpp.uni.dll">JSMinNpp.uni.dll</a></p>
+							<p>Only unicode build: <a href="JSMinNpp.uni.zip">JSMinNpp.uni.zip</a></p>
 							<p>USE THIS VERSION AT YOUR OWN RISK.</p>
 						</div>
 					</div>
@@ -75,13 +75,16 @@
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Changelog: <a href="changelog.php">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/ChangeLog/download" target="_blank">Download</a>
-								</li>
-								<li>
 								README: <a href="http://sourceforge.net/projects/jsminnpp/files/README/download" target="_blank">Download</a>
 								</li>
 								<li>
+								Changelog: <a href="changelog.php">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/ChangeLog/download" target="_blank">Download</a>
+								</li>
+								<li>
 								Source code: <a href="http://sourceforge.net/projects/jsminnpp/develop" target="_blank">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Src/" target="_blank">Download</a>
+								</li>
+								<li>
+								All files: <a href="http://sourceforge.net/projects/jsminnpp/files/" target="_blank">View</a>
 								</li>
 							</ul>
 						</div>
