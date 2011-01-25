@@ -213,15 +213,15 @@ input[type="submit"],input[type="button"] {
 } 
 .divListwHeader .listHeader .listHeaderLeft {
 	width: 13px;
-	background: transparent url('../imgs/list-head-left.png') top center no-repeat;
+	background: transparent url('../imgs/list-corner.png') top left no-repeat;
 }
 .divListwHeader .listHeader .listHeaderMiddle {
 	width: 748px;
-	background: transparent url('../imgs/list-head-middle.png') top center repeat-x;
+	background: transparent url('../imgs/list-bar.png') top center repeat-x;
 }
 .divListwHeader .listHeader .listHeaderRight {
 	width: 19px;
-	background: transparent url('../imgs/list-head-right.png') top center no-repeat;
+	background: transparent url('../imgs/list-corner.png') top right no-repeat;
 }
 /* List with header - header */
 
@@ -234,15 +234,15 @@ input[type="submit"],input[type="button"] {
 } 
 .divListwHeader .listBottom .listBottomLeft {
 	width: 13px;
-	background: transparent url('../imgs/list-bottom-left.png') top center no-repeat;
+	background: transparent url('../imgs/list-corner.png') bottom left no-repeat;
 }
 .divListwHeader .listBottom .listBottomMiddle {
 	width: 748px;
-	background: transparent url('../imgs/list-bottom-middle.png') top center repeat-x;
+	background: transparent url('../imgs/list-bar.png') bottom center repeat-x;
 }
 .divListwHeader .listBottom .listBottomRight {
 	width: 19px;
-	background: transparent url('../imgs/list-bottom-right.png') top center no-repeat;
+	background: transparent url('../imgs/list-corner.png') bottom right no-repeat;
 }
 /* List with header - bottom */
 
