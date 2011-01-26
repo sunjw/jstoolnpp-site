@@ -1,3 +1,48 @@
+<?php 
+include_once "inc/common.inc.php";
+
+$checking = false;
+
+$ver = get_query("ver");
+if($ver != "")
+	$checking = true;
+
+$ver_array = explode(".", $ver);
+$major_ver = $ver_array[0];
+$minor_ver = $ver_array[1];
+$maintenance_ver = $ver_array[2];
+$build_ver = $ver_array[3];
+
+$download_array = parse_ini_file("inc/version.ini", true);
+$cur_version = $download_array["JSMinNpp"]["version"];
+$cur_ver_array = explode(".", $cur_version);
+$cur_major_ver = $cur_ver_array[0];
+$cur_minor_ver = $cur_ver_array[1];
+$cur_maintenance_ver = $cur_ver_array[2];
+$cur_build_ver = $cur_ver_array[3];
+
+$is_lastest = false;
+if($major_ver < $cur_major_ver)
+	$is_lastest = false;
+else if($major_ver > $cur_major_ver)
+	$is_lastest = true;
+else if($minor_ver < $cur_minor_ver)
+	$is_lastest = false;
+else if($minor_ver > $cur_minor_ver)
+	$is_lastest = true;
+else if($maintenance_ver < $cur_maintenance_ver)
+	$is_lastest = false;
+else if($maintenance_ver > $cur_maintenance_ver)
+	$is_lastest = true;
+else if($build_ver < $cur_build_ver)
+	$is_lastest = false;
+else if($build_ver > $cur_build_ver)
+	$is_lastest = true;
+else if($build_ver = $cur_build_ver)
+	$is_lastest = true;
+	
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,6 +55,38 @@
 			<div id="divHeader">
 				<?php include "inc/nav.part.php" ?>
 			</div>
+			<?php 
+			if($checking)
+			{
+			?>
+			<div class="divListwHeader foldingList">
+				<div class="listHeader">
+					<div class="listHeaderLeft"></div>
+					<div class="listHeaderMiddle">Check for Update</div>
+					<div class="listHeaderRight"></div>
+				</div>
+				<div class="listContainer foldingContainer">
+					<div class="listContainerRight">
+						<div class="listContainerMiddle">
+							<p>
+							<?php 
+							if($is_lastest)
+								echo "You are using the latest version of JSMinNpp. May be you want to <a href='http://sourceforge.net/donate/index.php?group_id=351223' target='_blank'>Donate</a>.";
+							else
+								echo "You are <strong>NOT</strong> using the latest version of JSMinNpp. Download new version below.";
+							?>
+							</p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="listBottom">
+					<div class="listBottomLeft"></div>
+					<div class="listBottomMiddle"></div>
+					<div class="listBottomRight"></div>
+				</div>
+			</div>
+			<?php } ?>
 			<div id="divDownload">
 				<?php include "inc/download.part.php" ?>
 			</div>
