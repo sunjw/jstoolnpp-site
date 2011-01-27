@@ -108,7 +108,7 @@ input[type="submit"],input[type="button"] {
 	font-family: Georgia, serif;
 }
 
-#divDownload #divLabel {
+#divDownload .label {
 	color: #32559B;
 	margin-bottom: 10px;
 	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;

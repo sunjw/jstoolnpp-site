@@ -2,7 +2,7 @@
 $download_array = parse_ini_file("version.ini", true);
 ?>
 <div class="floatLeft splitRight">
-	<div id="divLabel">
+	<div class="label">
 		Download:
 	</div>
 	<div class="floatLeft">
@@ -23,13 +23,13 @@ $download_array = parse_ini_file("version.ini", true);
 	<div class="clear"></div>
 </div>
 <div class="floatRight">
-	<div id="divLabel">
+	<div class="label">
 		Donate:
 	</div>
 	<div>
 		<a href="http://sourceforge.net/donate/index.php?group_id=351223"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /> </a>
 	</div>
-	<div id="divLabel">
+	<div class="label">
 		Host:
 	</div>
 	<div>

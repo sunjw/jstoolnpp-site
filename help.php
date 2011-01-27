@@ -148,6 +148,6 @@
 			</div>
 		</div>
 	</div>
+	<?php include "inc/js.part.php" ?>
 </body>
-<?php include "inc/js.part.php" ?>
 </html>
