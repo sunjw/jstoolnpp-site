@@ -75,6 +75,7 @@ input[type="submit"],input[type="button"] {
 #divHeader h1 {
 	padding-top: 25px;
 	float: left;
+	text-shadow: #666 1px 1px;
 }
 #divHeader #nav {
 	float: right;
@@ -96,6 +97,7 @@ input[type="submit"],input[type="button"] {
 	height: 70px;
 	line-height: 75px;
 	padding: 0 15px;
+	text-shadow: #666 1px 1px;
 }
 #divHeader #nav li a:hover {
 	background-color: #3366CC;
@@ -152,9 +154,11 @@ input[type="submit"],input[type="button"] {
 	left: 0;
 	font-size: x-large;
 	color: white;
+	text-shadow: #333 1px 1px;
 }
 #divDownload a.dlLink:hover .dlName {
 	text-decoration: underline;
+	text-shadow: black 1px 1px;
 }
 
 #divDownload a.dlLink .dlInfo {
