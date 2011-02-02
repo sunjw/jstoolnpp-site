@@ -129,8 +129,8 @@ else if($build_ver = $cur_build_ver)
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>Only unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Beta/JSMinNPP.uni.zip/download" target="_blank">JSMinNpp.uni.zip</a></p>
-							<p>USE THIS VERSION AT YOUR OWN RISK.</p>
+							<p>Only unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Beta/" target="_blank">JSMinNpp.<?php echo $download_array["JSMinNpp"]["beta"]; ?>.uni.zip</a></p>
+							<p>Beta version may have fixed some bugs and may have some new bugs. Try it.</p>
 						</div>
 					</div>
 					<div class="clear"></div>

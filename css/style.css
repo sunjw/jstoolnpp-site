@@ -59,9 +59,6 @@ input[type="submit"],input[type="button"] {
 .pageWrapper a:hover {
 	text-decoration: underline;
 }
-.pageWrapper a:visited {
-	color: #273C7B;
-}
 /* Wrapper */
 
 /* Header */
