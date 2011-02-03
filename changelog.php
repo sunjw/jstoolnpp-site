@@ -26,6 +26,15 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.6.10 beta<br/>
+							Fixed bugs in formatting algorithm.<br/>
+							Add an Option dialog.<br/>
+							Some minor changes.<br/>
+							<br/>
+							1.6.5 beta<br/>
+							Fixed lots of bugs in formatting algorithm.<br/>
+							Changed About dialog style.<br/>
+							<br/>
 							1.6.1<br/>
 							Fixed some bugs.<br/>
 							<br/>
