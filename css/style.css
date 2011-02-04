@@ -21,6 +21,13 @@ body {
 	float: right;
 }
 
+.shown {
+	display: block;	
+}
+.hidden {
+	display: none;
+}
+
 a {
 	text-decoration: none;
 }
