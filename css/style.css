@@ -80,6 +80,7 @@ input[type="submit"],input[type="button"] {
 	padding-top: 25px;
 	float: left;
 	text-shadow: #666 1px 1px;
+	font-family: "Courier New", courier, monospace, serif;
 }
 #divHeader #nav {
 	float: right;
