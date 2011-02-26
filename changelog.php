@@ -26,6 +26,12 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.7 (since 1.6.1)<br/>
+							Fixed bugs.<br/>
+							Formatting algorithm now follows JSLint rules.<br/>
+							Added a new option dialog.<br/>
+							Some minor changes.<br/>
+							<br/>
 							1.6.10 beta<br/>
 							Fixed bugs in formatting algorithm.<br/>
 							Add an Option dialog.<br/>
