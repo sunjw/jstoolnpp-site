@@ -30,9 +30,13 @@ else if($minor_ver < $cur_minor_ver)
 	$is_lastest = false;
 else if($minor_ver > $cur_minor_ver)
 	$is_lastest = true;
+else if(!is_numeric($cur_maintenance_ver))
+	$is_lastest = true;
 else if($maintenance_ver < $cur_maintenance_ver)
 	$is_lastest = false;
 else if($maintenance_ver > $cur_maintenance_ver)
+	$is_lastest = true;
+else if(!is_numeric($cur_build_ver))
 	$is_lastest = true;
 else if($build_ver < $cur_build_ver)
 	$is_lastest = false;

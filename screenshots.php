@@ -34,6 +34,10 @@
 									<img src="imgs/jsminnpp-about-tb.png" width="150" height="100" border="0" alt="About Dialog" />
 									<span>About Dialog</span>
 								</a></li>
+								<li><a href="imgs/jsminnpp-option.png" class="lightBox" title="Option Dialog">
+									<img src="imgs/jsminnpp-option-tb.png" width="150" height="100" border="0" alt="Option Dialog" />
+									<span>Option Dialog</span>
+								</a></li>
 								<li><a href="imgs/jsminnpp-pluginmanager.png" class="lightBox" title="JSMinNpp in Plugin Manager">
 									<img src="imgs/jsminnpp-pluginmanager-tb.png" width="150" height="100" border="0" alt="JSMinNpp in Plugin Manager" />
 									<span>JSMinNpp in Plugin Manager</span>
