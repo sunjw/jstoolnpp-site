@@ -29,7 +29,7 @@
 							Use <a href="http://www.crockford.com/javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a> to minimize javascript code and use my own algorithm to format javascript code.<br/>
 							Really helpful to javascript coder on Notepad++ and really easy to use it.</p>
 							<p>License: <a href="gpl.php">GPL 2.0</a></p>
-							<p><script type="text/javascript" src="http://www.ohloh.net/p/485688/widgets/project_users_logo.js"></script></p>
+							<!--<p><script type="text/javascript" src="http://www.ohloh.net/p/485688/widgets/project_users_logo.js"></script></p>-->
 						</div>
 					</div>
 					<div class="clear"></div>
