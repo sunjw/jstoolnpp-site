@@ -26,6 +26,10 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.7.2 beta<br/>
+							Fixed bugs.<br/>
+							Leave empty {} block alone.<br/>
+							<br/>
 							1.7 (since 1.6.1)<br/>
 							Fixed bugs.<br/>
 							Formatting algorithm now follows JSLint rules.<br/>
