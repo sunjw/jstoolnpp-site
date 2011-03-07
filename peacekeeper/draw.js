@@ -6,17 +6,19 @@
 var canvasHeight = 210;
 var canvasWidth = 1000;
 
-function drawCanvas(i, data, result, max, ctx, fillStyle, dataWidth, barWidth) {
+function drawCanvas(i, data, result, max, ctx, fillStyle, dataWidth) {
+	var barWidth = dataWidth - 6; // 3px each side
+	//alert(barWidth);
 	if (result > 0) {
 		var barTotalHeight = parseInt(result / max * (canvasHeight - 60));
 		
 		ctx.fillStyle = fillStyle;
 		ctx.fillRect(10 + i * dataWidth, 10 + ((canvasHeight - 60) - barTotalHeight), barWidth, barTotalHeight);
 		
-		if (barTotalHeight > 16) {
+		if (barTotalHeight > 16 && barWidth > 16) {
 			var icon = new Image(); // Create new Image object
 			icon.src = 'icon-' + data.browser + '-16.png';
-			ctx.drawImage(icon, 23 + i * dataWidth, canvasHeight - 66);
+			ctx.drawImage(icon, barWidth - 6 + i * dataWidth, canvasHeight - 66);
 		}
 		
 		ctx.fillStyle = "black";
@@ -50,7 +52,6 @@ function draw(maximum) {
 	
 	var length = TestDatas.length;
 	var dataWidth = parseInt((canvasWidth - 20) / length);
-	var barWidth = dataWidth - 6; // 3px each side
 	
 	for (var i = 0; i < length; ++i) {
 		var testData = TestDatas[i];
@@ -66,13 +67,13 @@ function draw(maximum) {
 			fillStyle = "#BD0D0D";
 		}
 		
-		drawCanvas(i, testData, testData.total, maximum.total, canvasTotal, fillStyle, dataWidth, barWidth);
-		drawCanvas(i, testData, testData.rendering, maximum.rendering, canvasRendering, fillStyle, dataWidth, barWidth);
-		drawCanvas(i, testData, testData.socialNetwork, maximum.socialNetwork, canvasSocialNetwork, fillStyle, dataWidth, barWidth);
-		drawCanvas(i, testData, testData.complexGraphics, maximum.complexGraphics, canvasComplexGraphics, fillStyle, dataWidth, barWidth);
-		drawCanvas(i, testData, testData.data, maximum.data, canvasData, fillStyle, dataWidth, barWidth);
-		drawCanvas(i, testData, testData.domOperations, maximum.domOperations, canvasDomOperations, fillStyle, dataWidth, barWidth);
-		drawCanvas(i, testData, testData.textParsing, maximum.textParsing, canvasTextParsing, fillStyle, dataWidth, barWidth);
+		drawCanvas(i, testData, testData.total, maximum.total, canvasTotal, fillStyle, dataWidth);
+		drawCanvas(i, testData, testData.rendering, maximum.rendering, canvasRendering, fillStyle, dataWidth);
+		drawCanvas(i, testData, testData.socialNetwork, maximum.socialNetwork, canvasSocialNetwork, fillStyle, dataWidth);
+		drawCanvas(i, testData, testData.complexGraphics, maximum.complexGraphics, canvasComplexGraphics, fillStyle, dataWidth);
+		drawCanvas(i, testData, testData.data, maximum.data, canvasData, fillStyle, dataWidth);
+		drawCanvas(i, testData, testData.domOperations, maximum.domOperations, canvasDomOperations, fillStyle, dataWidth);
+		drawCanvas(i, testData, testData.textParsing, maximum.textParsing, canvasTextParsing, fillStyle, dataWidth);
 	}
 }
 
