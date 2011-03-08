@@ -1,4 +1,4 @@
-/* *
+/**
  * Multi browsers' Peacekeeper results analysis.
  * Datas part.
  * Author: Sun Junwen

@@ -1,4 +1,4 @@
-/* *
+/**
  * Multi browsers' Peacekeeper results analysis.
  * Drawing part.
  * Author: Sun Junwen
