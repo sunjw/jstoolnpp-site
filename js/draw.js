@@ -17,7 +17,7 @@ function drawCanvas(i, data, result, max, ctx, fillStyle, dataWidth) {
 		
 		if (barTotalHeight > 16 && barWidth > 16) {
 			var icon = new Image(); // Create new Image object
-			icon.src = 'icon-' + data.browser + '-16.png';
+			icon.src = 'imgs/icon-' + data.browser + '-16.png';
 			ctx.drawImage(icon, barWidth - 6 + i * dataWidth, canvasHeight - 66);
 		}
 		

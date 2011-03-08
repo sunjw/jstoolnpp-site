@@ -50,6 +50,9 @@ input[type="submit"],input[type="button"] {
 	margin-left: auto;
 	margin-right: auto;
 }
+#divPk.pageWrapper {
+	width: 1050px;
+}
 .pageWrapper * {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -228,6 +231,9 @@ input[type="submit"],input[type="button"] {
 	width: 748px;
 	background: transparent url('../imgs/list-bar.png') top center repeat-x;
 }
+#divPk .divListwHeader .listHeader .listHeaderMiddle {
+	width: 998px;
+}
 .divListwHeader .listHeader .listHeaderRight {
 	width: 19px;
 	background: transparent url('../imgs/list-corner.png') top right no-repeat;
@@ -249,6 +255,9 @@ input[type="submit"],input[type="button"] {
 	width: 748px;
 	background: transparent url('../imgs/list-bar.png') bottom center repeat-x;
 }
+#divPk .divListwHeader .listBottom .listBottomMiddle {
+	width: 998px;
+}
 .divListwHeader .listBottom .listBottomRight {
 	width: 19px;
 	background: transparent url('../imgs/list-corner.png') bottom right no-repeat;
@@ -268,9 +277,15 @@ input[type="submit"],input[type="button"] {
 	background-color: white;
 	font-family: Georgia;
 }
+#divPk .divListwHeader .listContainer .listContainerMiddle {
+	width: 990px;
+}
 .divListwHeader .listContainer .listContainerRight {
 	width: 780px;
 	background: transparent url('../imgs/list-container-right.png') top right repeat-y;
+}
+#divPk .divListwHeader .listContainer .listContainerRight {
+	width: 1030px;
 }
 /* List with header - container */
 
@@ -306,6 +321,70 @@ ul#ulScreenshots li a span {
 	bottom: 0;
 }
 /* Screenshots */
+
+/* Peacekeeper */
+#tableDatas {
+	font-family: Georgia, serif;
+	font-size: small;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+#tableDatas tr {
+	height: 1.5em;
+	line-height: 1.5em;
+}
+#tableDatas tr.odd {
+	background-color: #ccc;
+}
+#tableDatas th {
+	font-family: Arial, san-serif;
+}
+#tableDatas th, #tableDatas td {
+	border: 1px solid #666;
+	padding: 2px;
+}
+
+#tableDatas td.name {
+	padding-right: 35px;
+}
+#tableDatas tr.chrome td.name, #tableDatas tr.chrome td.version {
+	background-color: #FBD510;
+	text-shadow: #cccccc 1px 1px;
+}
+#tableDatas tr.firefox td.name, #tableDatas tr.firefox td.version {
+	background-color: #B82805;
+	color: white;
+	text-shadow: #333333 1px 1px;
+}
+#tableDatas tr.ie td.name, #tableDatas tr.ie td.version {
+	background-color: #1071A9;
+	color: white;
+	text-shadow: #333333 1px 1px;
+}
+#tableDatas tr.opera td.name, #tableDatas tr.opera td.version {
+	background-color: #BD0D0D;
+	color: white;
+	text-shadow: #333333 1px 1px;
+}
+#tableDatas tr.chrome td.name {
+	background: #FBD510 url('../imgs/icon-chrome-32-o.png') 60px 5px no-repeat;
+}
+#tableDatas tr.firefox td.name {
+	background: #B82805 url('../imgs/icon-firefox-32-o.png') 60px 5px no-repeat;
+}
+#tableDatas tr.ie td.name {
+	background: #1071A9 url('../imgs/icon-ie-32-o.png') 60px 5px no-repeat;
+}
+#tableDatas tr.opera td.name {
+	background: #BD0D0D url('../imgs/icon-opera-32-o.png') 60px 5px no-repeat;
+}
+
+canvas {
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Peacekeeper */
 
 /* Others */
 ul.indentList {
