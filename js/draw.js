@@ -6,7 +6,102 @@
 var canvasHeight = 210;
 var canvasWidth = 1000;
 
-function drawCanvas(i, data, result, max, ctx, fillStyle, dataWidth) {
+var canvasTotal;
+var canvasRendering;
+var canvasSocialNetwork;
+var canvasComplexGraphics;
+var canvasData;
+var canvasDomOperations;
+var canvasTextParsing;
+
+var maximum;
+var dataWidth;
+var canvasLabel;
+
+function Pos(x, y, xInCanvas, yInCanvas) {
+	this.x = x;
+	this.y = y;
+	this.xInCanvas = xInCanvas;
+	this.yInCanvas = yInCanvas;
+}
+
+function debug(pos, str) {
+	$("#debug").html("x: " + pos.x + " y: " + pos.y + "<br/>" + 
+		"In canvas x: " + pos.xInCanvas + " y: " + pos.yInCanvas + "<br/>" + 
+		"String: " + str);
+}
+
+function getPosition(canvas, e) {
+	var x;
+	var y;
+	if (e.pageX != undefined && e.pageY != undefined) {
+		x = e.pageX;
+		y = e.pageY;
+	} else {
+		x = e.clientX + document.body.scrollLeft + 
+			document.documentElement.scrollLeft;
+		y = e.clientY + document.body.scrollTop + 
+			document.documentElement.scrollTop;
+	}
+	xInCanvas = x - canvas.offsetLeft;
+	yInCanvas = y - canvas.offsetTop;
+	
+	return new Pos(x, y, xInCanvas, yInCanvas);
+}
+
+function getMoveId(pos) {
+	if (pos.xInCanvas < 10) 
+		return  - 1;
+	var length = TestDatas.length;
+	return parseInt((pos.xInCanvas - 10) / dataWidth);
+}
+
+function showLabel(canvas, e, spec, title) {
+	var pos = getPosition(canvas, e);
+	var yInCanvas = pos.yInCanvas;
+	var i = getMoveId(pos);
+	if (i >= 0 && i < TestDatas.length && yInCanvas > 0 && yInCanvas < canvasHeight - 10) {
+		var result = TestDatas[i];
+		
+		canvasLabel.html(result['browser'] + " " + result['version'] + "<br/>" + 
+			result['os'] + "<br/>" + 
+			title + ": " + result[spec]);
+		
+		var width = parseInt(canvasLabel.css("width"));
+		width /= 2;
+		var height = parseInt(canvasLabel.css("height"));
+		var barTotalHeight = parseInt(result[spec] / maximum[spec] * (canvasHeight - 60));
+		canvasLabel.css("left", (18 + i * dataWidth + canvas.offsetLeft - width) + "px");
+		canvasLabel.css("top", (canvas.offsetTop - 60 - height + canvasHeight - barTotalHeight) + "px");
+		canvasLabel.show();
+	} else {
+		canvasLabel.hide();
+	}
+}
+
+function totalOnMove(e) {
+	showLabel(canvasTotal, e, "total", "Total");
+}
+function renderingOnMove(e) {
+	showLabel(canvasRendering, e, "rendering", "Rendering");
+}
+function socialNetworkOnMove(e) {
+	showLabel(canvasSocialNetwork, e, "socialNetwork", "Social Network");
+}
+function complexGraphicsOnMove(e) {
+	showLabel(canvasComplexGraphics, e, "complexGraphics", "Complex Graphics");
+}
+function dataOnMove(e) {
+	showLabel(canvasData, e, "data", "Data");
+}
+function domOperationsOnMove(e) {
+	showLabel(canvasDomOperations, e, "domOperations", "Dom Operations");
+}
+function textParsingOnMove(e) {
+	showLabel(canvasTextParsing, e, "textParsing", "Text Parsing");
+}
+
+function drawCanvas(i, data, result, max, ctx, fillStyle) {
 	var barWidth = dataWidth - 6; // 3px each side
 	//alert(barWidth);
 	if (result > 0) {
@@ -41,17 +136,24 @@ function drawCanvas(i, data, result, max, ctx, fillStyle, dataWidth) {
 	ctx.fillStyle = fillStyle;
 }
 
-function draw(maximum) {
-	var canvasTotal = $("canvas#total").get(0).getContext('2d');
-	var canvasRendering = $("canvas#rendering").get(0).getContext('2d');
-	var canvasSocialNetwork = $("canvas#socialNetwork").get(0).getContext('2d');
-	var canvasComplexGraphics = $("canvas#complexGraphics").get(0).getContext('2d');
-	var canvasData = $("canvas#data").get(0).getContext('2d');
-	var canvasDomOperations = $("canvas#domOperations").get(0).getContext('2d');
-	var canvasTextParsing = $("canvas#textParsing").get(0).getContext('2d');
+function draw() {
+	canvasTotal = $("canvas#total").get(0);
+	var contextTotal = canvasTotal.getContext('2d');
+	canvasRendering = $("canvas#rendering").get(0);
+	var contextRendering = canvasRendering.getContext('2d');
+	canvasSocialNetwork = $("canvas#socialNetwork").get(0);
+	var contextSocialNetwork = canvasSocialNetwork.getContext('2d');
+	canvasComplexGraphics = $("canvas#complexGraphics").get(0);
+	var contextComplexGraphics = canvasComplexGraphics.getContext('2d');
+	canvasData = $("canvas#data").get(0);
+	var contextData = canvasData.getContext('2d');
+	canvasDomOperations = $("canvas#domOperations").get(0);
+	var contextDomOperations = canvasDomOperations.getContext('2d');
+	canvasTextParsing = $("canvas#textParsing").get(0);
+	var contextTextParsing = canvasTextParsing.getContext('2d');
 	
 	var length = TestDatas.length;
-	var dataWidth = parseInt((canvasWidth - 20) / length);
+	dataWidth = parseInt((canvasWidth - 20) / length);
 	
 	for (var i = 0; i < length; ++i) {
 		var testData = TestDatas[i];
@@ -67,20 +169,31 @@ function draw(maximum) {
 			fillStyle = "#BD0D0D";
 		}
 		
-		drawCanvas(i, testData, testData.total, maximum.total, canvasTotal, fillStyle, dataWidth);
-		drawCanvas(i, testData, testData.rendering, maximum.rendering, canvasRendering, fillStyle, dataWidth);
-		drawCanvas(i, testData, testData.socialNetwork, maximum.socialNetwork, canvasSocialNetwork, fillStyle, dataWidth);
-		drawCanvas(i, testData, testData.complexGraphics, maximum.complexGraphics, canvasComplexGraphics, fillStyle, dataWidth);
-		drawCanvas(i, testData, testData.data, maximum.data, canvasData, fillStyle, dataWidth);
-		drawCanvas(i, testData, testData.domOperations, maximum.domOperations, canvasDomOperations, fillStyle, dataWidth);
-		drawCanvas(i, testData, testData.textParsing, maximum.textParsing, canvasTextParsing, fillStyle, dataWidth);
+		drawCanvas(i, testData, testData.total, maximum.total, contextTotal, fillStyle);
+		drawCanvas(i, testData, testData.rendering, maximum.rendering, contextRendering, fillStyle);
+		drawCanvas(i, testData, testData.socialNetwork, maximum.socialNetwork, contextSocialNetwork, fillStyle);
+		drawCanvas(i, testData, testData.complexGraphics, maximum.complexGraphics, contextComplexGraphics, fillStyle);
+		drawCanvas(i, testData, testData.data, maximum.data, contextData, fillStyle);
+		drawCanvas(i, testData, testData.domOperations, maximum.domOperations, contextDomOperations, fillStyle);
+		drawCanvas(i, testData, testData.textParsing, maximum.textParsing, contextTextParsing, fillStyle);
 	}
+	
+	canvasTotal.addEventListener("mousemove", totalOnMove, false);
+	canvasRendering.addEventListener("mousemove", renderingOnMove, false);
+	canvasSocialNetwork.addEventListener("mousemove", socialNetworkOnMove, false);
+	canvasComplexGraphics.addEventListener("mousemove", complexGraphicsOnMove, false);
+	canvasData.addEventListener("mousemove", dataOnMove, false);
+	canvasDomOperations.addEventListener("mousemove", domOperationsOnMove, false);
+	canvasTextParsing.addEventListener("mousemove", textParsingOnMove, false);
 }
 
 $(function () {
 		var table = $("table#tableDatas");
+		canvasLabel = $("<div/>").attr("id", "divCanvasLabel");
+		canvasLabel.hide();
+		$("body").append(canvasLabel);
 		
-		var maximum = {
+		maximum = {
 			total : 0, 
 			rendering : 0, 
 			socialNetwork : 0, 
@@ -129,6 +242,6 @@ $(function () {
 			table.append(row);
 		}
 		
-		draw(maximum);
+		draw();
 	});
  

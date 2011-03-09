@@ -384,6 +384,23 @@ canvas {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#divCanvasLabel {
+	text-align: center;
+	font-size: x-small;
+	line-height: 1.1em;
+	color: white;
+	background-color: #3F3F3F;
+	border: 1px solid black;
+	opacity: 0.8;
+	padding: 3px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 2px 2px 2px black;
+	z-index: 1000;
+	position: absolute;
+}
 /* Peacekeeper */
 
 /* Others */
