@@ -4,7 +4,7 @@
 	margin: 0;
 }
 body {
-	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+	font-family: Arial, sans-serif;
 	background: url('../imgs/bkg.png') top repeat-x;
 	line-height: 1.3em;
 }
@@ -230,6 +230,7 @@ input[type="submit"],input[type="button"] {
 .divListwHeader .listHeader .listHeaderMiddle {
 	width: 748px;
 	background: transparent url('../imgs/list-bar.png') top center repeat-x;
+	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 }
 #divPk .divListwHeader .listHeader .listHeaderMiddle {
 	width: 998px;
@@ -275,7 +276,8 @@ input[type="submit"],input[type="button"] {
 	margin: 10px 0 10px 20px !important;
 	width: 740px;
 	background-color: white;
-	font-family: Georgia;
+	/*font-family: Georgia;*/
+	font-size: 14px;
 }
 #divPk .divListwHeader .listContainer .listContainerMiddle {
 	width: 990px;
@@ -346,7 +348,7 @@ ul#ulScreenshots li a span {
 }
 
 #tableDatas td.name {
-	padding-right: 35px;
+	padding-right: 30px;
 }
 #tableDatas tr.chrome td.name, #tableDatas tr.chrome td.version {
 	background-color: #FBD510;
@@ -368,16 +370,16 @@ ul#ulScreenshots li a span {
 	text-shadow: #333333 1px 1px;
 }
 #tableDatas tr.chrome td.name {
-	background: #FBD510 url('../imgs/icon-chrome-32-o.png') 60px 5px no-repeat;
+	background: #FBD510 url('../imgs/icon-chrome-16.png') right bottom no-repeat;
 }
 #tableDatas tr.firefox td.name {
-	background: #B82805 url('../imgs/icon-firefox-32-o.png') 60px 5px no-repeat;
+	background: #B82805 url('../imgs/icon-firefox-16.png') right bottom no-repeat;
 }
 #tableDatas tr.ie td.name {
-	background: #1071A9 url('../imgs/icon-ie-32-o.png') 60px 5px no-repeat;
+	background: #1071A9 url('../imgs/icon-ie-16.png') right bottom no-repeat;
 }
 #tableDatas tr.opera td.name {
-	background: #BD0D0D url('../imgs/icon-opera-32-o.png') 60px 5px no-repeat;
+	background: #BD0D0D url('../imgs/icon-opera-16.png') right bottom no-repeat;
 }
 
 canvas {

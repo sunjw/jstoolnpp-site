@@ -72,7 +72,7 @@ function showLabel(canvas, e, spec, title) {
 		var height = parseInt(canvasLabel.css("height"));
 		var barTotalHeight = parseInt(result[spec] / maximum[spec] * (canvasHeight - 60));
 		canvasLabel.css("left", (18 + i * dataWidth + canvas.offsetLeft - width) + "px");
-		canvasLabel.css("top", (canvas.offsetTop - 60 - height + canvasHeight - barTotalHeight) + "px");
+		canvasLabel.css("top", (canvas.offsetTop - 65 - height + canvasHeight - barTotalHeight) + "px");
 		canvasLabel.show();
 	} else {
 		canvasLabel.hide();

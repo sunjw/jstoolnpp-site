@@ -77,18 +77,6 @@ var TestDatas = [{
 		textParsing : 6002
 	}, {
 		browser : "chrome", 
-		version : "9.0.597.98", 
-		os : "vista", 
-		date : "20110205", 
-		total : 3597, 
-		rendering : 1736, 
-		socialNetwork : 2070, 
-		complexGraphics : 6635, 
-		data : 9748, 
-		domOperations : 2754, 
-		textParsing : 6243
-	}, {
-		browser : "chrome", 
 		version : "10.0.648.114", 
 		os : "fc12", 
 		date : "20110227", 
@@ -99,6 +87,18 @@ var TestDatas = [{
 		data : 6684, 
 		domOperations : 2676, 
 		textParsing : 4939
+	}, {
+		browser : "chrome", 
+		version : "10.0.648.127", 
+		os : "vista", 
+		date : "20110310", 
+		total : 3779, 
+		rendering : 1790, 
+		socialNetwork : 2037, 
+		complexGraphics : 6627, 
+		data : 12768, 
+		domOperations : 2670, 
+		textParsing : 6205
 	}, {
 		browser : "firefox", 
 		version : "4.0b7", 
@@ -256,6 +256,18 @@ var TestDatas = [{
 		domOperations : 1430, 
 		textParsing : 2530
 	}, {
+		browser : "firefox", 
+		version : "4.0rc1", 
+		os : "vista", 
+		date : "20110310", 
+		total : 2110, 
+		rendering : 1262, 
+		socialNetwork : 1942, 
+		complexGraphics : 4705, 
+		data : 3219, 
+		domOperations : 1806, 
+		textParsing : 2937
+	}, {
 		browser : "ie", 
 		version : "8.0", 
 		os : "vista", 
@@ -291,30 +303,6 @@ var TestDatas = [{
 		data : 3484, 
 		domOperations : 1067, 
 		textParsing : 4310
-	}, {
-		browser : "opera", 
-		version : "11.00b1", 
-		os : "fc12", 
-		date : "20101213", 
-		total : 2797, 
-		rendering : 1983, 
-		socialNetwork : 2670, 
-		complexGraphics : 6947, 
-		data : 2688, 
-		domOperations : 2217, 
-		textParsing : 5430
-	}, {
-		browser : "opera", 
-		version : "11.00b1", 
-		os : "vista", 
-		date : "20101215", 
-		total : 2778, 
-		rendering : 2584, 
-		socialNetwork : 1896, 
-		complexGraphics : 6079, 
-		data : 2708, 
-		domOperations : 2679, 
-		textParsing : 4662
 	}, {
 		browser : "opera", 
 		version : "11.00", 
