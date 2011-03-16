@@ -330,6 +330,18 @@ var TestDatas = [{
 	}, {
 		browser : "opera", 
 		version : "11.01", 
+		os : "fc12", 
+		date : "20110310", 
+		total : 2710, 
+		rendering : 2140, 
+		socialNetwork : 2146, 
+		complexGraphics : 6755, 
+		data : 2481, 
+		domOperations : 2250, 
+		textParsing : 5707
+	}, {
+		browser : "opera", 
+		version : "11.01", 
 		os : "vista", 
 		date : "20110307", 
 		total : 2722, 
