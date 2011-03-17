@@ -304,6 +304,18 @@ var TestDatas = [{
 		domOperations : 1067, 
 		textParsing : 4310
 	}, {
+		browser : "ie", 
+		version : "9.0", 
+		os : "vista", 
+		date : "20110316", 
+		total : 1976, 
+		rendering : 1451, 
+		socialNetwork : 950, 
+		complexGraphics : 2834, 
+		data : 4614, 
+		domOperations : 1060, 
+		textParsing : 4478
+	}, {
 		browser : "opera", 
 		version : "11.00", 
 		os : "fc12", 
