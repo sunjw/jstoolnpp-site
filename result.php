@@ -224,8 +224,8 @@
 		</div>
 	</div>
 	<?php include "inc/js.part.php" ?>
-	<script type="text/javascript" src="js/data.js"></script>
-	<script type="text/javascript" src="js/draw.js"></script>
+	<script type="text/javascript" src="js/data.min.js"></script>
+	<script type="text/javascript" src="js/draw.min.js"></script>
 	<script type="text/javascript">
 	//<![CDATA[
 		if(!document.createElement('canvas').getContext)
