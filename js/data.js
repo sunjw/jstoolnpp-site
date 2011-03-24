@@ -245,7 +245,7 @@ var TestDatas = [{
 		textParsing : 2937
 	}, {
 		browser : "firefox", 
-		version : "4.0rc2", 
+		version : "4.0", 
 		os : "fc12", 
 		date : "20110320", 
 		total : 1969, 
@@ -257,7 +257,7 @@ var TestDatas = [{
 		textParsing : 2730
 	}, {
 		browser : "firefox", 
-		version : "4.0rc2", 
+		version : "4.0", 
 		os : "vista", 
 		date : "20110320", 
 		total : 2061, 
