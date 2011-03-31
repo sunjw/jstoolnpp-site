@@ -26,8 +26,8 @@ function Pos(x, y, xInCanvas, yInCanvas) {
 }
 
 function debug(pos, str) {
-	$("#debug").html("x: " + pos.x + " y: " + pos.y + "<br/>" + 
-		"In canvas x: " + pos.xInCanvas + " y: " + pos.yInCanvas + "<br/>" + 
+	$("#debug").html("x: " + pos.x + " y: " + pos.y + "<br/>" +
+		"In canvas x: " + pos.xInCanvas + " y: " + pos.yInCanvas + "<br/>" +
 		"String: " + str);
 }
 
@@ -38,9 +38,9 @@ function getPosition(canvas, e) {
 		x = e.pageX;
 		y = e.pageY;
 	} else {
-		x = e.clientX + document.body.scrollLeft + 
+		x = e.clientX + document.body.scrollLeft +
 			document.documentElement.scrollLeft;
-		y = e.clientY + document.body.scrollTop + 
+		y = e.clientY + document.body.scrollTop +
 			document.documentElement.scrollTop;
 	}
 	xInCanvas = x - canvas.offsetLeft;
@@ -50,7 +50,7 @@ function getPosition(canvas, e) {
 }
 
 function getMoveId(pos) {
-	if (pos.xInCanvas < 10) 
+	if (pos.xInCanvas < 10)
 		return  - 1;
 	var length = TestDatas.length;
 	return parseInt((pos.xInCanvas - 10) / dataWidth);
@@ -63,8 +63,8 @@ function showLabel(canvas, e, spec, title) {
 	if (i >= 0 && i < TestDatas.length && yInCanvas > 0 && yInCanvas < canvasHeight - 10) {
 		var result = TestDatas[i];
 		
-		canvasLabel.html(result['browser'] + " " + result['version'] + "<br/>" + 
-			result['os'] + "<br/>" + 
+		canvasLabel.html(result['browser'] + " " + result['version'] + "<br/>" +
+			result['os'] + "<br/>" +
 			title + ": " + result[spec]);
 		
 		var width = parseInt(canvasLabel.css("width"));
@@ -194,12 +194,12 @@ $(function () {
 		$("body").append(canvasLabel);
 		
 		maximum = {
-			total : 0, 
-			rendering : 0, 
-			socialNetwork : 0, 
-			complexGraphics : 0, 
-			data : 0, 
-			domOperations : 0, 
+			total : 0,
+			rendering : 0,
+			socialNetwork : 0,
+			complexGraphics : 0,
+			data : 0,
+			domOperations : 0,
 			textParsing : 0
 		};
 		
@@ -224,19 +224,19 @@ $(function () {
 			row.append($("<td></td>").addClass("domOperations").html(testData.domOperations));
 			row.append($("<td></td>").addClass("textParsing").html(testData.textParsing));
 			
-			if (testData.total > maximum.total) 
+			if (testData.total > maximum.total)
 				maximum.total = testData.total;
-			if (testData.rendering > maximum.rendering) 
+			if (testData.rendering > maximum.rendering)
 				maximum.rendering = testData.rendering;
-			if (testData.socialNetwork > maximum.socialNetwork) 
+			if (testData.socialNetwork > maximum.socialNetwork)
 				maximum.socialNetwork = testData.socialNetwork;
-			if (testData.complexGraphics > maximum.complexGraphics) 
+			if (testData.complexGraphics > maximum.complexGraphics)
 				maximum.complexGraphics = testData.complexGraphics;
-			if (testData.data > maximum.data) 
+			if (testData.data > maximum.data)
 				maximum.data = testData.data;
-			if (testData.domOperations > maximum.domOperations) 
+			if (testData.domOperations > maximum.domOperations)
 				maximum.domOperations = testData.domOperations;
-			if (testData.textParsing > maximum.textParsing) 
+			if (testData.textParsing > maximum.textParsing)
 				maximum.textParsing = testData.textParsing;
 			
 			table.append(row);

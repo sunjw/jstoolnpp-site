@@ -43,6 +43,28 @@
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
+					<div class="listHeaderMiddle">News</div>
+					<div class="listHeaderRight"></div>
+				</div>
+				<div class="listContainer foldingContainer">
+					<div class="listContainerRight">
+						<div class="listContainerMiddle">
+							<p><a class="lastestNews" href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.7.4 Beta Released</a><span class="newsDate"> - 2011-03-31</span></p>
+							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.7.2 Beta Released</a><span class="newsDate"> - 2011-03-04</span></p>
+							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.7 Released</a><span class="newsDate"> - 2011-02-26</span></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="listBottom">
+					<div class="listBottomLeft"></div>
+					<div class="listBottomMiddle"></div>
+					<div class="listBottomRight"></div>
+				</div>
+			</div>
+			<div class="divListwHeader foldingList">
+				<div class="listHeader">
+					<div class="listHeaderLeft"></div>
 					<div class="listHeaderMiddle">Screenshots</div>
 					<div class="listHeaderRight"></div>
 				</div>

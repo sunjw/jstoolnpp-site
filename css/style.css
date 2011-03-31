@@ -409,6 +409,12 @@ canvas {
 ul.indentList {
 	margin-left: 1em;
 }
+.lastestNews {
+	font-weight: bold;
+}
+.newsDate {
+	color: #666666;
+}
 /* Others */
 
 /* Footer */
