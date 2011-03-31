@@ -5,30 +5,6 @@
  */
 var TestDatas = [{
 		browser : "chrome",
-		version : "8.0.552.215",
-		os : "fc12",
-		date : "20101213",
-		total : 3088,
-		rendering : 2075,
-		socialNetwork : 2223,
-		complexGraphics : 7342,
-		data : 6031,
-		domOperations : 2293,
-		textParsing : 4406
-	}, {
-		browser : "chrome",
-		version : "8.0.552.216",
-		os : "vista",
-		date : "20101213",
-		total : 3171,
-		rendering : 1828,
-		socialNetwork : 2138,
-		complexGraphics : 6915,
-		data : 6490,
-		domOperations : 2850,
-		textParsing : 4439
-	}, {
-		browser : "chrome",
 		version : "8.0.552.224",
 		os : "fc12",
 		date : "20101214",
@@ -99,7 +75,7 @@ var TestDatas = [{
 		data : 12768,
 		domOperations : 2670,
 		textParsing : 6205
-	}, , {
+	}, {
 		browser : "chrome",
 		version : "11.0.696.25",
 		os : "fc12",

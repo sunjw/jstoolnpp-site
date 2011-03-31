@@ -155,7 +155,6 @@
 						<div class="listContainerMiddle">
 							<p><a href="https://addons.mozilla.org/en-us/firefox/addon/161901/" target="_blank">Encrypted Google Search for Firefox</a>: A search bar addon for Firefox to use Encrypted Google Search quickly.<br />
 							<a href="http://sourceforge.net/projects/rosefinch/" target="_blank">Rosefinch</a>: A web file manager. It provides many features like cut, copy and paste. An alternative of Apache Directory Listing.<br />
-							<a href="result.php">Peacekeeper Testing</a>: Multi-Browsers' <a href="http://service.futuremark.com/peacekeeper/index.action" target="_blank">Peacekeeper</a> testing results.
 							</p>
 						</div>
 					</div>
