@@ -26,6 +26,13 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.8 (since 1.7.1)<br/>
+							Leave empty {} alone.<br/>
+							Added a shortcut for formatting (Ctrl+Alt+M).<br/>
+							Added an option to keep comments at top of codes.<br/>
+							Fixed bugs.<br/>
+							Updated IniProcessor.<br/>
+							<br/>
 							1.7.2 beta<br/>
 							Fixed bugs.<br/>
 							Leave empty {} block alone.<br/>
