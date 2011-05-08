@@ -371,26 +371,29 @@ ul#ulScreenshots li a span {
 	color: white;
 	text-shadow: #333333 1px 1px;
 }
-#tableDatas tr.chrome td.name {
+#tableDatas tr.chrome td.name, .drawBase div.chrome {
 	background: #FBD510 url('../imgs/icon-chrome-16.png') right bottom no-repeat;
 }
-#tableDatas tr.firefox td.name {
+#tableDatas tr.firefox td.name, .drawBase div.firefox {
 	background: #B82805 url('../imgs/icon-firefox-16.png') right bottom no-repeat;
 }
-#tableDatas tr.ie td.name {
+#tableDatas tr.ie td.name, .drawBase div.ie {
 	background: #1071A9 url('../imgs/icon-ie-16.png') right bottom no-repeat;
 }
-#tableDatas tr.opera td.name {
+#tableDatas tr.opera td.name, .drawBase div.opera {
 	background: #BD0D0D url('../imgs/icon-opera-16.png') right bottom no-repeat;
 }
+
 
 canvas {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#divCanvasLabel {
+.resultLabel {
+	display: none;
 	text-align: center;
+	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 	font-size: x-small;
 	line-height: 1.1em;
 	color: white;
@@ -404,6 +407,39 @@ canvas {
 	box-shadow: 2px 2px 2px black;
 	z-index: 1000;
 	position: absolute;
+}
+
+.drawBase {
+	width: 980px;
+	height: 185px;
+	position: relative;
+	border-bottom: 1px solid #666;
+	margin-bottom: 30px;
+}
+.drawBar {
+	position: absolute;
+	bottom: 0;
+	-moz-border-radius: 5px 5px 0 0;
+	webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.drawBar .drawResult {
+	color: white;
+	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: #333333 1px 1px;
+}
+.chrome .drawResult {
+	color: black;
+	text-shadow: white 1px 1px;
+}
+.drawShadow {
+	background: white url('../imgs/result-bar-shadow.png') top center repeat-x;
+	position: absolute;
+	bottom: -31px;
+	height: 30px;
 }
 /* Peacekeeper */
 

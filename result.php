@@ -59,7 +59,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<canvas id="total" width="1000" height="210"></canvas>
+							<div id="total" class="drawBase">
+								<div class="resultLabel"></div>
+							</div>
 							<a title="Table" href="#table">Back to table</a>
 						</div>
 					</div>
@@ -80,7 +82,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<canvas id="rendering" width="1000" height="210"></canvas>
+							<div id="rendering" class="drawBase">
+								<div class="resultLabel"></div>
+							</div>
 							<a title="Table" href="#table">Back to table</a>
 						</div>
 					</div>
@@ -101,7 +105,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<canvas id="socialNetwork" width="1000" height="210"></canvas>
+							<div id="socialNetwork" class="drawBase">
+								<div class="resultLabel"></div>
+							</div>
 							<a title="Table" href="#table">Back to table</a>
 						</div>
 					</div>
@@ -122,7 +128,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<canvas id="complexGraphics" width="1000" height="210"></canvas>
+							<div id="complexGraphics" class="drawBase">
+								<div class="resultLabel"></div>
+							</div>
 							<a title="Table" href="#table">Back to table</a>
 						</div>
 					</div>
@@ -143,7 +151,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<canvas id="data" width="1000" height="210"></canvas>
+							<div id="data" class="drawBase">
+								<div class="resultLabel"></div>
+							</div>
 							<a title="Table" href="#table">Back to table</a>
 						</div>
 					</div>
@@ -164,7 +174,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<canvas id="domOperations" width="1000" height="210"></canvas>
+							<div id="domOperations" class="drawBase">
+								<div class="resultLabel"></div>
+							</div>
 							<a title="Table" href="#table">Back to table</a>
 						</div>
 					</div>
@@ -185,7 +197,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<canvas id="textParsing" width="1000" height="210"></canvas>
+							<div id="textParsing" class="drawBase">
+								<div class="resultLabel"></div>
+							</div>
 							<a title="Table" href="#table">Back to table</a>
 						</div>
 					</div>
@@ -225,12 +239,6 @@
 	</div>
 	<?php include "inc/js.part.php" ?>
 	<script type="text/javascript" src="js/data.min.js"></script>
-	<script type="text/javascript" src="js/draw.min.js"></script>
-	<script type="text/javascript">
-	//<![CDATA[
-		if(!document.createElement('canvas').getContext)
-			alert("Your browser doesn't support canvas.");
-	//]]>
-	</script>
+	<script type="text/javascript" src="js/draw.nocanvas.min.js"></script>
 </body>
 </html>
