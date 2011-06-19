@@ -26,6 +26,10 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.8.4 beta<br/>
+							Fixed "A space at the end of file".<br/>
+							Fixed other bugs in formatting algorithm.<br/>
+							<br/>
 							1.8 (since 1.7.1)<br/>
 							Leave empty {} alone.<br/>
 							Added a shortcut for formatting (Ctrl+Alt+M).<br/>
