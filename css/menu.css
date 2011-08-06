@@ -1,0 +1,84 @@
+﻿#nav {
+	float: right;
+	border-right: 1px solid #2F508C;
+	border-bottom: 1px solid #2F508C;
+	border-top: 1px solid #5373B0;
+	border-left: 1px solid #5373B0;
+	margin-top: 10px;
+}
+#nav li.menu {
+	display: block;
+	float: left;
+	font-size: 20px;
+	border-left: 1px solid #2F508C;
+	border-top: 1px solid #2F508C;
+	border-right: 1px solid #5373B0;
+	border-bottom: 1px solid #5373B0;
+	position: relative;
+	font-weight: bold;
+}
+#nav li.menu a {
+	display: block;
+	text-shadow: #666 1px 1px;
+}
+#nav li.menu a:hover,#nav li.menu a.selected {
+	background-color: #3366CC;
+	text-decoration: none;
+}
+#nav .submenu li a:hover {
+	background-color: #32559B;
+}
+#nav li.menu {
+	float: left;
+	position: relative;
+}
+#nav li.first {
+	border-left: 1px dotted black;
+}
+#nav li.selected {
+	border-bottom: 1px solid white;
+}
+#nav li.menu a.subToggle {
+	height: 45px;
+	line-height: 45px;
+	font-family: "Courier New",courier,monospace,serif;
+	text-align: center;
+}
+#nav li.menu a.subToggle,#nav li.menu .submenuContainer {
+	width: 215px;
+}
+#nav li.menu .submenu {
+	display: none;
+	z-index: 2000;
+	position: absolute;
+	right: -5px;
+	padding: 0 3px 3px 0;
+	background: transparent url('../imgs/shadow.png') no-repeat right bottom;
+	filter: progid :   DXImageTransform.Microsoft.AlphaImageLoader (  
+       src =   'shadow.png', sizingMethod =   'scale' );
+}
+#nav li.menu .submenu * {
+	margin: 0;
+	padding: 0;
+	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+#nav li.menu .submenu .submenuContainer {
+	background-color: #3366CC;
+	padding: 1px;
+	border-left: 1px solid #2F508C;
+	border-right: 1px solid #2F508C;
+	border-bottom: 1px solid #2F508C;
+}
+#nav li.menu .submenu li {
+	float: none;
+	height: 30px;
+	line-height: 30px;
+}
+#nav li.menu .submenu a {
+	padding: 0 15px; 
+}
+#nav li.menu .submenu .split {
+	border-bottom: 2px solid #5373B0;
+}

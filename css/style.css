@@ -75,43 +75,17 @@ input[type="submit"],input[type="button"] {
 #divHeader {
 	margin-top: 0;
 	height: 80px;
-	background: url('../imgs/sun-icon-small.png') -6px 2px no-repeat;
+	/*background: url('../imgs/sun-icon-small.png') -6px 2px no-repeat;*/
 }
 #divHeader, #divHeader a {
 	color: White;
 }
 #divHeader h1 {
 	padding-top: 25px;
-	padding-left: 55px;
+	/*padding-left: 55px;*/
 	float: left;
 	text-shadow: #666 1px 1px;
 	font-family: "Courier New", courier, monospace, serif;
-}
-#divHeader #nav {
-	float: right;
-	border-right: 1px solid #2F508C;
-	border-left: 1px solid #5373B0;
-}
-#divHeader #nav li {
-	display: block;
-	float: left;
-	font-size: 20px;
-	border-left: 1px solid #2F508C;
-	border-right: 1px solid #5373B0;
-	position: relative;
-	font-weight: bold;
-}
-#divHeader #nav li a {
-	display: block;
-	float: left;
-	height: 70px;
-	line-height: 75px;
-	padding: 0 15px;
-	text-shadow: #666 1px 1px;
-}
-#divHeader #nav li a:hover {
-	background-color: #3366CC;
-	text-decoration: none;
 }
 /* Header */
 
