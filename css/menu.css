@@ -1,25 +1,43 @@
 ﻿#nav {
 	float: right;
-	border-right: 1px solid #2F508C;
+	/*border-right: 1px solid #2F508C;
 	border-bottom: 1px solid #2F508C;
 	border-top: 1px solid #5373B0;
-	border-left: 1px solid #5373B0;
+	border-left: 1px solid #5373B0;*/
 	margin-top: 10px;
 }
 #nav li.menu {
 	display: block;
 	float: left;
 	font-size: 20px;
-	border-left: 1px solid #2F508C;
+	/*border-left: 1px solid #2F508C;
 	border-top: 1px solid #2F508C;
 	border-right: 1px solid #5373B0;
-	border-bottom: 1px solid #5373B0;
+	border-bottom: 1px solid #5373B0;*/
 	position: relative;
 	font-weight: bold;
+	border-radius: 6px;
 }
 #nav li.menu a {
 	display: block;
 	text-shadow: #666 1px 1px;
+}
+#nav li.menu a.subToggle {
+	height: 45px;
+	line-height: 45px;
+	font-family: "Courier New",courier,monospace,serif;
+	text-align: center;
+	color: black;
+	text-shadow: none;
+	padding: 2px;
+	background: white url('../imgs/nav-btn.png') center top no-repeat;
+}
+#nav li.menu a.subToggle:hover,#nav li.menu a.selected {
+	color: white;
+	background-position: center bottom;
+}
+#nav li.menu a.subToggle,#nav li.menu .submenuContainer {
+	width: 178px;
 }
 #nav li.menu a:hover,#nav li.menu a.selected {
 	background-color: #3366CC;
@@ -38,24 +56,13 @@
 #nav li.selected {
 	border-bottom: 1px solid white;
 }
-#nav li.menu a.subToggle {
-	height: 45px;
-	line-height: 45px;
-	font-family: "Courier New",courier,monospace,serif;
-	text-align: center;
-}
-#nav li.menu a.subToggle,#nav li.menu .submenuContainer {
-	width: 215px;
-}
 #nav li.menu .submenu {
 	display: none;
 	z-index: 2000;
 	position: absolute;
-	right: -5px;
+	right: -3px;
+	top: 40px;
 	padding: 0 3px 3px 0;
-	background: transparent url('../imgs/shadow.png') no-repeat right bottom;
-	filter: progid :   DXImageTransform.Microsoft.AlphaImageLoader (  
-       src =   'shadow.png', sizingMethod =   'scale' );
 }
 #nav li.menu .submenu * {
 	margin: 0;
@@ -73,8 +80,8 @@
 }
 #nav li.menu .submenu li {
 	float: none;
-	height: 30px;
-	line-height: 30px;
+	height: 32px;
+	line-height: 32px;
 }
 #nav li.menu .submenu a {
 	padding: 0 15px; 

@@ -20,7 +20,7 @@
 				menuItemsSelector : ".menu",
 				menuButtonSelector : ".subToggle",
 				subMenuSelector : ".submenu",
-				inlineShadow : "transparent url('imgs/shadow.png') no-repeat right bottom",
+				inlineShadow : "transparent",
 				hoverOpen : true
 			});
 			$(jqMenu.init);

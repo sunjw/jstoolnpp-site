@@ -5,7 +5,7 @@
 }
 body {
 	font-family: Arial, sans-serif;
-	background: url('../imgs/bkg.png') top repeat-x;
+	/*background: url('../imgs/bkg.png') top repeat-x;*/
 	line-height: 1.3em;
 }
 .clear {
@@ -74,8 +74,8 @@ input[type="submit"],input[type="button"] {
 /* Header */
 #divHeader {
 	margin-top: 0;
+	background: white url('../imgs/header-bkg.png') left top no-repeat;
 	height: 80px;
-	/*background: url('../imgs/sun-icon-small.png') -6px 2px no-repeat;*/
 }
 #divHeader, #divHeader a {
 	color: White;
