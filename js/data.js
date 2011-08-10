@@ -5,54 +5,6 @@
  */
 var TestDatas = [{
 		browser : "chrome",
-		version : "8.0.552.224",
-		os : "fc12",
-		date : "20101214",
-		total : 3070,
-		rendering : 2078,
-		socialNetwork : 2305,
-		complexGraphics : 7284,
-		data : 5343,
-		domOperations : 2469,
-		textParsing : 4320
-	}, {
-		browser : "chrome",
-		version : "8.0.552.224",
-		os : "vista",
-		date : "20101223",
-		total : 3395,
-		rendering : 1777,
-		socialNetwork : 2224,
-		complexGraphics : 6986,
-		data : 7988,
-		domOperations : 2790,
-		textParsing : 5124
-	}, {
-		browser : "chrome",
-		version : "9.0.597.83",
-		os : "fc12",
-		date : "20110118",
-		total : 3277,
-		rendering : 2033,
-		socialNetwork : 2215,
-		complexGraphics : 6818,
-		data : 6487,
-		domOperations : 2548,
-		textParsing : 5083
-	}, {
-		browser : "chrome",
-		version : "9.0.597.84",
-		os : "vista",
-		date : "20110205",
-		total : 3681,
-		rendering : 1760,
-		socialNetwork : 2165,
-		complexGraphics : 6180,
-		data : 9634,
-		domOperations : 3070,
-		textParsing : 6002
-	}, {
-		browser : "chrome",
 		version : "10.0.648.114",
 		os : "fc12",
 		date : "20110227",
@@ -88,149 +40,29 @@ var TestDatas = [{
 		domOperations : 2632,
 		textParsing : 4551
 	}, {
-		browser : "firefox",
-		version : "4.0b8",
-		os : "fc12",
-		date : "20101222",
-		total : 2016,
-		rendering : 1421,
-		socialNetwork : 1849,
-		complexGraphics : 6717,
-		data : 2937,
-		domOperations : 1445,
-		textParsing : 2993
+		browser : "chrome",
+		version : "13.0.782.107",
+		os : "fc15",
+		date : "20110809",
+		total : 3651,
+		rendering : 2169,
+		socialNetwork : 2602,
+		complexGraphics : 6911,
+		data : 8090,
+		domOperations : 2717,
+		textParsing : 5234
 	}, {
-		browser : "firefox",
-		version : "4.0b8",
-		os : "vista",
-		date : "20101223",
-		total : 2017,
-		rendering : 1149,
-		socialNetwork : 1630,
-		complexGraphics : 5000,
-		data : 3508,
-		domOperations : 1953,
-		textParsing : 2604
-	}, {
-		browser : "firefox",
-		version : "4.0b9",
-		os : "fc12",
-		date : "20110115",
-		total : 2012,
-		rendering : 1317,
-		socialNetwork : 1914,
-		complexGraphics : 6486,
-		data : 3089,
-		domOperations : 1437,
-		textParsing : 2947
-	}, {
-		browser : "firefox",
-		version : "4.0b9",
-		os : "vista",
-		date : "20110115",
-		total : 1904,
-		rendering : 884,
-		socialNetwork : 1554,
-		complexGraphics : 5067,
-		data : 3591,
-		domOperations : 1696,
-		textParsing : 2998
-	}, {
-		browser : "firefox",
-		version : "4.0b10",
-		os : "fc12",
-		date : "20110118",
-		total : 2016,
-		rendering : 1479,
-		socialNetwork : 1954,
-		complexGraphics : 5998,
-		data : 2918,
-		domOperations : 1390,
-		textParsing : 2843
-	}, {
-		browser : "firefox",
-		version : "4.0b10",
-		os : "vista",
-		date : "20110118",
-		total : 2011,
-		rendering : 1057,
-		socialNetwork : 1560,
-		complexGraphics : 4520,
-		data : 3620,
-		domOperations : 1838,
-		textParsing : 3004
-	}, {
-		browser : "firefox",
-		version : "4.0b11",
-		os : "fc12",
-		date : "20110209",
-		total : 2048,
-		rendering : 1386,
-		socialNetwork : 1881,
-		complexGraphics : 5653,
-		data : 3742,
-		domOperations : 1381,
-		textParsing : 2675
-	}, {
-		browser : "firefox",
-		version : "4.0b11",
-		os : "vista",
-		date : "20110209",
-		total : 2197,
-		rendering : 1288,
-		socialNetwork : 2140,
-		complexGraphics : 4731,
-		data : 3359,
-		domOperations : 1842,
-		textParsing : 3007
-	}, {
-		browser : "firefox",
-		version : "4.0b12",
-		os : "fc12",
-		date : "20110226",
-		total : 1973,
-		rendering : 1445,
-		socialNetwork : 1885,
-		complexGraphics : 5568,
-		data : 3078,
-		domOperations : 1337,
-		textParsing : 2670
-	}, {
-		browser : "firefox",
-		version : "4.0b12",
-		os : "vista",
-		date : "20110226",
-		total : 2070,
-		rendering : 1333,
-		socialNetwork : 1941,
-		complexGraphics : 4437,
-		data : 2830,
-		domOperations : 1821,
-		textParsing : 2855
-	}, {
-		browser : "firefox",
-		version : "4.0rc1",
-		os : "fc12",
-		date : "20110304",
-		total : 1914,
-		rendering : 1408,
-		socialNetwork : 1821,
-		complexGraphics : 5433,
-		data : 2778,
-		domOperations : 1430,
-		textParsing : 2530
-	}, {
-		browser : "firefox",
-		version : "4.0rc1",
-		os : "vista",
-		date : "20110310",
-		total : 2110,
-		rendering : 1262,
-		socialNetwork : 1942,
-		complexGraphics : 4705,
-		data : 3219,
-		domOperations : 1806,
-		textParsing : 2937
+		browser : "chrome",
+		version : "13.0.782.107",
+		os : "win7",
+		date : "20110808",
+		total : 4211,
+		rendering : 2013,
+		socialNetwork : 2511,
+		complexGraphics : 6730,
+		data : 12570,
+		domOperations : 2977,
+		textParsing : 7002
 	}, {
 		browser : "firefox",
 		version : "4.0",
@@ -256,6 +88,30 @@ var TestDatas = [{
 		domOperations : 1832,
 		textParsing : 2724
 	}, {
+		browser : "firefox",
+		version : "5.0",
+		os : "fc15",
+		date : "20110809",
+		total : 2152,
+		rendering : 1754,
+		socialNetwork : 2036,
+		complexGraphics : 4490,
+		data : 3578,
+		domOperations : 1463,
+		textParsing : 2472
+	}, {
+		browser : "firefox",
+		version : "5.0",
+		os : "win7",
+		date : "201100808",
+		total : 2169,
+		rendering : 1405,
+		socialNetwork : 2103,
+		complexGraphics : 5490,
+		data : 3062,
+		domOperations : 2071,
+		textParsing : 2566
+	}, {
 		browser : "ie",
 		version : "8.0",
 		os : "vista",
@@ -269,30 +125,6 @@ var TestDatas = [{
 		textParsing : 439
 	}, {
 		browser : "ie",
-		version : "9.0.8023.600",
-		os : "vista",
-		date : "20101213",
-		total : 1832,
-		rendering : 1375,
-		socialNetwork : 945,
-		complexGraphics : 2881,
-		data : 3967,
-		domOperations : 1088,
-		textParsing : 3684
-	}, {
-		browser : "ie",
-		version : "9.0rc",
-		os : "vista",
-		date : "20110212",
-		total : 1818,
-		rendering : 1487,
-		socialNetwork : 834,
-		complexGraphics : 2866,
-		data : 3484,
-		domOperations : 1067,
-		textParsing : 4310
-	}, {
-		browser : "ie",
 		version : "9.0",
 		os : "vista",
 		date : "20110316",
@@ -303,6 +135,18 @@ var TestDatas = [{
 		data : 4614,
 		domOperations : 1060,
 		textParsing : 4478
+	}, {
+		browser : "ie",
+		version : "9.0",
+		os : "wind7",
+		date : "201100809",
+		total : 2248,
+		rendering : 1629,
+		socialNetwork : 1157,
+		complexGraphics : 2938,
+		data : 5037,
+		domOperations : 1215,
+		textParsing : 4982
 	}, {
 		browser : "opera",
 		version : "11.00",
@@ -363,7 +207,29 @@ var TestDatas = [{
 		data : 2470,
 		domOperations : 2233,
 		textParsing : 5921
+	}, {
+		browser : "opera",
+		version : "11.10",
+		os : "fc12",
+		date : "20110414",
+		total : 2806,
+		rendering : 2369,
+		socialNetwork : 2252,
+		complexGraphics : 6861,
+		data : 2470,
+		domOperations : 2233,
+		textParsing : 5921
+	}, {
+		browser : "opera",
+		version : "11.50",
+		os : "win7",
+		date : "20110809",
+		total : 3040,
+		rendering : 2691,
+		socialNetwork : 1934,
+		complexGraphics : 7678,
+		data : 3127,
+		domOperations : 2898,
+		textParsing : 5507
 	}
 ];
-
- 

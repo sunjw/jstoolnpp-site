@@ -220,7 +220,7 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>All testings are performanced on a Dell 1501 notebook with AMD TL-50 1.6GHz dual core cpu, 2GB memory, x1150 graphics and 500GB hdd driver. Operating systems are Windows Vista SP2 Simplified Chinese version and Fedora 12 x86-64 version. All browsers' hardware accelarator are disabled.</p>
+							<p>All testings are performanced on a Dell 1501 notebook with AMD TL-50 1.6GHz dual core cpu, 4GB memory, x1150 graphics and 500GB hdd driver. Operating systems are Windows 7 Professional 32bit SP1 Simplified Chinese version and Fedora 15 x86-64 version. All browsers' hardware accelarator are disabled.</p>
 							<p>This is <strong>NOT</strong> a serious and precise testing.</p>
 						</div>
 					</div>
