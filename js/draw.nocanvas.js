@@ -47,19 +47,19 @@ function drawWithoutCanvas(i, data, type, drawBase) {
 		var barTotalHeight = calBarHeight(data[type], maximum[type]);
 		
 		resultBar.attr({
-				barType : type,
-				barId : i
-			});
+			barType : type,
+			barId : i
+		});
 		resultBar.addClass("drawBar");
 		resultBar.addClass(data.browser);
 		resultBar.css({
-				left : barLeft + "px",
-				width : barWidth + "px",
-				height : barTotalHeight + "px"
-			});
+			left : barLeft + "px",
+			width : barWidth + "px",
+			height : barTotalHeight + "px"
+		});
 		resultBar.hover(function () {
-				showLabel(this);
-			});
+			showLabel(this);
+		});
 		
 		var resultText = $("<div/>");
 		resultText.addClass("drawResult");
@@ -69,17 +69,17 @@ function drawWithoutCanvas(i, data, type, drawBase) {
 	
 	var shadowBar = $("<div/>").addClass("drawShadow");
 	shadowBar.css({
-			left : barLeft + "px",
-			width : barWidth + "px"
-		});
+		left : barLeft + "px",
+		width : barWidth + "px"
+	});
 	
 	drawBase.append(resultBar);
 	drawBase.append(shadowBar);
 	drawBase.hover(null, function () {
-			for (resultLabel in resultLabels) {
-				resultLabels[resultLabel].fadeOut();
-			}
-		});
+		for (resultLabel in resultLabels) {
+			resultLabels[resultLabel].fadeOut();
+		}
+	});
 }
 
 function draw() {
@@ -109,74 +109,73 @@ function draw() {
 }
 
 $(function () {
-		var table = $("table#tableDatas");
-		maximum = {
-			total : 0,
-			rendering : 0,
-			socialNetwork : 0,
-			complexGraphics : 0,
-			data : 0,
-			domOperations : 0,
-			textParsing : 0
-		};
-		
-		resultLabels = {
-			total : $("div#total .resultLabel"),
-			rendering : $("div#rendering .resultLabel"),
-			socialNetwork : $("div#socialNetwork .resultLabel"),
-			complexGraphics : $("div#complexGraphics .resultLabel"),
-			data : $("div#data .resultLabel"),
-			domOperations : $("div#domOperations .resultLabel"),
-			textParsing : $("div#textParsing .resultLabel")
-		};
-		
-		resultTitles = {
-			total : "Total",
-			rendering : "Rendering",
-			socialNetwork : "Social Network",
-			complexGraphics : "Complex Graphics",
-			data : "Data",
-			domOperations : "Dom Operations",
-			textParsing : "Text Parsing"
-		};
-		
-		// Ìî³ä table
-		var length = TestDatas.length;
-		for (var i = 0; i < length; ++i) {
-			var testData = TestDatas[i];
-			var row = $("<tr></tr>").addClass(testData.browser);
-			if (i % 2) {
-				row.addClass("odd");
-			}
-			row.append($("<td></td>").addClass("name").html(testData.browser));
-			row.append($("<td></td>").addClass("version").html(testData.version));
-			row.append($("<td></td>").addClass("os").html(testData.os));
-			row.append($("<td></td>").addClass("date").html(testData.date));
-			row.append($("<td></td>").addClass("total").html(testData.total));
-			row.append($("<td></td>").addClass("rendering").html(testData.rendering));
-			row.append($("<td></td>").addClass("socialNetwork").html(testData.socialNetwork));
-			row.append($("<td></td>").addClass("complexGraphics").html(testData.complexGraphics));
-			row.append($("<td></td>").addClass("data").html(testData.data));
-			row.append($("<td></td>").addClass("domOperations").html(testData.domOperations));
-			row.append($("<td></td>").addClass("textParsing").html(testData.textParsing));
-			if (testData.total > maximum.total)
-				maximum.total = testData.total;
-			if (testData.rendering > maximum.rendering)
-				maximum.rendering = testData.rendering;
-			if (testData.socialNetwork > maximum.socialNetwork)
-				maximum.socialNetwork = testData.socialNetwork;
-			if (testData.complexGraphics > maximum.complexGraphics)
-				maximum.complexGraphics = testData.complexGraphics;
-			if (testData.data > maximum.data)
-				maximum.data = testData.data;
-			if (testData.domOperations > maximum.domOperations)
-				maximum.domOperations = testData.domOperations;
-			if (testData.textParsing > maximum.textParsing)
-				maximum.textParsing = testData.textParsing;
-			table.append(row);
+	var table = $("table#tableDatas");
+	maximum = {
+		total : 0,
+		rendering : 0,
+		socialNetwork : 0,
+		complexGraphics : 0,
+		data : 0,
+		domOperations : 0,
+		textParsing : 0
+	};
+	
+	resultLabels = {
+		total : $("div#total .resultLabel"),
+		rendering : $("div#rendering .resultLabel"),
+		socialNetwork : $("div#socialNetwork .resultLabel"),
+		complexGraphics : $("div#complexGraphics .resultLabel"),
+		data : $("div#data .resultLabel"),
+		domOperations : $("div#domOperations .resultLabel"),
+		textParsing : $("div#textParsing .resultLabel")
+	};
+	
+	resultTitles = {
+		total : "Total",
+		rendering : "Rendering",
+		socialNetwork : "Social Network",
+		complexGraphics : "Complex Graphics",
+		data : "Data",
+		domOperations : "Dom Operations",
+		textParsing : "Text Parsing"
+	};
+	
+	// Ìî³ä table
+	var length = TestDatas.length;
+	for (var i = 0; i < length; ++i) {
+		var testData = TestDatas[i];
+		var row = $("<tr></tr>").addClass(testData.browser);
+		if (i % 2) {
+			row.addClass("odd");
 		}
-		
-		// »­Í¼ÐÎ
-		draw();
-	});
- 
+		row.append($("<td></td>").addClass("name").html(testData.browser));
+		row.append($("<td></td>").addClass("version").html(testData.version));
+		row.append($("<td></td>").addClass("os").html(testData.os));
+		row.append($("<td></td>").addClass("date").html(testData.date));
+		row.append($("<td></td>").addClass("total").html(testData.total));
+		row.append($("<td></td>").addClass("rendering").html(testData.rendering));
+		row.append($("<td></td>").addClass("socialNetwork").html(testData.socialNetwork));
+		row.append($("<td></td>").addClass("complexGraphics").html(testData.complexGraphics));
+		row.append($("<td></td>").addClass("data").html(testData.data));
+		row.append($("<td></td>").addClass("domOperations").html(testData.domOperations));
+		row.append($("<td></td>").addClass("textParsing").html(testData.textParsing));
+		if (testData.total > maximum.total)
+			maximum.total = testData.total;
+		if (testData.rendering > maximum.rendering)
+			maximum.rendering = testData.rendering;
+		if (testData.socialNetwork > maximum.socialNetwork)
+			maximum.socialNetwork = testData.socialNetwork;
+		if (testData.complexGraphics > maximum.complexGraphics)
+			maximum.complexGraphics = testData.complexGraphics;
+		if (testData.data > maximum.data)
+			maximum.data = testData.data;
+		if (testData.domOperations > maximum.domOperations)
+			maximum.domOperations = testData.domOperations;
+		if (testData.textParsing > maximum.textParsing)
+			maximum.textParsing = testData.textParsing;
+		table.append(row);
+	}
+	
+	// »­Í¼ÐÎ
+	draw();
+});
