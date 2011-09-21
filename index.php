@@ -50,7 +50,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.8.6 Beta Released</a><span class="newsDate"> - 2011-08-02</span></p>
+							<p><a class="lastestNews" href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.9 Released</a><span class="newsDate"> - 2011-09-21</span></p>
+							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.8.6 Beta Released</a><span class="newsDate"> - 2011-08-02</span></p>
 							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.8.4 Beta Released</a><span class="newsDate"> - 2011-06-18</span></p>
 							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.8 Released</a><span class="newsDate"> - 2011-05-02</span></p>
 							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.7.4 Beta Released</a><span class="newsDate"> - 2011-03-31</span></p>
