@@ -26,6 +26,12 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.9 (since 1.8)<br/>
+							Fixed "one more indent in ({...})".<br/>
+							Fixed "A space at the end of file".<br/>
+							Fixed other bugs in formatting algorithm.<br/>
+							Some minor changes.<br/>
+							<br/>
 							1.8.4 beta<br/>
 							Fixed "A space at the end of file".<br/>
 							Fixed other bugs in formatting algorithm.<br/>
