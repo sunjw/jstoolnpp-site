@@ -29,6 +29,7 @@
 								<li><a title="Intall through Plugin Manager" href="#Install_pm">Intall through Plugin Manager</a></li>
 								<li><a title="Intall Manually" href="#Install_manually">Intall Manually</a></li>
 								<li><a title="Uninstall JSMinNpp" href="#Uninstall">Uninstall JSMinNpp</a></li>
+								<li><a title="How to Use JSMinNpp" href="#Use">How to Use JSMinNpp</a></li>
 								<li><a title="Report Bugs" href="#Report_bugs">Report Bugs</a></li>
 								<li><a title="Report Bugs" href="#What_else">What else I Have Done</a></li>
 							</ul>
@@ -113,6 +114,37 @@
 								<li>1. Exit any running Notepad++.</li>
 								<li>2. Go to plugins directory under your Notepad++ installation path, like "C:\Program Files\Notepad++\plugins\".</li>
 								<li>3. Delete JSMinNpp.dll.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="listBottom">
+					<div class="listBottomLeft"></div>
+					<div class="listBottomMiddle"></div>
+					<div class="listBottomRight"></div>
+				</div>
+			</div>
+			<div class="divListwHeader foldingList">
+				<div class="listHeader">
+					<div class="listHeaderLeft"></div>
+					<div class="listHeaderMiddle"><a name="Use" title="How to Use JSMinNpp"></a>How to Use JSMinNpp</div>
+					<div class="listHeaderRight"></div>
+				</div>
+				<div class="listContainer foldingContainer">
+					<div class="listContainerRight">
+						<div class="listContainerMiddle">
+							<p>Minimize source code:</p>
+							<ul class="indentList">
+								<li>1. Open you javascript source code file in Notepad++.</li>
+								<li>2. Open menu: "Plugins" - "JSMin".</li>
+								<li>3. If you want to put minimized source code in current file, click "JSMin". Or if you want to put minimized source code in a new file, click "JSMin (New file)".</li>
+							</ul>
+							<p>Format source code:</p>
+							<ul class="indentList">
+								<li>1. Open you javascript source code file in Notepad++.</li>
+								<li>2. Press "Ctrl"+"Alt"+"m".</li>
+								<li>3. Or use menu, open menu: "Plugins" - "JSMin" then click "JSFormat".</li>
 							</ul>
 						</div>
 					</div>
