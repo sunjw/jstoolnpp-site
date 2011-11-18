@@ -274,6 +274,7 @@ ul#ulScreenshots li, ul#ulScreenshots li a {
 	float: left;
 	display: block;
 	font-size: small;
+	width: 152px;
 }
 ul#ulScreenshots li {
 	margin-right: 40px;
