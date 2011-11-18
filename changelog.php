@@ -26,13 +26,16 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.9.2 Beta<br/>
+							Add formatting selected source code.<br/>
+							<br/>
 							1.9 (since 1.8)<br/>
 							Fixed "one more indent in ({...})".<br/>
 							Fixed "A space at the end of file".<br/>
 							Fixed other bugs in formatting algorithm.<br/>
 							Some minor changes.<br/>
 							<br/>
-							1.8.4 beta<br/>
+							1.8.4 Beta<br/>
 							Fixed "A space at the end of file".<br/>
 							Fixed other bugs in formatting algorithm.<br/>
 							<br/>
@@ -43,7 +46,7 @@
 							Fixed bugs.<br/>
 							Updated IniProcessor.<br/>
 							<br/>
-							1.7.2 beta<br/>
+							1.7.2 Beta<br/>
 							Fixed bugs.<br/>
 							Leave empty {} block alone.<br/>
 							<br/>
@@ -53,12 +56,12 @@
 							Added a new option dialog.<br/>
 							Some minor changes.<br/>
 							<br/>
-							1.6.10 beta<br/>
+							1.6.10 Beta<br/>
 							Fixed bugs in formatting algorithm.<br/>
 							Add an Option dialog.<br/>
 							Some minor changes.<br/>
 							<br/>
-							1.6.5 beta<br/>
+							1.6.5 Beta<br/>
 							Fixed lots of bugs in formatting algorithm.<br/>
 							Changed About dialog style.<br/>
 							<br/>
