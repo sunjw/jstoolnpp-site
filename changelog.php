@@ -26,6 +26,11 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.10 (since 1.9)<br/>
+							Add formatting selected source code.<br/>
+							If you selected some lines of source code, JSMinNpp will just format these code.<br/>
+							Some minor changes.<br/>
+							<br/>
 							1.9.2 Beta<br/>
 							Add formatting selected source code.<br/>
 							<br/>

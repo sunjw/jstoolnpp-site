@@ -140,11 +140,18 @@
 								<li>2. Open menu: "Plugins" - "JSMin".</li>
 								<li>3. If you want to put minimized source code in current file, click "JSMin". Or if you want to put minimized source code in a new file, click "JSMin (New file)".</li>
 							</ul>
-							<p>Format source code:</p>
+							<p>Format all code in a source code file:</p>
 							<ul class="indentList">
 								<li>1. Open you javascript source code file in Notepad++.</li>
 								<li>2. Press "Ctrl"+"Alt"+"m".</li>
 								<li>3. Or use menu, open menu: "Plugins" - "JSMin" then click "JSFormat".</li>
+							</ul>
+							<p>Format selected code in a source code file:</p>
+							<ul class="indentList">
+								<li>1. Open you javascript source code file in Notepad++.</li>
+								<li>2. Select source code lines which you want to format.</li>
+								<li>3. Press "Ctrl"+"Alt"+"m".</li>
+								<li>4. Or use menu, open menu: "Plugins" - "JSMin" then click "JSFormat".</li>
 							</ul>
 						</div>
 					</div>
