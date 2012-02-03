@@ -75,7 +75,7 @@ else if($build_ver = $cur_build_ver)
 							<p>
 							<?php 
 							if($is_lastest)
-								echo "You are using the latest version of JSMinNpp. May be you want to <a href='http://sourceforge.net/donate/index.php?group_id=351223' target='_blank'>Donate</a>.";
+								echo "You are using the latest version of JSMinNpp. May be you want to <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=sunjw8888%40yahoo%2ecom%2ecn&amp;item_name=JSMinNpp%20Project&amp;no_shipping=1&amp;cn=Optional%20comments&amp;tax=0&amp;currency_code=USD&amp;lc=US&amp;amount=1.8&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8' target='_blank'>Donate</a>.";
 							else
 								echo "You are <strong>NOT</strong> using the latest version of JSMinNpp. Download new version below.";
 							?>
