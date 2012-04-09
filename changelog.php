@@ -26,6 +26,10 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.10.6 Beta<br/>
+							Add a Json viewer.<br/>
+							Change classes inheritance hierarchy.<br/>
+							<br/>
 							1.10 (since 1.9)<br/>
 							Add formatting selected source code.<br/>
 							If you selected some lines of source code, JSMinNpp will just format these code.<br/>
