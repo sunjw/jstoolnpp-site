@@ -1,7 +1,7 @@
 <?php
 $download_array = parse_ini_file("version.ini", true);
 ?>
-<div class="floatLeft splitRight">
+<div class="floatLeft">
 	<div class="label">
 		Download:
 	</div>
@@ -21,19 +21,5 @@ $download_array = parse_ini_file("version.ini", true);
 		</div>
 	</div>
 	<div class="clear"></div>
-</div>
-<div class="floatRight">
-	<div class="label">
-		Donate:
-	</div>
-	<div>
-		<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=sunjw8888%40yahoo%2ecom%2ecn&amp;item_name=JSMinNpp%20Project&amp;no_shipping=1&amp;cn=Optional%20comments&amp;tax=0&amp;currency_code=USD&amp;lc=US&amp;amount=1.8&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8" target="_blank"><img title="PayPal Donate" src="imgs/paypal-donate.png" alt="PayPal Donate" width="72" height="29" /></a>
-	</div>
-	<div class="label">
-		Host:
-	</div>
-	<div>
-		<a href="http://code.google.com/p/jstoolnpp/"><img src="http://www.gstatic.com/codesite/ph/images/defaultlogo.png"/></a>
-	</div>
 </div>
 <div class="clear"></div>
