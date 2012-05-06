@@ -33,7 +33,7 @@ $download_array = parse_ini_file("version.ini", true);
 		Host:
 	</div>
 	<div>
-		<a href="http://sourceforge.net/projects/jsminnpp"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=351223&amp;type=14" width="150" height="40" alt="Get JSMinNpp at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+		<a href="http://code.google.com/p/jstoolnpp/"><img src="http://www.gstatic.com/codesite/ph/images/defaultlogo.png"/></a>
 	</div>
 </div>
 <div class="clear"></div>

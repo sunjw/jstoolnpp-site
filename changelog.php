@@ -26,6 +26,11 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.11 (since 1.10)<br/>
+							Move to Google Code.<br/>
+							Add a Json Viewer.<br/>
+							Change classes inheritance hierarchy to build a smaller binary file.<br/>
+							<br/>
 							1.10.6 Beta<br/>
 							Add a Json viewer.<br/>
 							Change classes inheritance hierarchy.<br/>

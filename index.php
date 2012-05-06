@@ -25,9 +25,14 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>JSMinNpp is a javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.<br/>
-							Use <a href="http://www.crockford.com/javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a> to minimize javascript code and use my own algorithm to format javascript code.<br/>
-							Really helpful to javascript coder on Notepad++ and really easy to use it.</p>
+							<p>A javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
+								<ul class="indentList">
+									<li><a href="http://www.crockford.com/javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize javascript code.</li>
+									<li>My own algorithm to format javascript code.</li>
+									<li>A JSON data viewer.</li>
+								</ul>
+							<p>Really helpful to javascript coder on Notepad++ and really easy to use it.</p>
+							<p>Made in China.</p>
 							<p>License: <a href="gpl.php">GPL 2.0</a></p>
 							<!--<p><script type="text/javascript" src="http://www.ohloh.net/p/485688/widgets/project_users_logo.js"></script></p>-->
 							<!--<p>Something Interesting: <a href="result.php">Peacekeeper Testing Results</a></p>-->
@@ -50,7 +55,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
+							<p><a class="lastestNews" href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
+							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
 							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.10 Released</a><span class="newsDate"> - 2012-01-19</span></p>
 							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.9.2 Beta Released</a><span class="newsDate"> - 2011-11-18</span></p>
 							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.9 Released</a><span class="newsDate"> - 2011-09-21</span></p>

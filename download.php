@@ -108,10 +108,10 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.10.uni.zip/download" target="_blank">JSMinNPP.1.10.uni.zip</a>
+								Unicode build: <a href="http://jstoolnpp.googlecode.com/files/JSMinNPP.1.11.uni.zip" target="_blank">JSMinNPP.1.11.uni.zip</a>
 								</li>
 								<li>
-								ASCII build: <a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSMinNPP.1.10.asc.zip/download" target="_blank">JSMinNPP.1.10.asc.zip</a>
+								ASCII build: <a href="http://jstoolnpp.googlecode.com/files/JSMinNPP.1.11.asc.zip" target="_blank">JSMinNPP.1.11.asc.zip</a>
 								</li>
 							</ul>
 						</div>
@@ -133,7 +133,7 @@ else if($build_ver = $cur_build_ver)
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>Only unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Beta/" target="_blank">JSMinNpp.<?php echo $download_array["JSMinNpp"]["beta"]; ?>.uni.zip</a></p>
+							<p>Only unicode build: <a href="http://code.google.com/p/jstoolnpp/downloads/list?q=Type%3DBeta" target="_blank">JSMinNpp.<?php echo $download_array["JSMinNpp"]["beta"]; ?>.uni.zip</a></p>
 							<p>Beta version may have fixed some bugs and may have some new bugs. Try it.</p>
 						</div>
 					</div>
@@ -156,16 +156,16 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								README: <a href="http://sourceforge.net/projects/jsminnpp/files/README/download" target="_blank">Download</a>
+								README: <a href="http://jstoolnpp.googlecode.com/files/README" target="_blank">Download</a>
 								</li>
 								<li>
-								Changelog: <a href="changelog.php">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/ChangeLog/download" target="_blank">Download</a>
+								Changelog: <a href="changelog.php">View</a>&nbsp;|&nbsp;<a href="http://jstoolnpp.googlecode.com/files/ChangeLog" target="_blank">Download</a>
 								</li>
 								<li>
-								Source code: <a href="http://sourceforge.net/projects/jsminnpp/develop" target="_blank">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Src/" target="_blank">Download</a>
+								Source code: <a href="http://code.google.com/p/jstoolnpp/source/browse/" target="_blank">View</a>&nbsp;|&nbsp;<a href="http://code.google.com/p/jstoolnpp/downloads/list?q=Type%3DSource" target="_blank">Download</a>
 								</li>
 								<li>
-								All files: <a href="http://sourceforge.net/projects/jsminnpp/files/" target="_blank">View</a>
+								All files: <a href="http://code.google.com/p/jstoolnpp/downloads/list" target="_blank">View</a>
 								</li>
 							</ul>
 						</div>
