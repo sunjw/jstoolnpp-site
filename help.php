@@ -31,7 +31,6 @@
 								<li><a title="Uninstall JSMinNpp" href="#Uninstall">Uninstall JSMinNpp</a></li>
 								<li><a title="How to Use JSMinNpp" href="#Use">How to Use JSMinNpp</a></li>
 								<li><a title="Report Bugs" href="#Report_bugs">Report Bugs</a></li>
-								<li><a title="Report Bugs" href="#What_else">What else I Have Done</a></li>
 							</ul>
 						</div>
 					</div>
@@ -150,8 +149,15 @@
 							<ul class="indentList">
 								<li>1. Open you javascript source code file in Notepad++.</li>
 								<li>2. Select source code lines which you want to format.</li>
-								<li>3. Press "Ctrl"+"Alt"+"m".</li>
+								<li>3. Press "Ctrl"+"Alt"+"M".</li>
 								<li>4. Or use menu, open menu: "Plugins" - "JSMin" then click "JSFormat".</li>
+							</ul>
+							<p>Json Viewer:</p>
+							<ul class="indentList">
+								<li>1. Open you javascript or json source code file in Notepad++.</li>
+								<li>2. Select json code. Or if it's a json file, there is no need to select.</li>
+								<li>3. Press "Ctrl"+"Alt"+"J".</li>
+								<li>4. Or use menu, open menu: "Plugins" - "JSMin" then click "Json Viewer".</li>
 							</ul>
 						</div>
 					</div>
@@ -173,28 +179,6 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>If found any bugs or problem, you can visit <a href="http://sourceforge.net/projects/jsminnpp/support" target="_blank">JSMinNpp Support on Sourceforte.net</a> or feel free to email me: sunjw8888 at gmail.com.</p>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="listBottom">
-					<div class="listBottomLeft"></div>
-					<div class="listBottomMiddle"></div>
-					<div class="listBottomRight"></div>
-				</div>
-			</div>
-			<div class="divListwHeader foldingList">
-				<div class="listHeader">
-					<div class="listHeaderLeft"></div>
-					<div class="listHeaderMiddle"><a name="What_else" title="What else I Have Done"></a>What else I Have Done</div>
-					<div class="listHeaderRight"></div>
-				</div>
-				<div class="listContainer foldingContainer">
-					<div class="listContainerRight">
-						<div class="listContainerMiddle">
-							<p><a href="https://addons.mozilla.org/en-us/firefox/addon/161901/" target="_blank">Encrypted Google Search for Firefox</a>: A search bar addon for Firefox to use Encrypted Google Search quickly.<br />
-							<a href="http://sourceforge.net/projects/rosefinch/" target="_blank">Rosefinch</a>: A web file manager. It provides many features like cut, copy and paste. An alternative of Apache Directory Listing.<br />
-							</p>
 						</div>
 					</div>
 					<div class="clear"></div>

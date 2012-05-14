@@ -92,6 +92,7 @@ input[type="submit"],input[type="button"] {
 /* Dowload */
 #divDownload {
 	font-family: Georgia, serif;
+	margin-left: 90px;
 }
 
 #divDownload .label {
@@ -422,6 +423,11 @@ canvas {
 ul.indentList {
 	margin-left: 1em;
 }
+ul.circleList li {
+	list-style-position: outside;
+    list-style-type: disc;
+}
+
 .lastestNews {
 	font-weight: bold;
 }

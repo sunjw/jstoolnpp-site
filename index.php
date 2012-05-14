@@ -26,7 +26,7 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>A javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
-								<ul class="indentList">
+								<ul class="indentList circleList">
 									<li><a href="http://www.crockford.com/javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize javascript code.</li>
 									<li>My own algorithm to format javascript code.</li>
 									<li>A JSON data viewer.</li>
