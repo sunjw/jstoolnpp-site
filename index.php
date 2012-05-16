@@ -34,6 +34,7 @@
 							<p>Really helpful to javascript coder on Notepad++ and really easy to use it.</p>
 							<p>Made in China.</p>
 							<p>License: <a href="gpl.php">GPL 2.0</a></p>
+							<p><g:plusone size="small"></g:plusone></p>
 							<!--<p><script type="text/javascript" src="http://www.ohloh.net/p/485688/widgets/project_users_logo.js"></script></p>-->
 							<!--<p>Something Interesting: <a href="result.php">Peacekeeper Testing Results</a></p>-->
 						</div>
