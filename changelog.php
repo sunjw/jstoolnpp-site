@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSMinNpp - A javascript plugin for notepad++ - Changelog</title>
+    <title>JSMinNpp - A Javascript plugin for notepad++ - Changelog</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -86,18 +86,18 @@
 							Fixed some bugs.<br/>
 							<br/>
 							1.6<br/>
-							Formatting javascript code.<br/>
+							Formatting Javascript code.<br/>
 							<br/>
 							1.05<br/>
 							Fixed some bugs.<br/>
-							Add a menu item which can put minimized javascript code in a new file.<br/>
+							Add a menu item which can put minimized Javascript code in a new file.<br/>
 							<br/>
 							1.01<br/>
 							Fixed a bug.<br/>
 							<br/>
 							1.00<br/>
 							First time release.<br/>
-							Minimizing javascript code in current file.<br/>
+							Minimizing Javascript code in current file.<br/>
 							</p>
 						</div>
 					</div>

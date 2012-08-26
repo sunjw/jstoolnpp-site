@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSMinNpp - A javascript plugin for notepad++</title>
+    <title>JSMinNpp - A Javascript plugin for notepad++</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -25,13 +25,13 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>A javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
+							<p>A Javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
 								<ul class="indentList circleList">
-									<li><a href="http://www.crockford.com/javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize javascript code.</li>
-									<li>My own algorithm to format javascript code.</li>
+									<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize Javascript code.</li>
+									<li>My own algorithm to format Javascript code.</li>
 									<li>A JSON data viewer.</li>
 								</ul>
-							<p>Really helpful to javascript coder on Notepad++ and really easy to use it.</p>
+							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
 							<p>Made in China.</p>
 							<p>License: <a href="gpl.php">GPL 2.0</a></p>
 							<p><g:plusone size="small"></g:plusone></p>

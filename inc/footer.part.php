@@ -1,5 +1,5 @@
 <div>
-	<p>JSMinNpp - A javascript plugin for Notepad++ - Made in China</p>
+	<p>JSMinNpp - A Javascript plugin for Notepad++ - Made in China</p>
 </div>
 <div>
 	<p>Except where otherwise noted, content on this site is licensed under the
