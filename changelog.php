@@ -26,6 +26,11 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.11.4 Beta<br/>
+							Update JsonPP.<br/>
+							Fix "unexpect space" of JSLint.<br/>
+							Fix "finally" bug.<br/>
+							<br/>
 							1.11.2 Beta<br/>
 							Fix a bug in JSON Viewer.<br/>
 							<br/>
