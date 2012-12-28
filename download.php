@@ -108,10 +108,10 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.11.uni.zip/download" target="_blank">JSMinNPP.1.11.uni.zip</a>
+								Unicode build: <a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.12.uni.zip" target="_blank">JSMinNPP.1.12.uni.zip</a>
 								</li>
 								<li>
-								ASCII build: <a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSMinNPP.1.11.asc.zip/download" target="_blank">JSMinNPP.1.11.asc.zip</a>
+								ASCII build: <a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.12.asc.zip" target="_blank">JSMinNPP.1.12.asc.zip</a>
 								</li>
 							</ul>
 						</div>

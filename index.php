@@ -56,19 +56,20 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.11.2 Beta Released</a><span class="newsDate"> - 2012-07-11</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.10 Released</a><span class="newsDate"> - 2012-01-19</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.9.2 Beta Released</a><span class="newsDate"> - 2011-11-18</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.9 Released</a><span class="newsDate"> - 2011-09-21</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.8.6 Beta Released</a><span class="newsDate"> - 2011-08-02</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.8.4 Beta Released</a><span class="newsDate"> - 2011-06-18</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.8 Released</a><span class="newsDate"> - 2011-05-02</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.7.4 Beta Released</a><span class="newsDate"> - 2011-03-31</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php#beta">JSMinNpp 1.7.2 Beta Released</a><span class="newsDate"> - 2011-03-04</span></p>
-							<p><a href="http://jsminnpp.sourceforge.net/download.php">JSMinNpp 1.7 Released</a><span class="newsDate"> - 2011-02-26</span></p>
+							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.2 Beta Released</a><span class="newsDate"> - 2012-07-11</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.10 Released</a><span class="newsDate"> - 2012-01-19</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.9.2 Beta Released</a><span class="newsDate"> - 2011-11-18</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.9 Released</a><span class="newsDate"> - 2011-09-21</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.8.6 Beta Released</a><span class="newsDate"> - 2011-08-02</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.8.4 Beta Released</a><span class="newsDate"> - 2011-06-18</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.8 Released</a><span class="newsDate"> - 2011-05-02</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.7.4 Beta Released</a><span class="newsDate"> - 2011-03-31</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.7.2 Beta Released</a><span class="newsDate"> - 2011-03-04</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.7 Released</a><span class="newsDate"> - 2011-02-26</span></p>
 						</div>
 					</div>
 					<div class="clear"></div>

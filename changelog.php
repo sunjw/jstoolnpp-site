@@ -26,6 +26,14 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.12 (since 1.11)<br/>
+							Fix a bug in JSON Viewer.<br/>
+							Update JsonPP.<br/>
+							Fix "unexpect space" of JSLint.<br/>
+							Add an option to keep indent in empty line.<br/>
+							Fix "finally" bug.<br/>
+							Change project site to http://sunjw.us/jsminnpp/<br/>
+							<br/>
 							1.11.4 Beta<br/>
 							Update JsonPP.<br/>
 							Fix "unexpect space" of JSLint.<br/>
