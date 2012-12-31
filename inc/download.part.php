@@ -7,7 +7,7 @@ $download_array = parse_ini_file("version.ini", true);
 	</div>
 	<div class="floatLeft">
 		<div class="item floatLeft margin center">
-			<a class="dlJSMinNpp dlLink" href="<?php echo $download_array["JSMinNpp"]["url"]; ?>" target="_blank">
+			<a class="dlJSMinNpp dlLink" href="<?php echo $download_array["JSMinNpp"]["url"]; ?>">
 				<span class="dlName"><?php echo $download_array["JSMinNpp"]["name"]; ?></span>
 				<span class="dlInfo"><?php echo $download_array["JSMinNpp"]["version"]; ?></span>
 			</a>
