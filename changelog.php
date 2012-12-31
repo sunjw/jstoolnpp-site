@@ -27,37 +27,37 @@
 						<div class="listContainerMiddle">
 							<p>
 							1.12 (since 1.11)<br/>
-							Fix a bug in JSON Viewer.<br/>
-							Update JsonPP.<br/>
-							Fix "unexpect space" of JSLint.<br/>
-							Add an option to keep indent in empty line.<br/>
-							Fix "finally" bug.<br/>
-							Change project site to http://sunjw.us/jsminnpp/<br/>
+							Fixed a bug in JSON Viewer.<br/>
+							Updated JsonPP.<br/>
+							Fixed "unexpect space" of JSLint.<br/>
+							Added an option to keep indent in empty line.<br/>
+							Fixed "finally" bug.<br/>
+							Changed project site to http://sunjw.us/jsminnpp/<br/>
 							<br/>
 							1.11.4 Beta<br/>
-							Update JsonPP.<br/>
-							Fix "unexpect space" of JSLint.<br/>
-							Fix "finally" bug.<br/>
+							Updated JsonPP.<br/>
+							Fixed "unexpect space" of JSLint.<br/>
+							Fixed "finally" bug.<br/>
 							<br/>
 							1.11.2 Beta<br/>
-							Fix a bug in JSON Viewer.<br/>
+							Fixed a bug in JSON Viewer.<br/>
 							<br/>
 							1.11 (since 1.10)<br/>
 							Move to Google Code.<br/>
-							Add a Json Viewer.<br/>
-							Change classes inheritance hierarchy to build a smaller binary file.<br/>
+							Added a Json Viewer.<br/>
+							Changed classes inheritance hierarchy to build a smaller binary file.<br/>
 							<br/>
 							1.10.6 Beta<br/>
-							Add a Json viewer.<br/>
-							Change classes inheritance hierarchy.<br/>
+							Added a Json viewer.<br/>
+							Changed classes inheritance hierarchy.<br/>
 							<br/>
 							1.10 (since 1.9)<br/>
-							Add formatting selected source code.<br/>
+							Added formatting selected source code.<br/>
 							If you selected some lines of source code, JSMinNpp will just format these code.<br/>
 							Some minor changes.<br/>
 							<br/>
 							1.9.2 Beta<br/>
-							Add formatting selected source code.<br/>
+							Added formatting selected source code.<br/>
 							<br/>
 							1.9 (since 1.8)<br/>
 							Fixed "one more indent in ({...})".<br/>
@@ -78,7 +78,7 @@
 							<br/>
 							1.7.2 Beta<br/>
 							Fixed bugs.<br/>
-							Leave empty {} block alone.<br/>
+							Left empty {} block alone.<br/>
 							<br/>
 							1.7 (since 1.6.1)<br/>
 							Fixed bugs.<br/>
@@ -88,7 +88,7 @@
 							<br/>
 							1.6.10 Beta<br/>
 							Fixed bugs in formatting algorithm.<br/>
-							Add an Option dialog.<br/>
+							Added an Option dialog.<br/>
 							Some minor changes.<br/>
 							<br/>
 							1.6.5 Beta<br/>
@@ -103,7 +103,7 @@
 							<br/>
 							1.05<br/>
 							Fixed some bugs.<br/>
-							Add a menu item which can put minimized Javascript code in a new file.<br/>
+							Added a menu item which can put minimized Javascript code in a new file.<br/>
 							<br/>
 							1.01<br/>
 							Fixed a bug.<br/>
