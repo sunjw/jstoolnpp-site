@@ -87,6 +87,11 @@ input[type="submit"],input[type="button"] {
 	text-shadow: #666 1px 1px;
 	font-family: "Courier New", courier, monospace, serif;
 }
+#divHeader #icon {
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+}
 /* Header */
 
 /* Dowload */
