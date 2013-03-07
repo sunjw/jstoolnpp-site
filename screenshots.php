@@ -38,10 +38,6 @@
 									<img src="imgs/jsminnpp-option-tb.png" width="150" height="100" border="0" alt="Option Dialog" />
 									<span>Option Dialog</span>
 								</a></li>
-								<li><a href="imgs/jsminnpp-pluginmanager.png" class="lightBox" title="JSMinNpp in Plugin Manager">
-									<img src="imgs/jsminnpp-pluginmanager-tb.png" width="150" height="100" border="0" alt="JSMinNpp in Plugin Manager" />
-									<span>JSMinNpp in Plugin Manager</span>
-								</a></li>
 								<li><a href="imgs/jsminnpp-min-result.png" class="lightBox" title="JSMin Function">
 									<img src="imgs/jsminnpp-min-result-tb.png" width="150" height="100" border="0" alt="JSMin Function" />
 									<span>JSMin Function</span>
@@ -49,6 +45,14 @@
 								<li><a href="imgs/jsminnpp-format-result.png" class="lightBox" title="JSFormat Function">
 									<img src="imgs/jsminnpp-format-result-tb.png" width="150" height="100" border="0" alt="JSFormat Functionn" />
 									<span>JSFormat Function</span>
+								</a></li>
+								<li><a href="imgs/jsminnpp-jsonviewer.png" class="lightBox" title="Json Viewer">
+									<img src="imgs/jsminnpp-jsonviewer-tb.png" width="150" height="100" border="0" alt="Json Viewer" />
+									<span>Json Viewer</span>
+								</a></li>
+								<li><a href="imgs/jsminnpp-pluginmanager.png" class="lightBox" title="JSMinNpp in Plugin Manager">
+									<img src="imgs/jsminnpp-pluginmanager-tb.png" width="150" height="100" border="0" alt="JSMinNpp in Plugin Manager" />
+									<span>JSMinNpp in Plugin Manager</span>
 								</a></li>
 							</ul>
 							<div class="clear"></div>
