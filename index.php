@@ -29,7 +29,7 @@
 								<ul class="indentList circleList">
 									<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize Javascript code.</li>
 									<li>My own algorithm to format Javascript code.</li>
-									<li>A JSON data viewer.</li>
+									<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
 								</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
 							<p>Made in China.</p>
