@@ -26,6 +26,11 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.13 (since 1.12)<br/>
+							Performance improved (JSFormat will be about 2X faster).<br/>
+							Linked editor with Json Viewer: Clicking a data node in Viewer, editor will navigate to corresponding line.<br/>
+							Added a logo.<br/>
+							<br/>
 							1.12 (since 1.11)<br/>
 							Fixed a bug in JSON Viewer.<br/>
 							Updated JsonPP.<br/>

@@ -108,14 +108,14 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build - JSMinNPP.1.12.uni.zip:<br/>
-								<a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.12.uni.zip" target="_blank">Google Code Download</a><br/>
-								<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.12.uni.zip/download" target="_blank">SourceForget.net Download</a>
+								Unicode build - JSMinNPP.1.13.uni.zip:<br/>
+								<a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.13.uni.zip" target="_blank">Google Code Download</a><br/>
+								<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.13.uni.zip/download" target="_blank">SourceForget.net Download</a>
 								</li>
 								<li>
-								ASCII build - JSMinNPP.1.12.asc.zip:<br/>
-								<a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.12.asc.zip" target="_blank">Google Code Download</a><br/>
-								<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSMinNPP.1.12.asc.zip/download" target="_blank">SourceForget.net Download</a>
+								ASCII build - JSMinNPP.1.13.asc.zip:<br/>
+								<a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.13.asc.zip" target="_blank">Google Code Download</a><br/>
+								<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSMinNPP.1.13.asc.zip/download" target="_blank">SourceForget.net Download</a>
 								</li>
 							</ul>
 						</div>
@@ -137,7 +137,7 @@ else if($build_ver = $cur_build_ver)
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>Only unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Beta/" target="_blank">JSMinNpp.<?php echo $download_array["JSMinNpp"]["beta"]; ?>.uni.zip</a></p>
+							<p><del>Only unicode build: <a href="http://sourceforge.net/projects/jsminnpp/files/Beta/" target="_blank">JSMinNpp.<?php echo $download_array["JSMinNpp"]["beta"]; ?>.uni.zip</a></del></p>
 							<p>Beta version may have fixed some bugs and may have some new bugs. Try it.</p>
 						</div>
 					</div>
@@ -166,7 +166,7 @@ else if($build_ver = $cur_build_ver)
 								Changelog: <a href="changelog.php">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/ChangeLog/view" target="_blank">Download</a>
 								</li>
 								<li>
-								Source code: <a href="http://code.google.com/p/jstoolnpp/source/browse/" target="_blank">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Src/" target="_blank">Download</a>
+								Source code: <a href="https://code.google.com/p/jstoolnpp/source/browse/" target="_blank">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Src/" target="_blank">Download</a>
 								</li>
 								<li>
 								All files: <a href="http://sourceforge.net/projects/jsminnpp/files/" target="_blank">View</a>

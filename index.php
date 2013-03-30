@@ -26,12 +26,18 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>A Javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
-								<ul class="indentList circleList">
-									<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize Javascript code.</li>
-									<li>My own algorithm to format Javascript code.</li>
-									<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
-								</ul>
+							<ul class="indentList circleList">
+								<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize Javascript code.</li>
+								<li>My own algorithm to format Javascript code.</li>
+								<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
+							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
+							<p>What's New in 1.13:</p>
+							<ul class="indentList circleList">
+								<li>Performance improved (JSFormat will be about 2X faster).</li>
+								<li>Linked editor with Json Viewer: Clicking a data node in Viewer, editor will navigate to corresponding line.</li>
+								<li>Added a logo.</li>
+							</ul>
 							<p>Made in China.</p>
 							<p>License: <a href="gpl.php">GPL 2.0</a></p>
 							<p><g:plusone size="small"></g:plusone></p>
@@ -56,7 +62,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
+							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.2 Beta Released</a><span class="newsDate"> - 2012-07-11</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
