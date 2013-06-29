@@ -50,7 +50,7 @@ else if($build_ver = $cur_build_ver)
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSMinNpp - A Javascript plugin for notepad++ - Download</title>
+    <title>JSToolNpp - A Javascript plugin for notepad++ - Download</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -75,9 +75,9 @@ else if($build_ver = $cur_build_ver)
 							<p>
 							<?php 
 							if($is_lastest)
-								echo "You are using the latest version of JSMinNpp. May be you want to <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=sunjw8888%40yahoo%2ecom%2ecn&amp;item_name=JSMinNpp%20Project&amp;no_shipping=1&amp;cn=Optional%20comments&amp;tax=0&amp;currency_code=USD&amp;lc=US&amp;amount=1.8&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8' target='_blank'>Donate</a>.";
+								echo "You are using the latest version of JSToolNpp. May be you want to <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=sunjw8888%40yahoo%2ecom%2ecn&amp;item_name=JSToolNpp%20Project&amp;no_shipping=1&amp;cn=Optional%20comments&amp;tax=0&amp;currency_code=USD&amp;lc=US&amp;amount=1.8&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8' target='_blank'>Donate</a>.";
 							else
-								echo "You are <strong>NOT</strong> using the latest version of JSMinNpp. Download new version below.";
+								echo "You are <strong>NOT</strong> using the latest version of JSToolNpp. Download new version below.";
 							?>
 							</p>
 						</div>
@@ -95,7 +95,7 @@ else if($build_ver = $cur_build_ver)
 				<?php include "inc/download.part.php" ?>
 			</div>
 			<div id="divCrumb">
-				<p><a href="index.php">JSMinNpp</a>&nbsp;&gt;&gt;&nbsp;Download</p>
+				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Download</p>
 			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
@@ -108,14 +108,14 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build - JSMinNPP.1.13.uni.zip:<br/>
-								<a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.13.uni.zip" target="_blank">Google Code Download</a><br/>
-								<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.13.uni.zip/download" target="_blank">SourceForget.net Download</a>
+								Unicode build - JSMinNPP.1.15.uni.zip:<br/>
+								<a href="http://jstoolnpp.googlecode.com/files/JSMinNPP.1.15.uni.zip" target="_blank">Google Code Download</a><br/>
+								<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.15.uni.zip/download" target="_blank">SourceForget.net Download</a>
 								</li>
 								<li>
-								ASCII build - JSMinNPP.1.13.asc.zip:<br/>
-								<a href="https://jstoolnpp.googlecode.com/files/JSMinNPP.1.13.asc.zip" target="_blank">Google Code Download</a><br/>
-								<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSMinNPP.1.13.asc.zip/download" target="_blank">SourceForget.net Download</a>
+								ASCII build - JSMinNPP.1.15.asc.zip:<br/>
+								<a href="http://jstoolnpp.googlecode.com/files/JSMinNPP.1.15.asc.zip" target="_blank">Google Code Download</a><br/>
+								<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSMinNPP.1.15.asc.zip/download" target="_blank">SourceForget.net Download</a>
 								</li>
 							</ul>
 						</div>

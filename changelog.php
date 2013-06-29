@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSMinNpp - A Javascript plugin for notepad++ - Changelog</title>
+    <title>JSToolNpp - A Javascript plugin for notepad++ - Changelog</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -14,7 +14,7 @@
 				<?php include "inc/download.part.php" ?>
 			</div>
 			<div id="divCrumb">
-				<p><a href="index.php">JSMinNpp</a>&nbsp;&gt;&gt;&nbsp;Changelog</p>
+				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Changelog</p>
 			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
@@ -26,6 +26,13 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.15 (since 1.13)<br/>
+							Change name to JSTool.<br/>
+							Added simple search in Json Viewer.<br/>
+							Fixed Json Viewer and editor linkin bug.<br/>
+							Fixed Json Viewer utf-8 bug.<br/>
+							Other tweaks.<br/>
+							<br/>
 							1.13 (since 1.12)<br/>
 							Performance improved (JSFormat will be about 2X faster).<br/>
 							Linked editor with Json Viewer: Clicking a data node in Viewer, editor will navigate to corresponding line.<br/>

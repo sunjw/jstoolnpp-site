@@ -1,6 +1,6 @@
 <ul id="nav">
 	<li class="menu">
-		<a class="subToggle" href="index.php">{ JSMinNpp }</a>
+		<a class="subToggle" href="index.php">{ JSToolNpp }</a>
 		<div class="submenu">
 			<ul class="submenuContainer">
 				<li><a href="download.php">Download</a></li>

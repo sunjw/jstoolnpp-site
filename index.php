@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSMinNpp - A Javascript plugin for notepad++</title>
+    <title>JSToolNpp - A Javascript plugin for notepad++</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -14,12 +14,12 @@
 				<?php include "inc/download.part.php" ?>
 			</div>
 			<div id="divCrumb">
-				<p><a href="index.php">JSMinNpp</a>&nbsp;&gt;&gt;&nbsp;Home</p>
+				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Home</p>
 			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
-					<div class="listHeaderMiddle">What is JSMinNpp</div>
+					<div class="listHeaderMiddle">What is JSToolNpp</div>
 					<div class="listHeaderRight"></div>
 				</div>
 				<div class="listContainer foldingContainer">
@@ -62,7 +62,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
+							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.2 Beta Released</a><span class="newsDate"> - 2012-07-11</span></p>
@@ -97,17 +98,17 @@
 					<div class="listContainerRight">
 						<div id="divScreenshots" class="listContainerMiddle">
 							<ul id="ulScreenshots">
-								<li><a href="imgs/jsminnpp-menu.png" class="lightBox" title="JSMinNpp Menu">
-									<img src="imgs/jsminnpp-menu-tb.png" width="150" height="100" border="0" alt="JSMinNpp Menu" />
-									<span>JSMinNpp Menu</span>
+								<li><a href="imgs/jsminnpp-menu.png" class="lightBox" title="JSToolNpp Menu">
+									<img src="imgs/jsminnpp-menu-tb.png" width="150" height="100" border="0" alt="JSToolNpp Menu" />
+									<span>JSToolNpp Menu</span>
 								</a></li>
 								<li><a href="imgs/jsminnpp-about.png" class="lightBox" title="About Dialog">
 									<img src="imgs/jsminnpp-about-tb.png" width="150" height="100" border="0" alt="About Dialog" />
 									<span>About Dialog</span>
 								</a></li>
-								<li><a href="imgs/jsminnpp-pluginmanager.png" class="lightBox" title="JSMinNpp in Plugin Manager">
-									<img src="imgs/jsminnpp-pluginmanager-tb.png" width="150" height="100" border="0" alt="JSMinNpp in Plugin Manager" />
-									<span>JSMinNpp in Plugin Manager</span>
+								<li><a href="imgs/jsminnpp-pluginmanager.png" class="lightBox" title="JSToolNpp in Plugin Manager">
+									<img src="imgs/jsminnpp-pluginmanager-tb.png" width="150" height="100" border="0" alt="JSToolNpp in Plugin Manager" />
+									<span>JSToolNpp in Plugin Manager</span>
 								</a></li>
 							</ul>
 							<div id="divMore">
@@ -133,14 +134,14 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>You can install JSMinNpp through Plugin Manager in Notepad++:</p>
+							<p>You can install JSToolNpp through Plugin Manager in Notepad++:</p>
 							<ul class="indentList">
 								<li>1. Run Notepad++.</li>
 								<li>2. Open menu: "Plugins" - "Plugin Manager" - "Show Plugin Manager".</li>
-								<li>3. Under "Available" tab, select "JSMin".</li>
+								<li>3. Under "Available" tab, select "JSTool".</li>
 								<li>4. Click "Install" button. Then Plugin Manager will do downloading and installing automatically.</li>
 							</ul>
-							<p>Or you can <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.6.1.uni.zip/download" target="_blank">download JSMinNpp</a> and install it manually. <a href="help.php#Install_manually">See Help...</a></p>
+							<p>Or you can <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.6.1.uni.zip/download" target="_blank">download JSToolNpp</a> and install it manually. <a href="help.php#Install_manually">See Help...</a></p>
 						</div>
 					</div>
 					<div class="clear"></div>
