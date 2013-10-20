@@ -91,9 +91,6 @@ else if($build_ver = $cur_build_ver)
 				</div>
 			</div>
 			<?php } ?>
-			<div id="divDownload">
-				<?php include "inc/download.part.php" ?>
-			</div>
 			<div id="divCrumb">
 				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Download</p>
 			</div>
@@ -108,14 +105,14 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build - JSMinNPP.1.15.uni.zip:<br/>
-								<a href="http://jstoolnpp.googlecode.com/files/JSMinNPP.1.15.uni.zip" target="_blank">Google Code Download</a><br/>
-								<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.15.uni.zip/download" target="_blank">SourceForget.net Download</a>
+								Unicode build - JSToolNPP.1.16.uni.zip:<br/>
+								SourceForget.net <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.16.uni.zip/download" target="_blank">Download</a>
+								Google Code <a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.uni.zip" target="_blank">Download</a><br/>
 								</li>
 								<li>
-								ASCII build - JSMinNPP.1.15.asc.zip:<br/>
-								<a href="http://jstoolnpp.googlecode.com/files/JSMinNPP.1.15.asc.zip" target="_blank">Google Code Download</a><br/>
-								<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSMinNPP.1.15.asc.zip/download" target="_blank">SourceForget.net Download</a>
+								ASCII build - JSToolNPP.1.16.asc.zip:<br/>
+								SourceForget.net <a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.16.asc.zip/download" target="_blank">Download</a>
+								Google Code <a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.asc.zip" target="_blank">Download</a><br/>
 								</li>
 							</ul>
 						</div>

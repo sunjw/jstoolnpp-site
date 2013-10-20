@@ -10,9 +10,6 @@
 			<div id="divHeader">
 				<?php include "inc/nav.part.php" ?>
 			</div>
-			<div id="divDownload">
-				<?php include "inc/download.part.php" ?>
-			</div>
 			<div id="divCrumb">
 				<p><a href="index.php">JSMinNpp</a>&nbsp;&gt;&gt;&nbsp;Help</p>
 			</div>

@@ -10,9 +10,6 @@
 			<div id="divHeader">
 				<?php include "inc/nav.part.php" ?>
 			</div>
-			<div id="divDownload">
-				<?php include "inc/download.part.php" ?>
-			</div>
 			<div id="divCrumb">
 				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Home</p>
 			</div>
@@ -56,13 +53,14 @@
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
-					<div class="listHeaderMiddle">News</div>
+					<div class="listHeaderMiddle">History</div>
 					<div class="listHeaderRight"></div>
 				</div>
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>
+							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>

@@ -10,9 +10,6 @@
 			<div id="divHeader">
 				<?php include "inc/nav.part.php" ?>
 			</div>
-			<div id="divDownload">
-				<?php include "inc/download.part.php" ?>
-			</div>
 			<div id="divCrumb">
 				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Changelog</p>
 			</div>
@@ -26,6 +23,10 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.16 (since 1.15)<br/>
+							Performance improvement.<br/>
+							Move download back to SourceForge.net<br/>
+							<br/>
 							1.15 (since 1.13)<br/>
 							Change name to JSTool.<br/>
 							Added simple search in Json Viewer.<br/>
