@@ -105,14 +105,18 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build - JSToolNPP.1.16.uni.zip:<br/>
-								SourceForget.net <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.16.uni.zip/download" target="_blank">Download</a>
-								Google Code <a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.uni.zip" target="_blank">Download</a><br/>
+								Unicode build - JSToolNPP.1.16.uni.zip:
+								<ul class="indentList circleList">
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.16.uni.zip/download" target="_blank">SourceForget.net Download</a></li>
+									<li><a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.uni.zip" target="_blank">Google Code Download</a></li>
+								</ul>
 								</li>
 								<li>
-								ASCII build - JSToolNPP.1.16.asc.zip:<br/>
-								SourceForget.net <a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.16.asc.zip/download" target="_blank">Download</a>
-								Google Code <a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.asc.zip" target="_blank">Download</a><br/>
+								ASCII build - JSToolNPP.1.16.asc.zip:
+								<ul class="indentList circleList">
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.16.asc.zip/download" target="_blank">SourceForget.net Download</a></li>
+									<li><a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.asc.zip" target="_blank">Google Code Download</a></li>
+								</ul>
 								</li>
 							</ul>
 						</div>
