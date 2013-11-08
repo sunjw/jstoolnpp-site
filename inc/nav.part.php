@@ -7,7 +7,7 @@
 				<li><a href="screenshots.php">Screenshots</a></li>
 				<li><a href="help.php">Help</a></li>
 				<li><a href="http://www.sunjw.us" target="_blank">Blog</a></li>
-				<li><a href="http://tetris5.sf.net" target="_blank">Tetris5</a></li>
+				<!--<li><a href="http://tetris5.sf.net" target="_blank">Tetris5</a></li>-->
 			</ul>
 		</div>
 	</li>

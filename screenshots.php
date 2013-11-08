@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSMinNpp - A Javascript plugin for notepad++ - Screenshots</title>
+    <title>JSToolNpp - A Javascript plugin for notepad++ - Screenshots</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -11,7 +11,7 @@
 				<?php include "inc/nav.part.php" ?>
 			</div>
 			<div id="divCrumb">
-				<p><a href="index.php">JSMinNpp</a>&nbsp;&gt;&gt;&nbsp;Screenshots</p>
+				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Screenshots</p>
 			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
@@ -49,7 +49,7 @@
 								</a></li>
 								<li><a href="imgs/jsminnpp-pluginmanager.png" class="lightBox" title="JSMinNpp in Plugin Manager">
 									<img src="imgs/jsminnpp-pluginmanager-tb.png" width="150" height="100" border="0" alt="JSMinNpp in Plugin Manager" />
-									<span>JSMinNpp in Plugin Manager</span>
+									<span>JSToolNpp in Plugin Manager</span>
 								</a></li>
 							</ul>
 							<div class="clear"></div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSMinNpp - A Javascript plugin for notepad++ - GPL</title>
+    <title>JSToolNpp - A Javascript plugin for notepad++ - GPL</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -11,7 +11,7 @@
 				<?php include "inc/nav.part.php" ?>
 			</div>
 			<div id="divCrumb">
-				<p><a href="index.php">JSMinNpp</a>&nbsp;&gt;&gt;&nbsp;GPL</p>
+				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;GPL</p>
 			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
