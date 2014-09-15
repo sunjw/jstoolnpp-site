@@ -2,48 +2,50 @@
 include_once "inc/common.inc.php";
 
 $checking = false;
+$is_lastest = false;
 
 $ver = get_query("ver");
 if($ver != "")
 	$checking = true;
 
-$ver_array = explode(".", $ver);
-$major_ver = $ver_array[0];
-$minor_ver = $ver_array[1];
-$maintenance_ver = $ver_array[2];
-$build_ver = $ver_array[3];
+if($checking) {
+	$ver_array = explode(".", $ver);
+	$major_ver = $ver_array[0];
+	$minor_ver = $ver_array[1];
+	$maintenance_ver = $ver_array[2];
+	$build_ver = $ver_array[3];
 
-$download_array = parse_ini_file("inc/version.ini", true);
-$cur_version = $download_array["JSMinNpp"]["version"];
-$cur_ver_array = explode(".", $cur_version);
-$cur_major_ver = $cur_ver_array[0];
-$cur_minor_ver = $cur_ver_array[1];
-$cur_maintenance_ver = $cur_ver_array[2];
-$cur_build_ver = $cur_ver_array[3];
+	$download_array = parse_ini_file("inc/version.ini", true);
+	$cur_version = $download_array["JSMinNpp"]["version"];
+	$cur_ver_array = explode(".", $cur_version);
+	$cur_major_ver = $cur_ver_array[0];
+	$cur_minor_ver = $cur_ver_array[1];
+	$cur_maintenance_ver = $cur_ver_array[2];
+	$cur_build_ver = $cur_ver_array[3];
 
-$is_lastest = false;
-if($major_ver < $cur_major_ver)
-	$is_lastest = false;
-else if($major_ver > $cur_major_ver)
-	$is_lastest = true;
-else if($minor_ver < $cur_minor_ver)
-	$is_lastest = false;
-else if($minor_ver > $cur_minor_ver)
-	$is_lastest = true;
-else if(!is_numeric($cur_maintenance_ver))
-	$is_lastest = true;
-else if($maintenance_ver < $cur_maintenance_ver)
-	$is_lastest = false;
-else if($maintenance_ver > $cur_maintenance_ver)
-	$is_lastest = true;
-else if(!is_numeric($cur_build_ver))
-	$is_lastest = true;
-else if($build_ver < $cur_build_ver)
-	$is_lastest = false;
-else if($build_ver > $cur_build_ver)
-	$is_lastest = true;
-else if($build_ver = $cur_build_ver)
-	$is_lastest = true;
+	if($major_ver < $cur_major_ver)
+		$is_lastest = false;
+	else if($major_ver > $cur_major_ver)
+		$is_lastest = true;
+	else if($minor_ver < $cur_minor_ver)
+		$is_lastest = false;
+	else if($minor_ver > $cur_minor_ver)
+		$is_lastest = true;
+	else if(!is_numeric($cur_maintenance_ver))
+		$is_lastest = true;
+	else if($maintenance_ver < $cur_maintenance_ver)
+		$is_lastest = false;
+	else if($maintenance_ver > $cur_maintenance_ver)
+		$is_lastest = true;
+	else if(!is_numeric($cur_build_ver))
+		$is_lastest = true;
+	else if($build_ver < $cur_build_ver)
+		$is_lastest = false;
+	else if($build_ver > $cur_build_ver)
+		$is_lastest = true;
+	else if($build_ver = $cur_build_ver)
+		$is_lastest = true;
+}
 	
 
 ?>
@@ -105,17 +107,15 @@ else if($build_ver = $cur_build_ver)
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build - JSToolNPP.1.16.uni.zip:
+								Unicode build - JSToolNPP.1.16.6.uni.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.16.uni.zip/download" target="_blank">SourceForget.net Download</a></li>
-									<li><a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.uni.zip" target="_blank">Google Code Download</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.16.6.uni.zip/download" target="_blank">SourceForget.net Download</a></li>
 								</ul>
 								</li>
 								<li>
-								ASCII build - JSToolNPP.1.16.asc.zip:
+								ASCII build - JSToolNPP.1.16.6.asc.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.16.asc.zip/download" target="_blank">SourceForget.net Download</a></li>
-									<li><a href="http://jstoolnpp.googlecode.com/files/JSToolNPP.1.16.asc.zip" target="_blank">Google Code Download</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.16.6.asc.zip/download" target="_blank">SourceForget.net Download</a></li>
 								</ul>
 								</li>
 							</ul>

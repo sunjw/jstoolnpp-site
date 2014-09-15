@@ -29,11 +29,10 @@
 								<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
-							<p>What's New in 1.13:</p>
+							<p>What's New in 1.16.6:</p>
 							<ul class="indentList circleList">
-								<li>Performance improved (JSFormat will be about 2X faster).</li>
-								<li>Linked editor with Json Viewer: Clicking a data node in Viewer, editor will navigate to corresponding line.</li>
-								<li>Added a logo.</li>
+								<li>Fix negative number bug.</li>
+								<li>Fix some expression format bug.</li>
 							</ul>
 							<p>Made in China.</p>
 							<p>License: <a href="gpl.php">GPL 2.0</a></p>
@@ -59,7 +58,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
+							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
