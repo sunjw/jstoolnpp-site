@@ -5,25 +5,19 @@
 <script type="text/javascript">
 //<![CDATA[
 $(function () {
-	$('a.lightBox').lightBox({
-		autoAdapt : true
-	});
-	
-	jqFolding.setup({
-		listSelector : ".foldingList",
-		triggerSelector : ".listHeader",
-		containerSelector : ".foldingContainer"
-	});
-	jqFolding.init();
-	
-	jqMenu.setup({
-		menuItemsSelector : ".menu",
-		menuButtonSelector : ".subToggle",
-		subMenuSelector : ".submenu",
-		inlineShadow : "transparent",
-		hoverOpen : true
-	});
-	$(jqMenu.init);
+    $('a.lightBox').lightBox({
+        autoAdapt : true
+    });
+
+    jqFolding.setup({
+        listSelector : ".foldingList",
+        triggerSelector : ".listHeader",
+        containerSelector : ".foldingContainer"
+    });
+    jqFolding.init();
+
+    //$(jqMenu.init);
+
 });
 
 var _gaq = _gaq || [];
@@ -31,25 +25,25 @@ _gaq.push(['_setAccount', 'UA-5927560-3']);
 _gaq.push(['_trackPageview']);
 
 (function () {
-	var ga = document.createElement('script');
-	ga.type = 'text/javascript';
-	ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(ga, s);
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
 })();
 
 window.___gcfg = {
-	lang : 'zh-CN'
+    lang : 'zh-CN'
 };
 
 (function () {
-	var po = document.createElement('script');
-	po.type = 'text/javascript';
-	po.async = true;
-	po.src = 'https://apis.google.com/js/plusone.js';
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(po, s);
+    var po = document.createElement('script');
+    po.type = 'text/javascript';
+    po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(po, s);
 })();
 //]]>
 </script>

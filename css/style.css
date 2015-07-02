@@ -60,6 +60,10 @@ input[type="submit"],input[type="button"] {
 }
 .pageWrapper #divHeader {
     margin-left: 10px;
+    margin-top: 0;
+}
+.pageWrapper #divCrumb {
+    margin-top: 70px;
 }
 .pageWrapper * * {
 	margin-left: 0;
@@ -77,8 +81,12 @@ input[type="submit"],input[type="button"] {
 /* Header */
 #divHeader {
 	margin-top: 0;
-    height: 80px;
+    width: 980px;
+    height: 60px;
 	background-color: black;
+    position: fixed;
+    top: 0;
+	z-index: 100;
 }
 #divHeader, #divHeader a {
 	color: White;
@@ -93,15 +101,28 @@ input[type="submit"],input[type="button"] {
 #divHeader #icon {
 	float: left;
 	display: block;
-    height: 80px;
+    height: 60px;
     width: 80px;
     background-color: white;
 }
 #divHeader #icon img {
-    margin-top: 16px;
+    margin-top: 8px;
     margin-left: 16px;
 }
 /* Header */
+
+/* Bread crumb */
+#divCrumb {
+	font-size: small;
+	color: #666;
+}
+#divCrumb a {
+    text-decoration: none;
+}
+#divCrumb a:hover {
+    text-decoration: underline;
+}
+/* Bread crumb */
 
 /* Dowload */
 #divDownload {
@@ -177,19 +198,6 @@ input[type="submit"],input[type="button"] {
 	font-size: small;
 }
 /* Dowload */
-
-/* Bread crumb */
-#divCrumb {
-	font-size: small;
-	color: #666;
-}
-#divCrumb a {
-    text-decoration: none;
-}
-#divCrumb a:hover {
-    text-decoration: underline;
-}
-/* Bread crumb */
 
 /* List with header */
 .divListwHeader, .divListwHeader .listHeader {
