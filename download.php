@@ -65,6 +65,9 @@ if($checking) {
 			<div id="divHeader">
 				<?php include "inc/nav.part.php" ?>
 			</div>
+            <div id="divCrumb">
+				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Download</p>
+			</div>
 			<?php 
 			if($checking)
 			{
@@ -97,9 +100,6 @@ if($checking) {
 				</div>
 			</div>
 			<?php } ?>
-			<div id="divCrumb">
-				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Download</p>
-			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
@@ -171,7 +171,7 @@ if($checking) {
 								Changelog: <a href="changelog.php">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/ChangeLog/view" target="_blank">Download</a>
 								</li>
 								<li>
-								Source code: <a href="https://code.google.com/p/jstoolnpp/source/browse/" target="_blank">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Src/" target="_blank">Download</a>
+								Source code: <a href="https://github.com/sunjw/jstoolnpp" target="_blank">View</a>
 								</li>
 								<li>
 								All files: <a href="http://sourceforge.net/projects/jsminnpp/files/" target="_blank">View</a>

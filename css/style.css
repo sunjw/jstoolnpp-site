@@ -29,7 +29,7 @@ body {
 }
 
 a {
-	text-decoration: none;
+	
 }
 img {
 	border: 0;
@@ -45,7 +45,7 @@ input[type="submit"],input[type="button"] {
 
 /* Wrapper */
 .pageWrapper {
-	width: 800px;
+	width: 1000px;
 	padding-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -54,9 +54,12 @@ input[type="submit"],input[type="button"] {
 	width: 1050px;
 }
 .pageWrapper * {
-	margin-left: 10px;
+	margin-left: 90px;
 	margin-right: 10px;
 	margin-top: 15px;
+}
+.pageWrapper #divHeader {
+    margin-left: 10px;
 }
 .pageWrapper * * {
 	margin-left: 0;
@@ -64,7 +67,7 @@ input[type="submit"],input[type="button"] {
 	margin-top: 0;
 }
 .pageWrapper a {
-	color: #32559B;
+	color: black;
 }
 .pageWrapper a:hover {
 	text-decoration: underline;
@@ -74,8 +77,8 @@ input[type="submit"],input[type="button"] {
 /* Header */
 #divHeader {
 	margin-top: 0;
-	background: white url('../imgs/header-bkg.png') left top no-repeat;
-	height: 80px;
+    height: 80px;
+	background-color: black;
 }
 #divHeader, #divHeader a {
 	color: White;
@@ -88,9 +91,15 @@ input[type="submit"],input[type="button"] {
 	font-family: "Courier New", courier, monospace, serif;
 }
 #divHeader #icon {
-	float: right;
-	margin-top: 12px;
-	margin-right: 10px;
+	float: left;
+	display: block;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+#divHeader #icon img {
+    margin-top: 16px;
+    margin-left: 16px;
 }
 /* Header */
 
@@ -174,25 +183,31 @@ input[type="submit"],input[type="button"] {
 	font-size: small;
 	color: #666;
 }
+#divCrumb a {
+    text-decoration: none;
+}
+#divCrumb a:hover {
+    text-decoration: underline;
+}
 /* Bread crumb */
 
 /* List with header */
 .divListwHeader, .divListwHeader .listHeader {
 }
 .divListwHeader {
-	background-color: White;
+	background-color: white;
 }
 
 /* List with header - header */
 .divListwHeader .listHeader {
-	color: White;
+	/*color: white;*/
+    border-bottom: 1px solid black;
 }
 .divListwHeader .listHeader:hover {
 	cursor: pointer;
-	/*background-color: #111111;*/
 }
 .divListwHeader .listHeader a {
-	color: white;
+	/*color: white;*/
 }
 .divListwHeader .listHeader a:hover {
 	text-decoration: underline;
@@ -206,12 +221,10 @@ input[type="submit"],input[type="button"] {
 	float: left;
 } 
 .divListwHeader .listHeader .listHeaderLeft {
-	width: 13px;
-	background: transparent url('../imgs/list-corner.png') top left no-repeat;
+	width: 20px;
 }
 .divListwHeader .listHeader .listHeaderMiddle {
-	width: 748px;
-	background: transparent url('../imgs/list-bar.png') top center repeat-x;
+	width: 740px;
 	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 }
 #divPk .divListwHeader .listHeader .listHeaderMiddle {
@@ -219,7 +232,6 @@ input[type="submit"],input[type="button"] {
 }
 .divListwHeader .listHeader .listHeaderRight {
 	width: 19px;
-	background: transparent url('../imgs/list-corner.png') top right no-repeat;
 }
 /* List with header - header */
 
@@ -232,18 +244,18 @@ input[type="submit"],input[type="button"] {
 } 
 .divListwHeader .listBottom .listBottomLeft {
 	width: 13px;
-	background: transparent url('../imgs/list-corner.png') bottom left no-repeat;
+	
 }
 .divListwHeader .listBottom .listBottomMiddle {
 	width: 748px;
-	background: transparent url('../imgs/list-bar.png') bottom center repeat-x;
+	
 }
 #divPk .divListwHeader .listBottom .listBottomMiddle {
 	width: 998px;
 }
 .divListwHeader .listBottom .listBottomRight {
 	width: 19px;
-	background: transparent url('../imgs/list-corner.png') bottom right no-repeat;
+	
 }
 /* List with header - bottom */
 
@@ -252,10 +264,10 @@ input[type="submit"],input[type="button"] {
 	float: left;
 } 
 .divListwHeader .listContainer {
-	background: transparent url('../imgs/list-container-left.png') top left repeat-y;
+	
 }
 .divListwHeader .listContainer .listContainerMiddle {
-	margin: 10px 0 10px 20px !important;
+	margin: 25px 0 10px 20px !important;
 	width: 740px;
 	background-color: white;
 	/*font-family: Georgia;*/
@@ -266,7 +278,7 @@ input[type="submit"],input[type="button"] {
 }
 .divListwHeader .listContainer .listContainerRight {
 	width: 780px;
-	background: transparent url('../imgs/list-container-right.png') top right repeat-y;
+	
 }
 #divPk .divListwHeader .listContainer .listContainerRight {
 	width: 1030px;

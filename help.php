@@ -16,7 +16,7 @@
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
-					<div class="listHeaderMiddle"></div>
+					<div class="listHeaderMiddle">Contents</div>
 					<div class="listHeaderRight"></div>
 				</div>
 				<div class="listContainer foldingContainer">

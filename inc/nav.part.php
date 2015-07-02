@@ -1,18 +1,18 @@
+<div id="icon">
+	<a href="index.php"><img src="imgs/icon_048.png" alt="icon"/></a>
+</div>
 <ul id="nav">
 	<li class="menu">
-		<a class="subToggle" href="index.php">{ JSToolNpp }</a>
-		<div class="submenu">
-			<ul class="submenuContainer">
-				<li><a href="download.php">Download</a></li>
-				<li><a href="screenshots.php">Screenshots</a></li>
-				<li><a href="help.php">Help</a></li>
-				<li><a href="http://www.sunjw.us" target="_blank">Blog</a></li>
-				<!--<li><a href="http://tetris5.sf.net" target="_blank">Tetris5</a></li>-->
-			</ul>
-		</div>
-	</li>
+        <a href="download.php">Download</a>
+    </li>
+    <li class="menu">
+        <a href="screenshots.php">Screenshots</a>
+    </li>
+    <li class="menu">
+        <a href="help.php">Help</a>
+    </li>
+    <li class="menu">
+        <a href="http://www.sunjw.us" target="_blank">Blog</a>
+    </li>
 </ul>
-<div id="icon">
-	<img src="imgs/icon_048.png" alt="icon"/>
-</div>
 	
