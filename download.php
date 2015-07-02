@@ -4,6 +4,9 @@ include_once "inc/common.inc.php";
 $checking = false;
 $is_lastest = false;
 
+$download_array = parse_ini_file("inc/version.ini", true);
+$cur_version = $download_array["JSMinNpp"]["version"];
+
 $ver = get_query("ver");
 if($ver != "")
 	$checking = true;
@@ -14,14 +17,15 @@ if($checking) {
 	$minor_ver = $ver_array[1];
 	$maintenance_ver = $ver_array[2];
 	$build_ver = $ver_array[3];
-
-	$download_array = parse_ini_file("inc/version.ini", true);
-	$cur_version = $download_array["JSMinNpp"]["version"];
+    
 	$cur_ver_array = explode(".", $cur_version);
 	$cur_major_ver = $cur_ver_array[0];
 	$cur_minor_ver = $cur_ver_array[1];
 	$cur_maintenance_ver = $cur_ver_array[2];
-	$cur_build_ver = $cur_ver_array[3];
+    $cur_build_ver = 0;
+    if(count($cur_ver_array) > 3) {
+        $cur_build_ver = $cur_ver_array[3];
+    }
 
 	if($major_ver < $cur_major_ver)
 		$is_lastest = false;
@@ -43,7 +47,7 @@ if($checking) {
 		$is_lastest = false;
 	else if($build_ver > $cur_build_ver)
 		$is_lastest = true;
-	else if($build_ver = $cur_build_ver)
+	else if($build_ver == $cur_build_ver)
 		$is_lastest = true;
 }
 	
@@ -107,15 +111,15 @@ if($checking) {
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build - JSToolNPP.1.16.6.uni.zip:
+								Unicode build - JSToolNPP.<?php echo $cur_version; ?>.uni.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.1.16.6.uni.zip/download" target="_blank">SourceForget.net Download</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.zip/download" target="_blank">SourceForget.net Download</a></li>
 								</ul>
 								</li>
 								<li>
-								ASCII build - JSToolNPP.1.16.6.asc.zip:
+								ASCII build - JSToolNPP.<?php echo $cur_version; ?>.asc.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.16.6.asc.zip/download" target="_blank">SourceForget.net Download</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.zip/download" target="_blank">SourceForget.net Download</a></li>
 								</ul>
 								</li>
 							</ul>
@@ -129,7 +133,7 @@ if($checking) {
 					<div class="listBottomRight"></div>
 				</div>
 			</div>
-			<div class="divListwHeader foldingList">
+			<!--<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
 					<div class="listHeaderMiddle"><a name="beta" title="Beta Version"></a>Beta Version</div>
@@ -149,7 +153,7 @@ if($checking) {
 					<div class="listBottomMiddle"></div>
 					<div class="listBottomRight"></div>
 				</div>
-			</div>
+			</div>-->
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
