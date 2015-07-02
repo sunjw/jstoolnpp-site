@@ -2,6 +2,9 @@
 	<a href="index.php"><img src="imgs/icon_048.png" alt="icon"/></a>
 </div>
 <ul id="nav">
+    <li class="menu">
+        <a href="index.php">JSToolNpp</a>
+    </li>
 	<li class="menu">
         <a href="download.php">Download</a>
     </li>
