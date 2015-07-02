@@ -58,7 +58,9 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
+                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>

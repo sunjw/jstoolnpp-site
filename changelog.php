@@ -23,6 +23,20 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+                            1.16.10<br/>
+                            Fix configuration saving bug.<br/>
+                            <br/>
+                            1.16.8<br/>
+                            Fix regex related bug.<br/>
+                            <br/>
+                            1.16.6<br/>
+                            Fix negative number bug.<br/>
+                            Fix some expression format bug.<br/>
+                            <br/>
+                            1.16.5<br/>
+                            Fix regex detection.<br/>
+                            Fix some crash bugs.<br/>
+                            <br/>
 							1.16 (since 1.15)<br/>
 							Performance improvement.<br/>
 							Move download back to SourceForge.net<br/>
