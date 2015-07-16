@@ -29,12 +29,12 @@
 								<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
-                            <p></p>
+                            <p>&nbsp;</p>
 							<p>What's New in 1.16.10:</p>
 							<ul class="indentList circleList">
 								<li>Fix configuration saving bug.</li>
 							</ul>
-                            <p></p>
+                            <p>&nbsp;</p>
 							<p>Made in China.</p>
 							<p>License: <a href="gpl.php">GPL 2.0</a></p>
 							<!--<p><g:plusone size="small"></g:plusone></p>-->
