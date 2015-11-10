@@ -11,7 +11,9 @@
 				<?php include "inc/nav.part.php" ?>
 			</div>
 			<div id="divCrumb">
-				<p><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Home</p>
+				<div class="floatLeft"><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Home</div>
+                <div class="floatRight">from the creator of <a href="https://itunes.apple.com/us/app/fhash/id1055555711?mt=12" target="_blank">fHash for Mac OS X</a></div>
+                <div class="clear"></div>
 			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
