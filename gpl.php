@@ -15,9 +15,6 @@
                 <div class="floatRight">from the creator of <a href="https://itunes.apple.com/us/app/fhash/id1055555711?mt=12" target="_blank">fHash for Mac OS X</a></div>
                 <div class="clear"></div>
 			</div>
-			<div id="divCrumb">
-				<p></p>
-			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
