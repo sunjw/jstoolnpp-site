@@ -67,7 +67,7 @@ if($checking) {
 			</div>
             <div id="divCrumb">
 				<div class="floatLeft"><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Download</div>
-                <div class="floatRight">from the creator of <a href="https://itunes.apple.com/us/app/fhash/id1055555711?mt=12" target="_blank">fHash for Mac OS X</a></div>
+                <div class="floatRight">from the creator of <a href="https://github.com/sunjw/fhash" target="_blank">fHash for Mac OS X</a></div>
                 <div class="clear"></div>
 			</div>
 			<?php 
