@@ -12,7 +12,7 @@
 			</div>
             <div id="divCrumb">
 				<div class="floatLeft"><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Changelog</div>
-                <div class="floatRight">from the creator of <a href="https://github.com/sunjw/fhash" target="_blank">fHash for Mac OS X</a></div>
+                <div class="floatRight"><?php include "inc/ad.part.php" ?></div>
                 <div class="clear"></div>
 			</div>
 			<div class="divListwHeader foldingList">

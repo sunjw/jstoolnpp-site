@@ -1,0 +1,1 @@
+from the author of <a href="https://github.com/sunjw/fhash" target="_blank">fHash for Mac OS X</a>
