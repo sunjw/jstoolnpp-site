@@ -32,9 +32,11 @@
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
-							<p>What's New in 1.16.10:</p>
+							<p>What's New in 1.17.2:</p>
 							<ul class="indentList circleList">
-								<li>Fix configuration saving bug.</li>
+								<li>Switch to VS2008.</li>
+								<li>Enable DEP and ASLR.</li>
+								<li>Other tweak.</li>
 							</ul>
                             <p>&nbsp;</p>
 							<p>Made in China.</p>
@@ -61,7 +63,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
+                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2015-05-29</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
@@ -74,14 +77,8 @@
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.10 Released</a><span class="newsDate"> - 2012-01-19</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.9.2 Beta Released</a><span class="newsDate"> - 2011-11-18</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.9 Released</a><span class="newsDate"> - 2011-09-21</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.8.6 Beta Released</a><span class="newsDate"> - 2011-08-02</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.8.4 Beta Released</a><span class="newsDate"> - 2011-06-18</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.8 Released</a><span class="newsDate"> - 2011-05-02</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.7.4 Beta Released</a><span class="newsDate"> - 2011-03-31</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.7.2 Beta Released</a><span class="newsDate"> - 2011-03-04</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.7 Released</a><span class="newsDate"> - 2011-02-26</span></p>
+							<p>&nbsp;</p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">More...</a></p>
 						</div>
 					</div>
 					<div class="clear"></div>

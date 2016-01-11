@@ -25,6 +25,14 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+                            1.17.2<br/>
+                            Switch to VS2008.<br/>
+                            Enable DEP and ASLR.<br/>
+                            Other tweak.<br/>
+                            <br/>
+                            1.17<br/>
+                            Fix inline comment format.<br/>
+                            Other tweak.<br/>
                             1.16.10<br/>
                             Fix configuration saving bug.<br/>
                             <br/>
