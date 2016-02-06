@@ -33,6 +33,7 @@
                             1.17<br/>
                             Fix inline comment format.<br/>
                             Other tweak.<br/>
+                            <br/>
                             1.16.10<br/>
                             Fix configuration saving bug.<br/>
                             <br/>
