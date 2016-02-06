@@ -64,19 +64,19 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
                             <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2015-05-29</span></p>
-                            <p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
-                            <p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.11.2 Beta Released</a><span class="newsDate"> - 2012-07-11</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php#beta">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/download.php">JSMinNpp 1.10 Released</a><span class="newsDate"> - 2012-01-19</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.11.2 Beta Released</a><span class="newsDate"> - 2012-07-11</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
+							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.10 Released</a><span class="newsDate"> - 2012-01-19</span></p>
 							<p>&nbsp;</p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">More...</a></p>
 						</div>
