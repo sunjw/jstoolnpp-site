@@ -167,10 +167,10 @@ if($checking) {
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								README: <a href="http://sourceforge.net/projects/jsminnpp/files/README/view" target="_blank">Download</a>
+								README: <a href="https://github.com/sunjw/jstoolnpp/blob/master/README" target="_blank">View</a>
 								</li>
 								<li>
-								Changelog: <a href="changelog.php">View</a>&nbsp;|&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/ChangeLog/view" target="_blank">Download</a>
+								Changelog: <a href="changelog.php">View</a>
 								</li>
 								<li>
 								Source code: <a href="https://github.com/sunjw/jstoolnpp" target="_blank">View</a>

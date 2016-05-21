@@ -32,10 +32,11 @@
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
-							<p>What's New in 1.17.2:</p>
+							<p>What's New in 1.18.0:</p>
 							<ul class="indentList circleList">
-								<li>Switch to VS2008.</li>
-								<li>Enable DEP and ASLR.</li>
+								<li>Add some ES6 support.</li>
+								<li>Fix UTF-8 characters display in Json Viewer.</li>
+								<li>Better cursor position after JSFormat.</li>
 								<li>Other tweak.</li>
 							</ul>
                             <p>&nbsp;</p>
@@ -63,7 +64,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2015-05-29</span></p>
+                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.18.0 Released</a><span class="newsDate"> - 2016-05-21</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2016-01-10</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>

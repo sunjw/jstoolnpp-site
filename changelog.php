@@ -25,6 +25,12 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+                            1.18.0<br/>
+                            Add some ES6 support.<br/>
+                            Fix UTF-8 characters display in Json Viewer.<br/>
+                            Better cursor position after JSFormat.<br/>
+                            Other tweak.<br/>
+                            <br/>
                             1.17.2<br/>
                             Switch to VS2008.<br/>
                             Enable DEP and ASLR.<br/>
