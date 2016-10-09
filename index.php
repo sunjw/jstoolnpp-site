@@ -29,14 +29,18 @@
 								<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize Javascript code.</li>
 								<li>My own algorithm to format Javascript code.</li>
 								<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
+								<li>Support 64bit Notepad++ (from version 1.20.0).</li>
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
-							<p>What's New in 1.18.0:</p>
+							<p>What's New in 1.20.0:</p>
 							<ul class="indentList circleList">
-								<li>Add some ES6 support.</li>
-								<li>Fix UTF-8 characters display in Json Viewer.</li>
-								<li>Better cursor position after JSFormat.</li>
+								<li>Add 64bit Notepad++ support.</li>
+								<li>Add new version check.</li>
+								<li>Add context menu in Json Viewer.</li>
+								<li>Better ":" format.</li>
+								<li>Fix XOR "~" format bug.</li>
+								<li>Fix bug in Json Viewer.</li>
 								<li>Other tweak.</li>
 							</ul>
                             <p>&nbsp;</p>
@@ -64,21 +68,14 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.18.0 Released</a><span class="newsDate"> - 2016-05-21</span></p>
+                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.20.0 Released</a><span class="newsDate"> - 2016-10-09</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.18.0 Released</a><span class="newsDate"> - 2016-05-21</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2016-01-10</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.15 Released</a><span class="newsDate"> - 2013-06-28</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.13 Released</a><span class="newsDate"> - 2013-03-29</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.12 Released</a><span class="newsDate"> - 2012-12-28</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.11.4 Beta Released</a><span class="newsDate"> - 2012-10-12</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.11.2 Beta Released</a><span class="newsDate"> - 2012-07-11</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.11 Released</a><span class="newsDate"> - 2012-05-06</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.10.6 Beta Released</a><span class="newsDate"> - 2012-04-07</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSMinNpp 1.10 Released</a><span class="newsDate"> - 2012-01-19</span></p>
 							<p>&nbsp;</p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">More...</a></p>
 						</div>

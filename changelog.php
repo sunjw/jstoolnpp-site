@@ -25,6 +25,15 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.20.0<br/>
+                            Add 64bit Notepad++ support.<br/>
+                            Add new version check.<br/>
+                            Add context menu in Json Viewer.<br/>
+                            Better ":" format.<br/>
+                            Fix XOR "~" format bug.<br/>
+                            Fix bug in Json Viewer.<br/>
+                            Other tweak.<br/>
+                            <br/>
                             1.18.0<br/>
                             Add some ES6 support.<br/>
                             Fix UTF-8 characters display in Json Viewer.<br/>

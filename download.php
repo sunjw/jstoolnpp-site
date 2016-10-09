@@ -113,15 +113,27 @@ if($checking) {
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode build - JSToolNPP.<?php echo $cur_version; ?>.uni.zip:
+								Unicode 32bit build - JSToolNPP.<?php echo $cur_version; ?>.uni.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.zip/download" target="_blank">SourceForget.net Download</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.zip/download" target="_blank">Download from SourceForget.net</a></li>
 								</ul>
 								</li>
 								<li>
-								ASCII build - JSToolNPP.<?php echo $cur_version; ?>.asc.zip:
+								Unicode 64bit build - JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.zip/download" target="_blank">SourceForget.net Download</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip/download" target="_blank">Download from SourceForget.net</a></li>
+								</ul>
+								</li>
+								<li>
+								ASCII 32bit build - JSToolNPP.<?php echo $cur_version; ?>.asc.zip:
+								<ul class="indentList circleList">
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.zip/download" target="_blank">Download from SourceForget.net</a></li>
+								</ul>
+								</li>
+								<li>
+								ASCII 32bit build - JSToolNPP.<?php echo $cur_version; ?>.asc.64.zip:
+								<ul class="indentList circleList">
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></li>
 								</ul>
 								</li>
 							</ul>
