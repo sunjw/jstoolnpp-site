@@ -113,9 +113,9 @@ if($checking) {
 						<div class="listContainerMiddle">
 							<ul>
 								<li>
-								Unicode 32bit build - JSToolNPP.<?php echo $cur_version; ?>.uni.zip:
+								Unicode 32bit build - JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.zip/download" target="_blank">Download from SourceForget.net</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip/download" target="_blank">Download from SourceForget.net</a></li>
 								</ul>
 								</li>
 								<li>
@@ -125,9 +125,9 @@ if($checking) {
 								</ul>
 								</li>
 								<li>
-								ASCII 32bit build - JSToolNPP.<?php echo $cur_version; ?>.asc.zip:
+								ASCII 32bit build - JSToolNPP.<?php echo $cur_version; ?>.asc.32.zip:
 								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.zip/download" target="_blank">Download from SourceForget.net</a></li>
+									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></li>
 								</ul>
 								</li>
 								<li>
