@@ -33,15 +33,10 @@
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
-							<p>What's New in 1.20.0:</p>
+							<p>What's New in 1.20.2:</p>
 							<ul class="indentList circleList">
-								<li>Add 64bit Notepad++ support.</li>
-								<li>Add new version check.</li>
-								<li>Add context menu in Json Viewer.</li>
-								<li>Better ":" format.</li>
-								<li>Fix XOR "~" format bug.</li>
-								<li>Fix bug in Json Viewer.</li>
-								<li>Other tweak.</li>
+								<li>Fix 64bit version crash on some Windows 10 system.</li>
+								<li>Better `...`, '...' and "..." format.</li>
 							</ul>
                             <p>&nbsp;</p>
 							<p>Made in China.</p>
@@ -68,7 +63,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.20.0 Released</a><span class="newsDate"> - 2016-10-09</span></p>
+                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.20.2 Released</a><span class="newsDate"> - 2016-12-18</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.20.0 Released</a><span class="newsDate"> - 2016-10-09</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.18.0 Released</a><span class="newsDate"> - 2016-05-21</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2016-01-10</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>

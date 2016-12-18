@@ -25,6 +25,10 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.20.2<br/>
+                            Fix 64bit version crash on some Windows 10 system.<br/>
+                            Better `...`, '...' and "..." format.<br/>
+                            <br/>
 							1.20.0<br/>
                             Add 64bit Notepad++ support.<br/>
                             Add new version check.<br/>
