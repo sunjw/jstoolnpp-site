@@ -25,6 +25,15 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.21.0<br/>
+							Unicode only release build.<br/>
+							Add toolbar button for Json Viewer.<br/>
+							Add an option to control new version check.<br/>
+							Add an "Auto detect" end of line option.<br/>
+							Fix high DPI layout.<br/>
+							Fix bugs.<br/>
+							Other tweak.<br/>
+							<br/>
 							1.20.2<br/>
                             Fix 64bit version crash on some Windows 10 system.<br/>
                             Better `...`, '...' and "..." format.<br/>

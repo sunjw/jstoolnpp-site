@@ -33,10 +33,15 @@
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
-							<p>What's New in 1.20.2:</p>
+							<p>What's New in 1.21.0:</p>
 							<ul class="indentList circleList">
-								<li>Fix 64bit version crash on some Windows 10 system.</li>
-								<li>Better `...`, '...' and "..." format.</li>
+								<li>Unicode only release build.</li>
+								<li>Add toolbar button for Json Viewer.</li>
+								<li>Add an option to control new version check.</li>
+								<li>Add an "Auto detect" end of line option.</li>
+								<li>Fix high DPI layout.</li>
+								<li>Fix bugs.</li>
+								<li>Other tweak.</li>
 							</ul>
                             <p>&nbsp;</p>
 							<p>Made in China.</p>
@@ -63,7 +68,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.20.2 Released</a><span class="newsDate"> - 2016-12-18</span></p>
+                            <p><a class="lastestNews" href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.21.0 Released</a><span class="newsDate"> - 2017-05-15</span></p>
+                            <p><a href="http://www.sunjw.us/jsminnpp/download.php">JSToolNpp 1.20.2 Released</a><span class="newsDate"> - 2016-12-18</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.20.0 Released</a><span class="newsDate"> - 2016-10-09</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.18.0 Released</a><span class="newsDate"> - 2016-05-21</span></p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2016-01-10</span></p>
@@ -71,7 +77,6 @@
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
 							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
-							<p><a href="http://www.sunjw.us/jsminnpp/changelog.php">JSToolNpp 1.16 Released</a><span class="newsDate"> - 2013-10-20</span></p>
 							<p>&nbsp;</p>
                             <p><a href="http://www.sunjw.us/jsminnpp/changelog.php">More...</a></p>
 						</div>

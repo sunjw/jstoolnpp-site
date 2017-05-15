@@ -111,30 +111,20 @@ if($checking) {
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<ul>
+							<ul class="circleList">
 								<li>
-								Unicode 32bit build - JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip:
-								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip/download" target="_blank">Download from SourceForget.net</a></li>
-								</ul>
+									<div>
+									<p>Unicode build:</p>
+									<p>32bit - JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									<p>64bit - JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									</div>
 								</li>
 								<li>
-								Unicode 64bit build - JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip:
-								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip/download" target="_blank">Download from SourceForget.net</a></li>
-								</ul>
-								</li>
-								<li>
-								ASCII 32bit build - JSToolNPP.<?php echo $cur_version; ?>.asc.32.zip:
-								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></li>
-								</ul>
-								</li>
-								<li>
-								ASCII 32bit build - JSToolNPP.<?php echo $cur_version; ?>.asc.64.zip:
-								<ul class="indentList circleList">
-									<li><a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.<?php echo $cur_version; ?>.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></li>
-								</ul>
+									<div>
+									<p>ASCII build (<em>no more updates after 1.20.2</em>):</p>
+									<p>32bit - JSToolNPP.1.20.2.asc.32.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									<p>64bit - JSToolNPP.1.20.2.asc.64.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									</div>
 								</li>
 							</ul>
 						</div>
