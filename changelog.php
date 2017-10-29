@@ -25,6 +25,9 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.21.1<br/>
+							Fix JSMin crash.<br/>
+							<br/>
 							1.21.0<br/>
 							Unicode only release build.<br/>
 							Add toolbar button for Json Viewer.<br/>
