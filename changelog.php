@@ -25,6 +25,9 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.21.6<br/>
+							Fix format on reserved word as function name.<br/>
+							<br/>
 							1.21.1<br/>
 							Fix JSMin crash.<br/>
 							<br/>
