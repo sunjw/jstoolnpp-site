@@ -9,11 +9,11 @@ function getScrollTop() {
         document.documentElement.scrollTop);
 }
 
+var pageWrapper = 0;
+var navItem = 0;
+
 function onPageScroll() {
     var scrollTopPos = getScrollTop();
-
-    var pageWrapper = $(".pageWrapper");
-    var navItem = $("#nav li.menu a");
 
     if (scrollTopPos < 20) {
         pageWrapper.removeClass("fixedHeader");
@@ -39,6 +39,9 @@ $(function () {
         containerSelector: ".foldingContainer"
     });
     jqFolding.init();
+
+    pageWrapper = $(".pageWrapper");
+    navItem = $("#nav li.menu a");
 
     var jqWindow = $(window);
     jqWindow.scroll(function () {
