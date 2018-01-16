@@ -1,20 +1,20 @@
 ﻿#nav {
 	float: left;
-    margin-left: 40px;
+	margin-left: 40px;
 }
 #nav li.menu {
 	display: block;
 	float: left;
-    font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 	font-size: 20px;
-    height: 60px;
-    padding: 0 40px;
+	height: 60px;
+	padding: 0 40px;
 }
 #nav li.menu a {
-    margin-top: 20px;
+	margin-top: 20px;
 	display: block;
-    text-decoration: none;
-    text-align: center;
+	text-decoration: none;
+	text-align: center;
 }
 #nav li.menu a:hover {
 	text-decoration: underline;
