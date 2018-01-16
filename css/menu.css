@@ -1,17 +1,17 @@
 ﻿#nav {
 	float: left;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 #nav li.menu {
 	display: block;
 	float: left;
     font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 	font-size: 20px;
-    height: 80px;
-    width: 160px;
+    height: 60px;
+    padding: 0 40px;
 }
 #nav li.menu a {
-    margin-top: 24px;
+    margin-top: 20px;
 	display: block;
     text-decoration: none;
     text-align: center;
