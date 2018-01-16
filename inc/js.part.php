@@ -6,13 +6,13 @@
 //<![CDATA[
 $(function () {
     $('a.lightBox').lightBox({
-        autoAdapt : true
+        autoAdapt: true
     });
 
     jqFolding.setup({
-        listSelector : ".foldingList",
-        triggerSelector : ".listHeader",
-        containerSelector : ".foldingContainer"
+        listSelector: ".foldingList",
+        triggerSelector: ".listHeader",
+        containerSelector: ".foldingContainer"
     });
     jqFolding.init();
 
@@ -34,7 +34,7 @@ _gaq.push(['_trackPageview']);
 })();
 
 window.___gcfg = {
-    lang : 'zh-CN'
+    lang: 'zh-CN'
 };
 
 (function () {
