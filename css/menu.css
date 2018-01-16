@@ -20,7 +20,7 @@
 	text-align: center;
 }
 .fixedHeader #nav li.menu a {
-	margin-top: 10px;
+	margin-top: 10px !important;
 }
 #nav li.menu a:hover {
 	text-decoration: underline;

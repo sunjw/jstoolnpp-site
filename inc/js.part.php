@@ -20,7 +20,7 @@ function onPageScroll() {
     } else {
         pageWrapper.addClass("fixedHeader");
     }
-    if (scrollTopPos < 10 || scrollTopPos >= 20) {
+    if (scrollTopPos < 10) {
         navItem.css("margin-top", "");
     } else {
         var fixMarginTop = 20 + scrollTopPos - 10;
