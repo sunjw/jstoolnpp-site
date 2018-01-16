@@ -9,7 +9,7 @@
         <a href="download.php">Download</a>
     </li>
     <li class="menu">
-        <a href="screenshots.php">Screenshots</a>
+        <a href="changelog.php">Changelog</a>
     </li>
     <li class="menu">
         <a href="help.php">Help</a>
