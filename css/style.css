@@ -80,6 +80,8 @@ input[type="submit"],input[type="button"] {
 	margin-top: 0;
 	width: 980px;
 	height: 60px;
+}
+.fixedHeader #divHeader {
 	position: fixed;
 	top: 0;
 	z-index: 100;
@@ -109,7 +111,11 @@ input[type="submit"],input[type="button"] {
 }
 #divHeader #navWrapper {
 	margin-left: 80px;
+	height: 60px;
 	background-color: black;
+}
+.fixedHeader #divHeader #navWrapper {
+	height: 40px;
 }
 /* Header */
 
@@ -117,6 +123,9 @@ input[type="submit"],input[type="button"] {
 #divCrumb {
 	font-size: small;
 	color: #666;
+	margin-top: 10px;
+}
+.fixedHeader #divCrumb {
 	margin-top: 70px;
 }
 #divCrumb a {
