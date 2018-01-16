@@ -10,21 +10,22 @@ function getScrollTop() {
 }
 
 var pageWrapper = 0;
-var navItem = 0;
+var navWrapper = 0;
 
 function onPageScroll() {
     var scrollTopPos = getScrollTop();
 
-    if (scrollTopPos < 20) {
+    if (scrollTopPos < 10) {
         pageWrapper.removeClass("fixedHeader");
+        navWrapper.css("height", "");
     } else {
         pageWrapper.addClass("fixedHeader");
-    }
-    if (scrollTopPos < 10) {
-        navItem.css("margin-top", "");
-    } else {
-        var fixMarginTop = 20 + scrollTopPos - 10;
-        navItem.css("margin-top", fixMarginTop + "px");
+        var fixHeight = 60 - scrollTopPos;
+        if (fixHeight >= 40) {
+            navWrapper.css("height", fixHeight + "px");
+        } else {
+            navWrapper.css("height", "");
+        }
     }
 }
 
@@ -41,7 +42,7 @@ $(function () {
     jqFolding.init();
 
     pageWrapper = $(".pageWrapper");
-    navItem = $("#nav li.menu a");
+    navWrapper = $("#divHeader #navWrapper");
 
     var jqWindow = $(window);
     jqWindow.scroll(function () {
