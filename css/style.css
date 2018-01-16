@@ -59,8 +59,8 @@ input[type="submit"],input[type="button"] {
 	margin-top: 15px;
 }
 .pageWrapper #divHeader {
-    margin-left: 10px;
-    margin-top: 0;
+	margin-left: 10px;
+	margin-top: 0;
 }
 .pageWrapper * * {
 	margin-left: 0;
@@ -78,13 +78,13 @@ input[type="submit"],input[type="button"] {
 /* Header */
 #divHeader {
 	margin-top: 0;
-    width: 980px;
-    height: 60px;
+	width: 980px;
+	height: 60px;
 	background-color: black;
 }
 .fixedHeader #divHeader {
-    position: fixed;
-    top: 0;
+	position: fixed;
+	top: 0;
 	z-index: 100;
 }
 #divHeader, #divHeader a {
@@ -100,13 +100,13 @@ input[type="submit"],input[type="button"] {
 #divHeader #icon {
 	float: left;
 	display: block;
-    height: 60px;
-    width: 80px;
-    background-color: white;
+	height: 60px;
+	width: 80px;
+	background-color: white;
 }
 #divHeader #icon img {
-    margin-top: 8px;
-    margin-left: 16px;
+	margin-top: 8px;
+	margin-left: 16px;
 }
 /* Header */
 
@@ -117,13 +117,13 @@ input[type="submit"],input[type="button"] {
 	margin-top: 10px;
 }
 .fixedHeader #divCrumb {
-    margin-top: 70px;
+	margin-top: 70px;
 }
 #divCrumb a {
-    text-decoration: none;
+	text-decoration: none;
 }
 #divCrumb a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 /* Bread crumb */
 
@@ -212,7 +212,7 @@ input[type="submit"],input[type="button"] {
 /* List with header - header */
 .divListwHeader .listHeader {
 	/*color: white;*/
-    border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
 }
 .divListwHeader .listHeader:hover {
 	cursor: pointer;
@@ -425,7 +425,7 @@ canvas {
 	bottom: 0;
 	-moz-border-radius: 5px 5px 0 0;
 	webkit-border-radius: 5px 5px 0 0;
-    border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
 }
 .drawBar .drawResult {
 	color: white;
@@ -453,7 +453,7 @@ ul.indentList {
 }
 ul.circleList li {
 	list-style-position: outside;
-    list-style-type: disc;
+	list-style-type: disc;
 }
 
 .lastestNews {
