@@ -9,22 +9,24 @@ function getScrollTop() {
         document.documentElement.scrollTop);
 }
 
+var pageWrapper = 0;
+var navItem = 0;
+var navItemArchor = 0;
+
 function onPageScroll() {
     var scrollTopPos = getScrollTop();
 
-    var pageWrapper = $(".pageWrapper");
-    var navItem = $("#nav li.menu a");
-
     if (scrollTopPos < 20) {
-        pageWrapper.removeClass("fixedHeader");
+        var fixHeight = 60 - scrollTopPos;
+        navItem.css("height", fixHeight + "px");
     } else {
-        pageWrapper.addClass("fixedHeader");
+        navItem.css("height", "40px");
     }
     if (scrollTopPos < 10) {
-        navItem.css("margin-top", "");
+        var fixMarginTop = 20 - scrollTopPos;
+        navItemArchor.css("margin-top", fixMarginTop + "px");
     } else {
-        var fixMarginTop = 20 + scrollTopPos - 10;
-        navItem.css("margin-top", fixMarginTop + "px");
+        navItemArchor.css("margin-top", "10px");
     }
 }
 
@@ -39,6 +41,10 @@ $(function () {
         containerSelector: ".foldingContainer"
     });
     jqFolding.init();
+
+    pageWrapper = $(".pageWrapper");
+    navItem = $("#nav li.menu");
+    navItemArchor = $("#nav li.menu a");
 
     var jqWindow = $(window);
     jqWindow.scroll(function () {
