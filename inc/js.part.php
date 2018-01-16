@@ -40,12 +40,13 @@ $(function () {
     });
     jqFolding.init();
 
-    window.onscroll = function () {
+    var jqWindow = $(window);
+    jqWindow.scroll(function () {
         onPageScroll();
-    }
-    window.onresize = function () {
+    });
+    jqWindow.resize(function () {
         onPageScroll();
-    }
+    });
     onPageScroll();
 });
 
