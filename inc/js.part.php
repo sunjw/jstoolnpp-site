@@ -1,6 +1,5 @@
 <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
 <script type="text/javascript" src="js/jquery.folding.min.js"></script>
-<script type="text/javascript" src="js/jquery.menu.min.js"></script>
 <script type="text/javascript" src="js/jquery.lightbox-0.5.plus.js"></script>
 <script type="text/javascript">
 //<![CDATA[
@@ -14,10 +13,18 @@ function onPageScroll() {
     var scrollTopPos = getScrollTop();
 
     var pageWrapper = $(".pageWrapper");
+    var navItem = $("#nav li.menu a");
+
     if (scrollTopPos < 20) {
         pageWrapper.removeClass("fixedHeader");
     } else {
         pageWrapper.addClass("fixedHeader");
+    }
+    if (scrollTopPos < 10 || scrollTopPos >= 20) {
+        navItem.css("margin-top", "");
+    } else {
+        var fixMarginTop = 20 + scrollTopPos - 10;
+        navItem.css("margin-top", fixMarginTop + "px");
     }
 }
 
@@ -32,8 +39,6 @@ $(function () {
         containerSelector: ".foldingContainer"
     });
     jqFolding.init();
-
-    //$(jqMenu.init);
 
     window.onscroll = function () {
         onPageScroll();
