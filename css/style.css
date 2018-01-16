@@ -97,11 +97,13 @@ input[type="submit"],input[type="button"] {
 	font-family: "Courier New", courier, monospace, serif;
 }
 #divHeader #icon {
-	float: left;
 	display: block;
 	height: 60px;
 	width: 80px;
 	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 100;
 }
 #divHeader #icon img {
 	margin-top: 8px;
