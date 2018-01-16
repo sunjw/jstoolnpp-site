@@ -80,7 +80,6 @@ input[type="submit"],input[type="button"] {
 	margin-top: 0;
 	width: 980px;
 	height: 60px;
-	background-color: black;
 }
 .fixedHeader #divHeader {
 	position: fixed;
@@ -107,6 +106,13 @@ input[type="submit"],input[type="button"] {
 #divHeader #icon img {
 	margin-top: 8px;
 	margin-left: 16px;
+}
+#divHeader #navWrapper {
+	height: 60px;
+	background-color: black;
+}
+.fixedHeader #divHeader #navWrapper {
+	height: 40px;
 }
 /* Header */
 

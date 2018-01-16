@@ -4,6 +4,23 @@
 <script type="text/javascript" src="js/jquery.lightbox-0.5.plus.js"></script>
 <script type="text/javascript">
 //<![CDATA[
+function getScrollTop() {
+    return (window.pageYOffset ||
+        document.body.scrollTop ||
+        document.documentElement.scrollTop);
+}
+
+function onPageScroll() {
+    var scrollTopPos = getScrollTop();
+
+    var pageWrapper = $(".pageWrapper");
+    if (scrollTopPos < 20) {
+        pageWrapper.removeClass("fixedHeader");
+    } else {
+        pageWrapper.addClass("fixedHeader");
+    }
+}
+
 $(function () {
     $('a.lightBox').lightBox({
         autoAdapt: true
@@ -18,6 +35,13 @@ $(function () {
 
     //$(jqMenu.init);
 
+    window.onscroll = function () {
+        onPageScroll();
+    }
+    window.onresize = function () {
+        onPageScroll();
+    }
+    onPageScroll();
 });
 
 var _gaq = _gaq || [];

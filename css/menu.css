@@ -10,11 +10,17 @@
 	height: 60px;
 	padding: 0 40px;
 }
+.fixedHeader #nav li.menu {
+	height: 40px;
+}
 #nav li.menu a {
 	margin-top: 20px;
 	display: block;
 	text-decoration: none;
 	text-align: center;
+}
+.fixedHeader #nav li.menu a {
+	margin-top: 10px;
 }
 #nav li.menu a:hover {
 	text-decoration: underline;
