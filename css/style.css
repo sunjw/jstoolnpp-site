@@ -62,9 +62,6 @@ input[type="submit"],input[type="button"] {
     margin-left: 10px;
     margin-top: 0;
 }
-.pageWrapper #divCrumb {
-    margin-top: 70px;
-}
 .pageWrapper * * {
 	margin-left: 0;
 	margin-right: 0;
@@ -84,6 +81,8 @@ input[type="submit"],input[type="button"] {
     width: 980px;
     height: 60px;
 	background-color: black;
+}
+.fixedHeader #divHeader {
     position: fixed;
     top: 0;
 	z-index: 100;
@@ -115,6 +114,10 @@ input[type="submit"],input[type="button"] {
 #divCrumb {
 	font-size: small;
 	color: #666;
+	margin-top: 10px;
+}
+.fixedHeader #divCrumb {
+    margin-top: 70px;
 }
 #divCrumb a {
     text-decoration: none;
