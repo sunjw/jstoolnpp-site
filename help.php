@@ -177,7 +177,7 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>If found any bugs or problem, you can visit <a href="http://sourceforge.net/projects/jsminnpp/support" target="_blank">JSToolNpp Support on Sourceforte.net</a> or feel free to email me: sunjw8888 at gmail.com.</p>
+							<p>If found any bugs or problem, you can visit <a href="https://github.com/sunjw/jstoolnpp/issues" target="_blank">JSToolNpp issues on GitHub.com</a> or feel free to email me: sunjw8888 at gmail.com.</p>
 						</div>
 					</div>
 					<div class="clear"></div>

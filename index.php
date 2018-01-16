@@ -138,7 +138,7 @@
 								<li>3. Under "Available" tab, select "JSTool".</li>
 								<li>4. Click "Install" button. Then Plugin Manager will do downloading and installing automatically.</li>
 							</ul>
-							<p>Or you can <a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSMinNPP.1.6.1.uni.zip/download" target="_blank">download JSToolNpp</a> and install it manually. <a href="help.php#Install_manually">See Help...</a></p>
+							<p>Or you can <a href="download.php">download JSToolNpp</a> and install it manually. <a href="help.php#Install_manually">See Help...</a></p>
 						</div>
 					</div>
 					<div class="clear"></div>

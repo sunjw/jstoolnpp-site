@@ -115,15 +115,15 @@ if($checking) {
 								<li>
 									<div>
 									<p>Unicode build:</p>
-									<p>32bit - JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
-									<p>64bit - JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									<p>32bit - JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									<p>64bit - JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
 									</div>
 								</li>
 								<li>
 									<div>
 									<p>ASCII build (<em>no more updates after 1.20.2</em>):</p>
-									<p>32bit - JSToolNPP.1.20.2.asc.32.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
-									<p>64bit - JSToolNPP.1.20.2.asc.64.zip:&nbsp;<a href="http://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									<p>32bit - JSToolNPP.1.20.2.asc.32.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
+									<p>64bit - JSToolNPP.1.20.2.asc.64.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
 									</div>
 								</li>
 							</ul>
@@ -178,7 +178,7 @@ if($checking) {
 								Source code: <a href="https://github.com/sunjw/jstoolnpp" target="_blank">View</a>
 								</li>
 								<li>
-								All files: <a href="http://sourceforge.net/projects/jsminnpp/files/" target="_blank">View</a>
+								All files: <a href="https://sourceforge.net/projects/jsminnpp/files/" target="_blank">View</a>
 								</li>
 							</ul>
 						</div>
