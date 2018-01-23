@@ -460,9 +460,13 @@ canvas {
 ul.indentList {
 	margin-left: 1em;
 }
-ul.discList li {
+ul.discList {
 	list-style-position: outside;
 	list-style-type: disc;
+}
+ul.circleList {
+	list-style-position: outside;
+	list-style-type: circle;
 }
 
 .lastestNews {

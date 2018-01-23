@@ -44,7 +44,7 @@
 								<li>JavaScript/JSON format.</li>
 								<li>
 									JSON viwer with:
-									<ul class="indentList discList">
+									<ul class="indentList circleList">
 										<li>Search</li>
 										<li>Node expand/collapse</li>
 										<li>Node data copy</li>
