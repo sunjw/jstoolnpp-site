@@ -460,7 +460,7 @@ canvas {
 ul.indentList {
 	margin-left: 1em;
 }
-ul.circleList li {
+ul.discList li {
 	list-style-position: outside;
 	list-style-type: disc;
 }

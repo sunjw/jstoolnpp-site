@@ -25,7 +25,7 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>A Javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
-							<ul class="indentList circleList">
+							<ul class="indentList discList">
 								<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize Javascript code.</li>
 								<li>My own algorithm to format Javascript code.</li>
 								<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
@@ -34,17 +34,17 @@
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
 							<p>What's New in <a href="http://www.sunjw.us/jstoolnpp/download.php">1.21.6</a>:</p>
-							<ul class="indentList circleList">
+							<ul class="indentList discList">
 								<li>Fix format on reserved word as function name.</li>
 							</ul>
 							<p>&nbsp;</p>
 							<p>Features:</p>
-							<ul class="indentList circleList">
+							<ul class="indentList discList">
 								<li>JavaScript minify.</li>
 								<li>JavaScript/JSON format.</li>
 								<li>
 									JSON viwer with:
-									<ul class="indentList circleList">
+									<ul class="indentList discList">
 										<li>Search</li>
 										<li>Node expand/collapse</li>
 										<li>Node data copy</li>

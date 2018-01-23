@@ -111,7 +111,7 @@ if($checking) {
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<ul class="circleList">
+							<ul class="discList">
 								<li>
 									<div>
 									<p>Unicode build:</p>
