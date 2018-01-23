@@ -33,9 +33,23 @@
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
-							<p>What's New in 1.21.6:</p>
+							<p>What's New in <a href="http://www.sunjw.us/jstoolnpp/download.php">1.21.6</a>:</p>
 							<ul class="indentList circleList">
 								<li>Fix format on reserved word as function name.</li>
+							</ul>
+							<p>&nbsp;</p>
+							<p>Features:</p>
+							<ul class="indentList circleList">
+								<li>JavaScript minify.</li>
+								<li>JavaScript/JSON format.</li>
+								<li>
+									JSON viwer with:
+									<ul class="indentList circleList">
+										<li>Search</li>
+										<li>Node expand/collapse</li>
+										<li>Node data copy</li>
+									</ul>
+								</li>
 							</ul>
                             <p>&nbsp;</p>
 							<p>Made in China.</p>
@@ -56,7 +70,7 @@
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
 					<div class="listHeaderLeft"></div>
-					<div class="listHeaderMiddle">History</div>
+					<div class="listHeaderMiddle">Release history</div>
 					<div class="listHeaderRight"></div>
 				</div>
 				<div class="listContainer foldingContainer">
