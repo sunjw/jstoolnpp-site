@@ -33,9 +33,10 @@
 							</ul>
 							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
-							<p>What's New in <a href="http://www.sunjw.us/jstoolnpp/download.php">1.21.6</a>:</p>
+							<p>What's New in <a href="http://www.sunjw.us/jstoolnpp/download.php">1.22.0</a>:</p>
 							<ul class="indentList discList">
-								<li>Fix format on reserved word as function name.</li>
+								<li>Add JSON Sort function.</li>
+								<li>Fix blocking Notepad++ startup in some environment.</li>
 							</ul>
 							<p>&nbsp;</p>
 							<p>Features:</p>
@@ -50,6 +51,7 @@
 										<li>Node data copy</li>
 									</ul>
 								</li>
+								<li>JSON sort.</li>
 							</ul>
                             <p>&nbsp;</p>
 							<p>Made in China.</p>
@@ -76,7 +78,8 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-                            <p><a class="lastestNews" href="http://www.sunjw.us/jstoolnpp/download.php">JSToolNpp 1.21.6 Released</a><span class="newsDate"> - 2017-12-16</span></p>
+							<p><a class="lastestNews" href="http://www.sunjw.us/jstoolnpp/download.php">JSToolNpp 1.22.0 Released</a><span class="newsDate"> - 2018-04-15</span></p>
+                            <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.21.6 Released</a><span class="newsDate"> - 2017-12-16</span></p>
                             <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.21.1 Released</a><span class="newsDate"> - 2017-10-29</span></p>
                             <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.21.0 Released</a><span class="newsDate"> - 2017-05-15</span></p>
                             <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.20.2 Released</a><span class="newsDate"> - 2016-12-18</span></p>

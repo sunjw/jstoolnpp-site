@@ -25,6 +25,10 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.22.0<br/>
+							Add JSON Sort function.<br/>
+							Fix blocking Notepad++ startup in some environment.<br/>
+							<br/>
 							1.21.6<br/>
 							Fix format on reserved word as function name.<br/>
 							<br/>
