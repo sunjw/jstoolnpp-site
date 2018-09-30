@@ -43,6 +43,7 @@
 							<ul class="indentList discList">
 								<li>JavaScript minify.</li>
 								<li>JavaScript/JSON format.</li>
+								<li>Sort JSON data alphabetically.</li>
 								<li>
 									JSON viwer with:
 									<ul class="indentList circleList">
