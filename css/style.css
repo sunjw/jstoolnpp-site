@@ -79,7 +79,6 @@ input[type="submit"],input[type="button"] {
 #divHeader {
 	margin-top: 0;
 	width: 980px;
-	height: 60px;
 }
 .fixedHeader #divHeader {
 	position: fixed;
