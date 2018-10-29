@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSToolNpp - A Javascript plugin for notepad++</title>
+    <title>JSToolNpp - A JavaScript plugin for notepad++</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -24,14 +24,14 @@
 				<div class="listContainer foldingContainer">
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
-							<p>A Javascript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
+							<p>A JavaScript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
 							<ul class="indentList discList">
-								<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize Javascript code.</li>
-								<li>My own algorithm to format Javascript code.</li>
+								<li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize JavaScript code.</li>
+								<li>My own algorithm to format JavaScript code.</li>
 								<li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
 								<li>Support 64bit Notepad++ (from version 1.20.0, ".64.zip" package).</li>
 							</ul>
-							<p>Really helpful to Javascript coder on Notepad++ and really easy to use it.</p>
+							<p>Really helpful to JavaScript coder on Notepad++ and really easy to use it.</p>
                             <p>&nbsp;</p>
 							<p>What's New in <a href="http://www.sunjw.us/jstoolnpp/download.php">1.22.0</a>:</p>
 							<ul class="indentList discList">

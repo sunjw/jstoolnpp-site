@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSToolNpp - A Javascript plugin for notepad++ - Help</title>
+    <title>JSToolNpp - A JavaScript plugin for notepad++ - Help</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -134,26 +134,26 @@
 						<div class="listContainerMiddle">
 							<p>Minimize source code:</p>
 							<ul class="indentList">
-								<li>1. Open you Javascript source code file in Notepad++.</li>
+								<li>1. Open you JavaScript source code file in Notepad++.</li>
 								<li>2. Open menu: "Plugins" - "JSTool".</li>
 								<li>3. If you want to put minimized source code in current file, click "JSMin". Or if you want to put minimized source code in a new file, click "JSMin (New file)".</li>
 							</ul>
 							<p>Format all code in a source code file:</p>
 							<ul class="indentList">
-								<li>1. Open you Javascript source code file in Notepad++.</li>
+								<li>1. Open you JavaScript source code file in Notepad++.</li>
 								<li>2. Press "Ctrl"+"Alt"+"M".</li>
 								<li>3. Or use menu, open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
 							</ul>
 							<p>Format selected code in a source code file:</p>
 							<ul class="indentList">
-								<li>1. Open you Javascript source code file in Notepad++.</li>
+								<li>1. Open you JavaScript source code file in Notepad++.</li>
 								<li>2. Select source code lines which you want to format.</li>
 								<li>3. Press "Ctrl"+"Alt"+"M".</li>
 								<li>4. Or use menu, open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
 							</ul>
 							<p>Json Viewer:</p>
 							<ul class="indentList">
-								<li>1. Open you Javascript or json source code file in Notepad++.</li>
+								<li>1. Open you JavaScript or json source code file in Notepad++.</li>
 								<li>2. Select json code. Or if it's a json file, there is no need to select.</li>
 								<li>3. Press "Ctrl"+"Alt"+"J".</li>
 								<li>4. Or use menu, open menu: "Plugins" - "JSTool" then click "Json Viewer".</li>
