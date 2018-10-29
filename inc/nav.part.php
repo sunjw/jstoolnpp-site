@@ -1,5 +1,5 @@
 <div id="icon">
-	<a href="index.php"><img src="imgs/icon_048.png" alt="icon"/></a>
+    <a href="index.php"><img src="imgs/icon_048.png" alt="icon"/></a>
 </div>
 <div id="navWrapper">
     <ul id="nav">
@@ -21,4 +21,4 @@
     </ul>
     <div class="clear"></div>
 </div>
-	
+<div id="vscPromo">Your favourite JavaScript plugin now works on <a href="https://marketplace.visualstudio.com/items?itemName=sunjw.jstool" target="_blank">Visual Studio Code</a>!</div>

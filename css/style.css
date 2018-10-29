@@ -115,6 +115,15 @@ input[type="submit"],input[type="button"] {
 .fixedHeader #divHeader #navWrapper {
 	height: 40px;
 }
+#vscPromo {
+	width: 890px;
+	height: 32px;
+	line-height: 32px;
+	margin-left: 80px;
+	padding-right: 10px;
+	background-color: #007ACC;
+	text-align: right;
+}
 /* Header */
 
 /* Bread crumb */
@@ -124,7 +133,7 @@ input[type="submit"],input[type="button"] {
 	margin-top: 10px;
 }
 .fixedHeader #divCrumb {
-	margin-top: 70px;
+	margin-top: 102px;
 }
 #divCrumb a {
 	text-decoration: none;

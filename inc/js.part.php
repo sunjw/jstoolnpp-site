@@ -13,6 +13,8 @@ var pageWrapper = 0;
 var navWrapper = 0;
 
 function onPageScroll() {
+    var nonFixedNavHeight = 60;
+    var fixedNavHeight = nonFixedNavHeight - 20;
     var scrollTopPos = getScrollTop();
 
     if (scrollTopPos < 10) {
@@ -20,8 +22,8 @@ function onPageScroll() {
         navWrapper.css("height", "");
     } else {
         pageWrapper.addClass("fixedHeader");
-        var fixHeight = 60 - scrollTopPos;
-        if (fixHeight >= 40) {
+        var fixHeight = nonFixedNavHeight - scrollTopPos;
+        if (fixHeight >= fixedNavHeight) {
             navWrapper.css("height", fixHeight + "px");
         } else {
             navWrapper.css("height", "");
@@ -81,4 +83,3 @@ window.___gcfg = {
 })();
 //]]>
 </script>
-	
