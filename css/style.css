@@ -111,7 +111,6 @@ input[type="submit"],input[type="button"] {
 }
 #divHeader #navWrapper {
 	margin-left: 80px;
-	height: 60px;
 	background-color: black;
 }
 .fixedHeader #divHeader #navWrapper {
