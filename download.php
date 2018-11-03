@@ -17,15 +17,15 @@ if($checking) {
 	$minor_ver = $ver_array[1];
 	$maintenance_ver = $ver_array[2];
 	$build_ver = $ver_array[3];
-    
+	
 	$cur_ver_array = explode(".", $cur_version);
 	$cur_major_ver = $cur_ver_array[0];
 	$cur_minor_ver = $cur_ver_array[1];
 	$cur_maintenance_ver = $cur_ver_array[2];
-    $cur_build_ver = 0;
-    if(count($cur_ver_array) > 3) {
-        $cur_build_ver = $cur_ver_array[3];
-    }
+	$cur_build_ver = 0;
+	if(count($cur_ver_array) > 3) {
+		$cur_build_ver = $cur_ver_array[3];
+	}
 
 	if($major_ver < $cur_major_ver)
 		$is_lastest = false;
@@ -56,7 +56,7 @@ if($checking) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSToolNpp - A JavaScript plugin for notepad++ - Download</title>
+	<title>JSToolNpp - A JavaScript plugin for notepad++ - Download</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -65,10 +65,10 @@ if($checking) {
 			<div id="divHeader">
 				<?php include "inc/nav.part.php" ?>
 			</div>
-            <div id="divCrumb">
+			<div id="divCrumb">
 				<div class="floatLeft"><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Download</div>
-                <div class="floatRight"><?php include "inc/ad.part.php" ?></div>
-                <div class="clear"></div>
+				<div class="floatRight"><?php include "inc/ad.part.php" ?></div>
+				<div class="clear"></div>
 			</div>
 			<?php 
 			if($checking)

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>JSToolNpp - A JavaScript plugin for notepad++ - Changelog</title>
+	<title>JSToolNpp - A JavaScript plugin for notepad++ - Changelog</title>
 	<?php include "inc/head.part.php" ?>
 </head>
 <body>
@@ -10,10 +10,10 @@
 			<div id="divHeader">
 				<?php include "inc/nav.part.php" ?>
 			</div>
-            <div id="divCrumb">
+			<div id="divCrumb">
 				<div class="floatLeft"><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Changelog</div>
-                <div class="floatRight"><?php include "inc/ad.part.php" ?></div>
-                <div class="clear"></div>
+				<div class="floatRight"><?php include "inc/ad.part.php" ?></div>
+				<div class="clear"></div>
 			</div>
 			<div class="divListwHeader foldingList">
 				<div class="listHeader">
@@ -45,47 +45,47 @@
 							Other tweak.<br/>
 							<br/>
 							1.20.2<br/>
-                            Fix 64bit version crash on some Windows 10 system.<br/>
-                            Better `...`, '...' and "..." format.<br/>
-                            <br/>
+							Fix 64bit version crash on some Windows 10 system.<br/>
+							Better `...`, '...' and "..." format.<br/>
+							<br/>
 							1.20.0<br/>
-                            Add 64bit Notepad++ support.<br/>
-                            Add new version check.<br/>
-                            Add context menu in Json Viewer.<br/>
-                            Better ":" format.<br/>
-                            Fix XOR "~" format bug.<br/>
-                            Fix bug in Json Viewer.<br/>
-                            Other tweak.<br/>
-                            <br/>
-                            1.18.0<br/>
-                            Add some ES6 support.<br/>
-                            Fix UTF-8 characters display in Json Viewer.<br/>
-                            Better cursor position after JSFormat.<br/>
-                            Other tweak.<br/>
-                            <br/>
-                            1.17.2<br/>
-                            Switch to VS2008.<br/>
-                            Enable DEP and ASLR.<br/>
-                            Other tweak.<br/>
-                            <br/>
-                            1.17<br/>
-                            Fix inline comment format.<br/>
-                            Other tweak.<br/>
-                            <br/>
-                            1.16.10<br/>
-                            Fix configuration saving bug.<br/>
-                            <br/>
-                            1.16.8<br/>
-                            Fix regex related bug.<br/>
-                            <br/>
-                            1.16.6<br/>
-                            Fix negative number bug.<br/>
-                            Fix some expression format bug.<br/>
-                            <br/>
-                            1.16.5<br/>
-                            Fix regex detection.<br/>
-                            Fix some crash bugs.<br/>
-                            <br/>
+							Add 64bit Notepad++ support.<br/>
+							Add new version check.<br/>
+							Add context menu in Json Viewer.<br/>
+							Better ":" format.<br/>
+							Fix XOR "~" format bug.<br/>
+							Fix bug in Json Viewer.<br/>
+							Other tweak.<br/>
+							<br/>
+							1.18.0<br/>
+							Add some ES6 support.<br/>
+							Fix UTF-8 characters display in Json Viewer.<br/>
+							Better cursor position after JSFormat.<br/>
+							Other tweak.<br/>
+							<br/>
+							1.17.2<br/>
+							Switch to VS2008.<br/>
+							Enable DEP and ASLR.<br/>
+							Other tweak.<br/>
+							<br/>
+							1.17<br/>
+							Fix inline comment format.<br/>
+							Other tweak.<br/>
+							<br/>
+							1.16.10<br/>
+							Fix configuration saving bug.<br/>
+							<br/>
+							1.16.8<br/>
+							Fix regex related bug.<br/>
+							<br/>
+							1.16.6<br/>
+							Fix negative number bug.<br/>
+							Fix some expression format bug.<br/>
+							<br/>
+							1.16.5<br/>
+							Fix regex detection.<br/>
+							Fix some crash bugs.<br/>
+							<br/>
 							1.16 (since 1.15)<br/>
 							Performance improvement.<br/>
 							Move download back to SourceForge.net<br/>
