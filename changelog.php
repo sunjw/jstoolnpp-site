@@ -25,6 +25,23 @@
 					<div class="listContainerRight">
 						<div class="listContainerMiddle">
 							<p>
+							1.1810.3<br/>
+							[VSC] Fix publish.<br/>
+							<br/>
+							1.1810.2<br/>
+							[VSC] Only set file type to "javascript" when format whole document.<br/>
+							<br/>
+							1.1810.1<br/>
+							[VSC] Update package, remove useless files.<br/>
+							<br/>
+							1.1810.0<br/>
+							[Common] Fix "export default" format.<br/>
+							[Common] Fix '/' in [] within regular expression format.<br/>
+							[Common] Not to format Unix Shebang at begining of a script.<br/>
+							[Common] Change version naming to MAJOR.YEAR-MONTH.BUILD.<br/>
+							[NPP] Fix json parser remove escaped ' or " at the end of string.<br/>
+							[VSC] JSTool for Visual Studio Code.<br/>
+							<br/>
 							1.22.0<br/>
 							Add JSON Sort function.<br/>
 							Fix blocking Notepad++ startup in some environment.<br/>
