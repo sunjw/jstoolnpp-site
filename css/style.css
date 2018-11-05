@@ -85,13 +85,6 @@ input[type="submit"],input[type="button"] {
     top: 0;
     z-index: 100;
 }
-#divHeader h1 {
-    padding-top: 25px;
-    /*padding-left: 55px;*/
-    float: left;
-    text-shadow: #666 1px 1px;
-    font-family: "Courier New", courier, monospace, serif;
-}
 #divHeader #icon {
     display: block;
     height: 60px;
@@ -105,8 +98,10 @@ input[type="submit"],input[type="button"] {
     margin-top: 8px;
     margin-left: 16px;
 }
-#divHeader #navWrapper {
+#divHeader #navWrapper, #divHeader #headerTitle {
     margin-left: 80px;
+}
+#divHeader #navWrapper {
     background-color: black;
 }
 #divHeader #navWrapper,#divHeader #navWrapper a {

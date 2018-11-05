@@ -35,12 +35,12 @@ $(function () {
 
     var jqWindow = $(window);
     jqWindow.scroll(function () {
-        onPageScroll();
+        //onPageScroll();
     });
     jqWindow.resize(function () {
-        onPageScroll();
+        //onPageScroll();
     });
-    onPageScroll();
+    //onPageScroll();
 });
 
 /*
