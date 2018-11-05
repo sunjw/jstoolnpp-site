@@ -117,15 +117,15 @@
 					<div class="listContainerRight">
 						<div id="divScreenshots" class="listContainerMiddle">
 							<ul id="ulScreenshots">
-								<li><a href="imgs/jsminnpp-menu.png" class="lightBox" title="JSToolNpp Menu">
+								<li><a href="imgs/jsminnpp-menu.png" title="JSToolNpp Menu">
 									<img src="imgs/jsminnpp-menu-tb.png" width="150" height="100" border="0" alt="JSToolNpp Menu" />
 									<span>JSToolNpp Menu</span>
 								</a></li>
-								<li><a href="imgs/jsminnpp-about.png" class="lightBox" title="About Dialog">
+								<li><a href="imgs/jsminnpp-about.png" title="About Dialog">
 									<img src="imgs/jsminnpp-about-tb.png" width="150" height="100" border="0" alt="About Dialog" />
 									<span>About Dialog</span>
 								</a></li>
-								<li><a href="imgs/jsminnpp-pluginmanager.png" class="lightBox" title="JSToolNpp in Plugin Manager">
+								<li><a href="imgs/jsminnpp-pluginmanager.png" title="JSToolNpp in Plugin Manager">
 									<img src="imgs/jsminnpp-pluginmanager-tb.png" width="150" height="100" border="0" alt="JSToolNpp in Plugin Manager" />
 									<span>JSToolNpp in Plugin Manager</span>
 								</a></li>
