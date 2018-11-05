@@ -7,12 +7,12 @@
  */
 function post_query($param_name)
 {
-	$query = "";
-	if(isset($_POST[$param_name]))
-	{
-		$query = $_POST[$param_name];
-	}
-	return $query;
+    $query = "";
+    if(isset($_POST[$param_name]))
+    {
+        $query = $_POST[$param_name];
+    }
+    return $query;
 }
 
 
@@ -23,12 +23,12 @@ function post_query($param_name)
  */
 function get_query($param_name)
 {
-	$query = "";
-	if(isset($_GET[$param_name]))
-	{
-		$query = $_GET[$param_name];
-	}
-	return $query;
+    $query = "";
+    if(isset($_GET[$param_name]))
+    {
+        $query = $_GET[$param_name];
+    }
+    return $query;
 }
 
 /**
@@ -38,12 +38,12 @@ function get_query($param_name)
  */
 function get_cookie($name)
 {
-	$value = "";
-	if(isset($_COOKIE[$name]))
-	{
-		$value = $_COOKIE[$name];
-	}
-	return $value;
+    $value = "";
+    if(isset($_COOKIE[$name]))
+    {
+        $value = $_COOKIE[$name];
+    }
+    return $value;
 }
 
 /**
@@ -52,12 +52,12 @@ function get_cookie($name)
  */
 function get_URI()
 {
-	if($_SERVER['QUERY_STRING'] != "")
-		$uri = $_SERVER['PHP_SELF'].'?'.$_SERVER['QUERY_STRING'];
-	else
-		$uri = $_SERVER['PHP_SELF'];
-		
-	return $uri;
+    if($_SERVER['QUERY_STRING'] != "")
+        $uri = $_SERVER['PHP_SELF'].'?'.$_SERVER['QUERY_STRING'];
+    else
+        $uri = $_SERVER['PHP_SELF'];
+        
+    return $uri;
 }
 
 /**
@@ -66,14 +66,14 @@ function get_URI()
  */
 function get_base_dir()
 {
-	$current_file_path = dirname(__FILE__); // inc 文件夹的绝对路径
-	$current_base_path = substr($current_file_path, 0, -3);
-	if(substr($current_base_path, strlen($current_base_path) - 1, 1) != "\\" && 
-		substr($current_base_path, strlen($current_base_path) - 1, 1) != "/")
-	{
-		$current_base_path .= "/";
-	}
-	return $current_base_path;
+    $current_file_path = dirname(__FILE__); // inc 文件夹的绝对路径
+    $current_base_path = substr($current_file_path, 0, -3);
+    if(substr($current_base_path, strlen($current_base_path) - 1, 1) != "\\" && 
+        substr($current_base_path, strlen($current_base_path) - 1, 1) != "/")
+    {
+        $current_base_path .= "/";
+    }
+    return $current_base_path;
 }
 
 /**
@@ -82,7 +82,7 @@ function get_base_dir()
  */
 function get_encoding()
 {
-	return "UTF-8";
+    return "UTF-8";
 }
 
 /**
@@ -92,7 +92,7 @@ function get_encoding()
  */
 function convert_gbtoutf8($str)
 {
-	return @iconv("GB2312", "UTF-8", $str);
+    return @iconv("GB2312", "UTF-8", $str);
 }
 
 /**
@@ -102,7 +102,7 @@ function convert_gbtoutf8($str)
  */
 function convert_utf8togb($str)
 {
-	return @iconv("UTF-8", "GB2312", $str);
+    return @iconv("UTF-8", "GB2312", $str);
 }
 
 /**
@@ -113,29 +113,29 @@ function convert_utf8togb($str)
  */
 function xcopy($src, $dest)
 {
-	if(!$dh = @opendir($src))
-		return false;
-	
-	if(!is_dir($dest))
-		if(!@mkdir($dest))
-			return false;
-	
-	while(false !== ($item = readdir($dh)))
-	{
-		if($item != '.' && $item != '..')
-		{
-			$src_folder_content = $src. '/' .$item;
-			$dest_folder_content = $dest. '/' .$item;
-			
-			if(is_file($src_folder_content))
-				@copy($src_folder_content, $dest_folder_content);
-			elseif(is_dir($src_folder_content))
-				xcopy($src_folder_content, $dest_folder_content);
-		}
-	}
-		
-	closedir($dh);
-	return true;
+    if(!$dh = @opendir($src))
+        return false;
+    
+    if(!is_dir($dest))
+        if(!@mkdir($dest))
+            return false;
+    
+    while(false !== ($item = readdir($dh)))
+    {
+        if($item != '.' && $item != '..')
+        {
+            $src_folder_content = $src. '/' .$item;
+            $dest_folder_content = $dest. '/' .$item;
+            
+            if(is_file($src_folder_content))
+                @copy($src_folder_content, $dest_folder_content);
+            elseif(is_dir($src_folder_content))
+                xcopy($src_folder_content, $dest_folder_content);
+        }
+    }
+        
+    closedir($dh);
+    return true;
 }
 
 /**
@@ -146,7 +146,7 @@ function xcopy($src, $dest)
  */
 function get_basename($filename)
 {
-	return preg_replace('/^.+[\\\\\\/]/', '', $filename);
+    return preg_replace('/^.+[\\\\\\/]/', '', $filename);
 }
 
 /**
@@ -156,11 +156,11 @@ function get_basename($filename)
  */
 function redirect($url, $need_rawurldecode = false)
 {
-	if($need_rawurldecode)
-		$url = rawurldecode($url);
-	
-	header("Location: " . $url);
-	exit;
+    if($need_rawurldecode)
+        $url = rawurldecode($url);
+    
+    header("Location: " . $url);
+    exit;
 }
 
 /**
@@ -168,7 +168,7 @@ function redirect($url, $need_rawurldecode = false)
  */
 function set_response_utf8()
 {
-	header("Content-Type: text/html; charset=UTF-8");
+    header("Content-Type: text/html; charset=UTF-8");
 }
 
 /**
@@ -178,16 +178,16 @@ function set_response_utf8()
  */
 function timestrtotime($str)
 {
-	$array = explode(" ", $str);
-	$date = $array[0];
-	$time = $array[1];
-	
-	$date = explode("-", $date);
-	$time = explode(":", $time);
-	
-	$timestamp = mktime($time[0], $time[1], $time[2], $date[1], $date[2], $date[0]);
-	
-	return $timestamp;
+    $array = explode(" ", $str);
+    $date = $array[0];
+    $time = $array[1];
+    
+    $date = explode("-", $date);
+    $time = explode(":", $time);
+    
+    $timestamp = mktime($time[0], $time[1], $time[2], $date[1], $date[2], $date[0]);
+    
+    return $timestamp;
 }
 
 /**
@@ -197,7 +197,7 @@ function timestrtotime($str)
  */
 function htmlentities_utf8($str)
 {
-	return htmlentities($str, ENT_COMPAT, "UTF-8");
+    return htmlentities($str, ENT_COMPAT, "UTF-8");
 }
 
 /**
@@ -207,11 +207,11 @@ function htmlentities_utf8($str)
  */
 function erase_last_slash($str)
 {
-	$temp = $str;
-	if(mb_substr($str, -1) == "/" || mb_substr($str, -1) == "\\" )
-		$temp = mb_substr($str, 0, mb_strlen($str) - 1);
-		
-	return $temp;
+    $temp = $str;
+    if(mb_substr($str, -1) == "/" || mb_substr($str, -1) == "\\" )
+        $temp = mb_substr($str, 0, mb_strlen($str) - 1);
+        
+    return $temp;
 }
 
 ?>
