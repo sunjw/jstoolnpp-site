@@ -3,5 +3,4 @@
 <link rel="shortcut icon" href="http://www.sunjw.us/jstoolnpp/favicon.ico" type="image/vnd.microsoft.icon">
 <link rel="icon" href="http://www.sunjw.us/jstoolnpp/favicon.ico" type="image/vnd.microsoft.icon">
 <link href="../css/style.css" rel="stylesheet" type="text/css" />
-<link href="../css/menu.css" rel="stylesheet" type="text/css" />
 	
