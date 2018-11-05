@@ -1,5 +1,5 @@
 <div id="icon">
-    <a href="index.php"><img src="imgs/icon_048.png" alt="icon"/></a>
+    <a href="index.php"><img src="../imgs/icon_048.png" alt="icon"/></a>
 </div>
 <div id="navWrapper">
     <ul id="nav">
