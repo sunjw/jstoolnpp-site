@@ -1,220 +1,220 @@
 /* Common */
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 body {
-	font-family: Arial, sans-serif;
-	/*background: url('../imgs/bkg.png') top repeat-x;*/
-	line-height: 1.3em;
+    font-family: Arial, sans-serif;
+    /*background: url('../imgs/bkg.png') top repeat-x;*/
+    line-height: 1.3em;
 }
 .clear {
-	clear: both;
+    clear: both;
 }
 .center {
-	text-align: center;
+    text-align: center;
 }
 .floatLeft {
-	float: left;
+    float: left;
 }
 .floatRight {
-	float: right;
+    float: right;
 }
 
 .shown {
-	display: block;	
+    display: block;    
 }
 .hidden {
-	display: none;
+    display: none;
 }
 
 a {
-	
+    
 }
 img {
-	border: 0;
+    border: 0;
 }
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 input[type="submit"],input[type="button"] {
-	padding: 1px 4px;
+    padding: 1px 4px;
 }
 /* Common */
 
 /* Wrapper */
 .pageWrapper {
-	width: 1000px;
-	padding-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 1000px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #divPk.pageWrapper {
-	width: 1050px;
+    width: 1050px;
 }
 .pageWrapper * {
-	margin-left: 90px;
-	margin-right: 10px;
-	margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 .pageWrapper #divHeader {
-	margin-left: 10px;
-	margin-top: 0;
+    margin-left: 10px;
+    margin-top: 0;
 }
 .pageWrapper * * {
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
 .pageWrapper a {
-	color: black;
+    color: black;
 }
 .pageWrapper a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 /* Wrapper */
 
 /* Header */
 #divHeader {
-	margin-top: 0;
-	width: 980px;
+    margin-top: 0;
+    width: 980px;
 }
 .fixedHeader #divHeader {
-	position: fixed;
-	top: 0;
-	z-index: 100;
-}
-#divHeader, #divHeader a {
-	color: White;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 #divHeader h1 {
-	padding-top: 25px;
-	/*padding-left: 55px;*/
-	float: left;
-	text-shadow: #666 1px 1px;
-	font-family: "Courier New", courier, monospace, serif;
+    padding-top: 25px;
+    /*padding-left: 55px;*/
+    float: left;
+    text-shadow: #666 1px 1px;
+    font-family: "Courier New", courier, monospace, serif;
 }
 #divHeader #icon {
-	display: block;
-	height: 60px;
-	width: 80px;
-	background-color: white;
-	position: fixed;
-	top: 0;
-	z-index: 100;
+    display: block;
+    height: 60px;
+    width: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 #divHeader #icon img {
-	margin-top: 8px;
-	margin-left: 16px;
+    margin-top: 8px;
+    margin-left: 16px;
 }
 #divHeader #navWrapper {
-	margin-left: 80px;
-	background-color: black;
+    margin-left: 80px;
+    background-color: black;
+}
+#divHeader #navWrapper,#divHeader #navWrapper a {
+    color: white;
 }
 .fixedHeader #divHeader #navWrapper {
-	height: 40px;
+    height: 40px;
 }
 #vscPromo {
-	width: 890px;
-	height: 32px;
-	line-height: 32px;
-	margin-left: 80px;
-	padding-right: 10px;
-	background-color: #007ACC;
-	text-align: right;
+    width: 890px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 80px;
+    padding-right: 10px;
+    background-color: #007ACC;
+    text-align: right;
 }
 /* Header */
 
 /* Bread crumb */
 #divCrumb {
-	font-size: small;
-	color: #666;
-	margin-top: 10px;
+    font-size: small;
+    color: #666;
+    margin-top: 10px;
 }
 .fixedHeader #divCrumb {
-	margin-top: 102px;
+    margin-top: 102px;
 }
 #divCrumb a {
-	text-decoration: none;
+    text-decoration: none;
 }
 #divCrumb a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 /* Bread crumb */
 
 /* Dowload */
 #divDownload {
-	font-family: Georgia, serif;
-	margin-left: 90px;
+    font-family: Georgia, serif;
+    margin-left: 90px;
 }
 
 #divDownload .label {
-	color: #32559B;
-	margin-bottom: 10px;
-	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
-	font-weight: bold;
+    color: #32559B;
+    margin-bottom: 10px;
+    font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+    font-weight: bold;
 }
 
 #divDownload div.item {
-	position: relative;
+    position: relative;
 }
 #divDownload div.margin {
-	margin-right: 50px;
+    margin-right: 50px;
 }
 #divDownload div.splitRight {
-	border-right: 1px solid #999999;
+    border-right: 1px solid #999999;
 }
 
 #divDownload a.dlLink {
-	display: block;
-	width: 250px;
-	height: 98px;
-	text-decoration: none;
+    display: block;
+    width: 250px;
+    height: 98px;
+    text-decoration: none;
 }
 
 #divDownload a.dlJSMinNpp {
-	background: url('../imgs/download-jsminnpp.png') top left no-repeat;
+    background: url('../imgs/download-jsminnpp.png') top left no-repeat;
 }
 #divDownload a.dlNpp {
-	background: url('../imgs/download-npp.png') top left no-repeat;
+    background: url('../imgs/download-npp.png') top left no-repeat;
 }
 #divDownload a.dlLink:hover {
-	background-position: top right;
+    background-position: top right;
 }
 
 #divDownload a.dlLink .dlName, #divDownload a.dlLink .dlInfo {
-	display: block;
-	position: absolute;
-	width: 250px;
+    display: block;
+    position: absolute;
+    width: 250px;
 }
 #divDownload a.dlLink .dlName {
-	top: 30px;
-	left: 0;
-	font-size: x-large;
-	color: white;
-	text-shadow: #333 1px 1px;
+    top: 30px;
+    left: 0;
+    font-size: x-large;
+    color: white;
+    text-shadow: #333 1px 1px;
 }
 #divDownload a.dlLink:hover .dlName {
-	text-decoration: underline;
-	text-shadow: black 1px 1px;
+    text-decoration: underline;
+    text-shadow: black 1px 1px;
 }
 
 #divDownload a.dlLink .dlInfo {
-	top: 60px;
-	left: 0;
+    top: 60px;
+    left: 0;
 }
 #divDownload a.dlJSMinNpp .dlInfo {
-	color: #CDE6F5;
+    color: #CDE6F5;
 }
 #divDownload a.dlNpp .dlInfo {
-	color: #346012;
+    color: #346012;
 }
 
 #divDownload a.dlOthers {
-	height: 1.5em;
-	line-height: 1.5em;
-	font-size: small;
+    height: 1.5em;
+    line-height: 1.5em;
+    font-size: small;
 }
 /* Dowload */
 
@@ -222,93 +222,93 @@ input[type="submit"],input[type="button"] {
 .divListwHeader, .divListwHeader .listHeader {
 }
 .divListwHeader {
-	background-color: white;
+    background-color: white;
 }
 
 /* List with header - header */
 .divListwHeader .listHeader {
-	/*color: white;*/
-	border-bottom: 1px solid black;
+    /*color: white;*/
+    border-bottom: 1px solid black;
 }
 .divListwHeader .listHeader:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
 .divListwHeader .listHeader a {
-	/*color: white;*/
+    /*color: white;*/
 }
 .divListwHeader .listHeader a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .divListwHeader .listHeader, .divListwHeader .listHeader .listHeaderLeft, .divListwHeader .listHeader .listHeaderMiddle, .divListwHeader .listHeader .listHeaderRight {
-	height: 30px;
-	line-height: 30px;
+    height: 30px;
+    line-height: 30px;
 } 
 .divListwHeader .listHeader .listHeaderLeft, .divListwHeader .listHeader .listHeaderMiddle, .divListwHeader .listHeader .listHeaderRight {
-	float: left;
+    float: left;
 } 
 .divListwHeader .listHeader .listHeaderLeft {
-	width: 20px;
+    width: 20px;
 }
 .divListwHeader .listHeader .listHeaderMiddle {
-	width: 740px;
-	font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
+    width: 740px;
+    font-family: Lucida Grande,Geneva,Trebuchet MS,sans-serif;
 }
 #divPk .divListwHeader .listHeader .listHeaderMiddle {
-	width: 998px;
+    width: 998px;
 }
 .divListwHeader .listHeader .listHeaderRight {
-	width: 19px;
+    width: 19px;
 }
 /* List with header - header */
 
 /* List with header - bottom */
 .divListwHeader .listBottom, .divListwHeader .listBottom .listBottomLeft, .divListwHeader .listBottom .listBottomMiddle, .divListwHeader .listBottom .listBottomRight {
-	height: 10px;
+    height: 10px;
 } 
 .divListwHeader .listBottom .listBottomLeft, .divListwHeader .listBottom .listBottomMiddle, .divListwHeader .listBottom .listBottomRight {
-	float: left;
+    float: left;
 } 
 .divListwHeader .listBottom .listBottomLeft {
-	width: 13px;
-	
+    width: 13px;
+    
 }
 .divListwHeader .listBottom .listBottomMiddle {
-	width: 748px;
-	
+    width: 748px;
+    
 }
 #divPk .divListwHeader .listBottom .listBottomMiddle {
-	width: 998px;
+    width: 998px;
 }
 .divListwHeader .listBottom .listBottomRight {
-	width: 19px;
-	
+    width: 19px;
+    
 }
 /* List with header - bottom */
 
 /* List with header - container */
 .divListwHeader .listContainer .listContainerMiddle, .divListwHeader .listContainer .listContainerRight {
-	float: left;
+    float: left;
 } 
 .divListwHeader .listContainer {
-	
+    
 }
 .divListwHeader .listContainer .listContainerMiddle {
-	margin: 25px 0 10px 20px !important;
-	width: 850px;
-	background-color: white;
-	/*font-family: Georgia;*/
-	font-size: 15px;
+    margin: 25px 0 10px 20px !important;
+    width: 850px;
+    background-color: white;
+    /*font-family: Georgia;*/
+    font-size: 15px;
 }
 #divPk .divListwHeader .listContainer .listContainerMiddle {
-	width: 990px;
+    width: 990px;
 }
 .divListwHeader .listContainer .listContainerRight {
-	width: 780px;
-	
+    width: 780px;
+    
 }
 #divPk .divListwHeader .listContainer .listContainerRight {
-	width: 1030px;
+    width: 1030px;
 }
 /* List with header - container */
 
@@ -316,60 +316,60 @@ input[type="submit"],input[type="button"] {
 
 /* Screenshots */
 ul#ulScreenshots li, ul#ulScreenshots li a {
-	float: left;
-	display: block;
-	font-size: small;
-	width: 152px;
+    float: left;
+    display: block;
+    font-size: small;
+    width: 152px;
 }
 ul#ulScreenshots li {
-	margin-right: 40px;
-	margin-bottom: 15px;
+    margin-right: 40px;
+    margin-bottom: 15px;
 }
 ul#ulScreenshots li a * {
-	display: block;
+    display: block;
 }
 ul#ulScreenshots li a img {
-	border: 1px solid #32559B;
+    border: 1px solid #32559B;
 }
 ul#ulScreenshots li a span {
-	margin-top: 3px;
-	text-align: center;
+    margin-top: 3px;
+    text-align: center;
 }
 
 #divScreenshots {
-	position: relative;
+    position: relative;
 }
 #divScreenshots #divMore{
-	position: absolute;
-	right: 0;
-	bottom: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 /* Screenshots */
 
 /* Others */
 ul.indentList {
-	margin-left: 1em;
+    margin-left: 1em;
 }
 ul.discList {
-	list-style-position: outside;
-	list-style-type: disc;
+    list-style-position: outside;
+    list-style-type: disc;
 }
 ul.circleList {
-	list-style-position: outside;
-	list-style-type: circle;
+    list-style-position: outside;
+    list-style-type: circle;
 }
 
 .lastestNews {
-	font-weight: bold;
+    font-weight: bold;
 }
 .newsDate {
-	color: #666666;
+    color: #666666;
 }
 /* Others */
 
 /* Footer */
 #divFooter {
-	font-size: x-small;
-	color: #666;
+    font-size: x-small;
+    color: #666;
 }
 /* Footer */
