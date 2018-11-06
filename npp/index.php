@@ -1,3 +1,6 @@
+<?php
+$current_app = "npp";
+?>
 <!DOCTYPE html>
 <html>
 <head>

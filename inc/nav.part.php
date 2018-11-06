@@ -3,29 +3,40 @@
 </div>-->
 <div id="headerTitle">
     <div class="headerContent">
-        <div id="title">A JavaScript (JSON) tool for Notepad++ and Visual Studio Code</div>
+        <div id="title">JSTool - A JavaScript tool for <a href="../npp/">Notepad++</a> and <a href="../vsc/">Visual Studio Code</a></div>
     </div>
 </div>
 <div id="navWrapper">
     <div class="headerContent">
         <div id="navLeft">
-            <img id="logo" src="../imgs/icon_048.png"/>
+            <a href="#top">
+                <img id="logo" src="../imgs/icon_048.png"/>
+            </a>
         </div>
         <ul id="navRight">
+<?php
+if ($current_app == "npp") {
+?>
             <li>
-                <a href="index.php">JSToolNpp</a>
+                <a href="../vsc/">Switch to JSTool for Visual Studio Code</a>
+            </li>
+<?php
+} else if ($current_app == "vsc") {
+?>
+            <li>
+                <a href="../npp/">Switch to JSTool for Notepad++</a>
+            </li>
+<?php
+}
+?>
+            <li>
+                <a href="#download">Download</a>
             </li>
             <li>
-                <a href="download.php">Download</a>
+                <a href="#help">Help</a>
             </li>
             <li>
-                <a href="changelog.php">Changelog</a>
-            </li>
-            <li>
-                <a href="help.php">Help</a>
-            </li>
-            <li>
-                <a href="http://www.sunjw.us" target="_blank">Blog</a>
+                <a href="#overview">Overview</a>
             </li>
         </ul>
         <div class="clear"></div>
