@@ -3,7 +3,7 @@
 </div>-->
 <div id="headerTitle">
     <div class="headerContent">
-        <div>A JavaScript (JSON) tool for Notepad++ (formerly JSMinNpp) and Visual Studio Code</div>
+        <div id="title">A JavaScript (JSON) tool for Notepad++ and Visual Studio Code</div>
     </div>
 </div>
 <div id="navWrapper">
