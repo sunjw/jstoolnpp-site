@@ -7,40 +7,29 @@ function getScrollTop() {
         document.documentElement.scrollTop);
 }
 
-var pageWrapper = 0;
-var navWrapper = 0;
+var headerLogo = 0;
 
 function onPageScroll() {
-    var nonFixedNavHeight = 60;
-    var fixedNavHeight = nonFixedNavHeight - 20;
     var scrollTopPos = getScrollTop();
 
-    if (scrollTopPos < 10) {
-        pageWrapper.removeClass("fixedHeader");
-        navWrapper.css("height", "");
+    if (scrollTopPos < 48) {
+        headerLogo.removeClass("logoShow");
     } else {
-        pageWrapper.addClass("fixedHeader");
-        var fixHeight = nonFixedNavHeight - scrollTopPos;
-        if (fixHeight >= fixedNavHeight) {
-            navWrapper.css("height", fixHeight + "px");
-        } else {
-            navWrapper.css("height", "");
-        }
+        headerLogo.addClass("logoShow");
     }
 }
 
 $(function () {
-    pageWrapper = $(".pageWrapper");
-    navWrapper = $("#divHeader #navWrapper");
+    headerLogo = $("#navWrapper #navLeft #logo");
 
     var jqWindow = $(window);
     jqWindow.scroll(function () {
-        //onPageScroll();
+        onPageScroll();
     });
     jqWindow.resize(function () {
-        //onPageScroll();
+        onPageScroll();
     });
-    //onPageScroll();
+    onPageScroll();
 });
 
 /*

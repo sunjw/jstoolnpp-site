@@ -8,6 +8,9 @@
 </div>
 <div id="navWrapper">
     <div class="headerContent">
+        <div id="navLeft">
+            <img id="logo" src="../imgs/icon_048.png"/>
+        </div>
         <ul id="navRight">
             <li>
                 <a href="index.php">JSToolNpp</a>

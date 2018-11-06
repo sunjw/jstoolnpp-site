@@ -103,6 +103,23 @@ input[type="submit"],input[type="button"] {
     top: 0;
     z-index: 1000;
 }
+#navWrapper #navLeft {
+    float: left;
+    height: 56px;
+}
+#navWrapper #navLeft #logo {
+    width: 48px;
+    height: 48px;
+    padding-top: 5px;
+    padding-left: 5px;
+    visibility: hidden;
+    opacity: 0;
+}
+#navWrapper #navLeft #logo.logoShow {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
 #navWrapper #navRight,#navWrapper #navRight li {
     float: right;
 }
