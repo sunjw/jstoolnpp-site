@@ -54,7 +54,7 @@ input[type="submit"],input[type="button"] {
     width: 1050px;
 }
 .pageWrapper * {
-    margin-left: 90px;
+    margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
 }
@@ -76,48 +76,43 @@ input[type="submit"],input[type="button"] {
 /* Wrapper */
 
 /* Header */
-#divHeader {
-    margin-top: 0;
-    width: 980px;
+.headerContent {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.fixedHeader #divHeader {
-    position: fixed;
-    top: 0;
-    z-index: 100;
+#headerTitle {
+    height: 48px;
+    line-height: 48px;
+    background: black;
 }
-#divHeader #icon {
-    display: block;
-    height: 60px;
-    width: 80px;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-}
-#divHeader #icon img {
-    margin-top: 8px;
-    margin-left: 16px;
-}
-#divHeader #navWrapper, #divHeader #headerTitle {
-    margin-left: 80px;
-}
-#divHeader #navWrapper {
-    background-color: black;
-}
-#divHeader #navWrapper,#divHeader #navWrapper a {
+#headerTitle,#headerTitle a {
     color: white;
 }
-.fixedHeader #divHeader #navWrapper {
-    height: 40px;
+#navWrapper {
+    height: 56px;
+    line-height: 56px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #e6e6e6;
+    position: sticky;
+    top: 0;
 }
-#vscPromo {
-    width: 890px;
-    height: 32px;
-    line-height: 32px;
-    margin-left: 80px;
-    padding-right: 10px;
-    background-color: #007ACC;
-    text-align: right;
+#navWrapper #navRight,#navWrapper #navRight li {
+    float: right;
+}
+#navWrapper #navRight li {
+    padding: 0 20px;
+}
+#navWrapper #navRight li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+}
+#navWrapper #navRight li a:hover {
+    color: #0070c0;
+    text-decoration: none;
 }
 /* Header */
 

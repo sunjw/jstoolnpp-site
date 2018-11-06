@@ -1,20 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
     <title>JSToolNpp - A JavaScript plugin for notepad++</title>
     <?php include "../inc/head.part.php" ?>
 </head>
 <body>
     <div id="divMainContent">
+        <?php include "../inc/nav.part.php" ?>
         <div class="pageWrapper">
-            <div id="divHeader">
-                <?php include "../inc/nav.part.php" ?>
-            </div>
-            <div id="divCrumb">
-                <div class="floatLeft"><a href="index.php">JSToolNpp</a>&nbsp;&gt;&gt;&nbsp;Home</div>
-                <div class="floatRight"><?php include "../inc/ad.part.php" ?></div>
-                <div class="clear"></div>
-            </div>
             <div class="divListwHeader foldingList">
                 <div class="listHeader">
                     <div class="listHeaderLeft"></div>
