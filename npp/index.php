@@ -16,9 +16,18 @@ if ($ver != "")
 if ($checking) {
     $ver_array = explode(".", $ver);
     $major_ver = $ver_array[0];
-    $minor_ver = $ver_array[1];
-    $maintenance_ver = $ver_array[2];
-    $build_ver = $ver_array[3];
+    $minor_ver = 0;
+    if (count($ver_array) > 1) {
+        $minor_ver = $ver_array[1];
+    }
+    $maintenance_ver = 0;
+    if (count($ver_array) > 2) {
+        $maintenance_ver = $ver_array[2];
+    }
+    $build_ver = 0;
+    if (count($ver_array) > 3) {
+        $build_ver = $ver_array[3];
+    }
 
     $cur_ver_array = explode(".", $cur_version);
     $cur_major_ver = $cur_ver_array[0];
