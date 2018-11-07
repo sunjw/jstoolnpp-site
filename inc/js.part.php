@@ -1,6 +1,8 @@
 <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
 //<![CDATA[
+var headerLogo = 0;
+
 function getScrollTop() {
     return (window.pageYOffset ||
         document.body.scrollTop ||
@@ -13,7 +15,17 @@ function smoothScrollTo(topWhere) {
     }, 333);
 }
 
-var headerLogo = 0;
+function smoothScrollClick(link) {
+    var anchorName = $.attr(link, "href").substr(1);
+    if (anchorName == "top") {
+        smoothScrollTo(0);
+    } else {
+        var scrollToAnchor = $("[name=\"" + anchorName + "\"]").offset().top;
+        scrollToAnchor -= 64;
+        smoothScrollTo(scrollToAnchor);
+    }
+    return false;
+}
 
 function onPageScroll() {
     var scrollTopPos = getScrollTop();
@@ -29,15 +41,10 @@ $(function () {
     headerLogo = $("#navWrapper #navLeft #logo");
 
     $("#navWrapper a").click(function () {
-        var anchorName = $.attr(this, "href").substr(1);
-        if (anchorName == "top") {
-            smoothScrollTo(0);
-        } else {
-            var scrollToAnchor = $("[name=\"" + anchorName + "\"]").offset().top;
-            scrollToAnchor -= 64;
-            smoothScrollTo(scrollToAnchor);
-        }
-        return false;
+        return smoothScrollClick(this);
+    });
+    $("a.smoothAnchor").click(function () {
+        return smoothScrollClick(this);
     });
 
     var jqWindow = $(window);

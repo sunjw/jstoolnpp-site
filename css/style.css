@@ -101,7 +101,7 @@ input[type="submit"],input[type="button"] {
     padding-left: 6px;
 }
 #headerTitle #title {
-    padding-left: 54px;
+    padding-left: 58px;
 }
 #navWrapper {
     height: 56px;
@@ -148,7 +148,7 @@ input[type="submit"],input[type="button"] {
 .npp #navWrapper #navRight li a:hover {
     color: #6aba60;
 }
-.npp #navWrapper #navRight li a.switch:hover {
+.npp #navWrapper #navRight li a.switchApp:hover {
     color: #0070c0;
 }
 /* Header */

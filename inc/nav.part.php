@@ -19,13 +19,13 @@
 if ($current_app == "npp") {
 ?>
             <li>
-                <a href="../vsc/" class="switch">JSTool for Visual Studio Code</a>
+                <a class="switchApp" href="../vsc/">JSTool for Visual Studio Code</a>
             </li>
 <?php
 } else if ($current_app == "vsc") {
 ?>
             <li>
-                <a href="../npp/" class="switch">JSTool for Notepad++</a>
+                <a class="switchApp" href="../npp/">JSTool for Notepad++</a>
             </li>
 <?php
 }

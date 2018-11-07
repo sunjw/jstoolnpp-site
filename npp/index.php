@@ -25,14 +25,8 @@ $current_app = "npp";
                     </ul>
                     <p>Really helpful to JavaScript coder on Notepad++ and really easy to use it.</p>
                     <p>&nbsp;</p>
-                    <p>What's New in <a href="http://www.sunjw.us/jstoolnpp/download.php">1.1810.3</a>:</p>
-                    <ul class="indentList discList">
-                        <li>Fix "export default" format.</li>
-                        <li>Fix '/' in [] within regular expression format.</li>
-                        <li>Not to format Unix Shebang at begining of a script.</li>
-                        <li>Fix json parser remove escaped ' or " at the end of string.</li>
-                        <li>Change version naming to MAJOR.YEAR-MONTH.BUILD.</li>
-                    </ul>
+                    <p>Made in China.</p>
+                    <p>License: <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPL 2.0</a></p>
                     <p>&nbsp;</p>
                     <p>Features:</p>
                     <ul class="indentList discList">
@@ -50,8 +44,14 @@ $current_app = "npp";
                         <li>JSON sort.</li>
                     </ul>
                     <p>&nbsp;</p>
-                    <p>Made in China.</p>
-                    <p>License: <a href="gpl.php">GPL 2.0</a></p>
+                    <p>What's New in <a class="smoothAnchor" href="#download">1.1810.3</a>:</p>
+                    <ul class="indentList discList">
+                        <li>Fix "export default" format.</li>
+                        <li>Fix '/' in [] within regular expression format.</li>
+                        <li>Not to format Unix Shebang at begining of a script.</li>
+                        <li>Fix json parser remove escaped ' or " at the end of string.</li>
+                        <li>Change version naming to MAJOR.YEAR-MONTH.BUILD.</li>
+                    </ul>
                 </div>
             </div>
             <div class="divListwHeader">
