@@ -3,6 +3,7 @@
 </div>-->
 <div id="headerTitle">
     <div class="headerContent">
+        <img id="logo" src="../imgs/icon_048.png"/>
         <div id="title">JSTool - A JavaScript tool for <a href="../npp/">Notepad++</a> and <a href="../vsc/">Visual Studio Code</a></div>
     </div>
 </div>

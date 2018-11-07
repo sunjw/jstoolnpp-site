@@ -94,8 +94,15 @@ input[type="submit"],input[type="button"] {
 .npp #headerTitle {
     background-color: #6aba60;
 }
-#headerTitle #title{
-    padding: 0 10px;
+#headerTitle #logo {
+    float: left;
+    width: 42px;
+    height: 42px;
+    padding-top: 4px;
+    padding-left: 6px;
+}
+#headerTitle #title {
+    padding-left: 54px;
 }
 #navWrapper {
     height: 56px;
