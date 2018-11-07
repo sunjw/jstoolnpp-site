@@ -1,5 +1,5 @@
 <div>
-    <p>JSToolNpp - A JavaScript plugin for Notepad++ - Made in China</p>
+    <p>JSTool - A JavaScript tool for <a href="../npp/">Notepad++</a> and <a href="../vsc/">Visual Studio Code</a> - Made in China</p>
 </div>
 <div>
     <p>Except where otherwise noted, content on this site is licensed under the
