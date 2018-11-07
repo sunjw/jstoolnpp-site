@@ -153,6 +153,10 @@ input[type="submit"],input[type="button"] {
     width: 480px;
     border-bottom: 1px solid black;
 }
+.divListwHeader .listContainer {
+    margin: 20px;
+    line-height: 1.6em;
+}
 /* List with header */
 
 /* Others */
