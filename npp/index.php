@@ -1,5 +1,58 @@
 <?php
+include_once "../inc/common.inc.php";
+
 $current_app = "npp";
+
+$checking = false;
+$is_lastest = false;
+
+$download_array = parse_ini_file("../inc/version.ini", true);
+$cur_version = $download_array["JSMinNpp"]["version"];
+
+$ver = get_query("ver");
+if ($ver != "")
+    $checking = true;
+
+if ($checking) {
+    $ver_array = explode(".", $ver);
+    $major_ver = $ver_array[0];
+    $minor_ver = $ver_array[1];
+    $maintenance_ver = $ver_array[2];
+    $build_ver = $ver_array[3];
+
+    $cur_ver_array = explode(".", $cur_version);
+    $cur_major_ver = $cur_ver_array[0];
+    $cur_minor_ver = $cur_ver_array[1];
+    $cur_maintenance_ver = $cur_ver_array[2];
+    $cur_build_ver = 0;
+    if (count($cur_ver_array) > 3) {
+        $cur_build_ver = $cur_ver_array[3];
+    }
+
+    if ($major_ver < $cur_major_ver)
+        $is_lastest = false;
+    else if ($major_ver > $cur_major_ver)
+        $is_lastest = true;
+    else if ($minor_ver < $cur_minor_ver)
+        $is_lastest = false;
+    else if ($minor_ver > $cur_minor_ver)
+        $is_lastest = true;
+    else if (!is_numeric($cur_maintenance_ver))
+        $is_lastest = true;
+    else if ($maintenance_ver < $cur_maintenance_ver)
+        $is_lastest = false;
+    else if ($maintenance_ver > $cur_maintenance_ver)
+        $is_lastest = true;
+    else if (!is_numeric($cur_build_ver))
+        $is_lastest = true;
+    else if ($build_ver < $cur_build_ver)
+        $is_lastest = false;
+    else if ($build_ver > $cur_build_ver)
+        $is_lastest = true;
+    else if ($build_ver == $cur_build_ver)
+        $is_lastest = true;
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -59,28 +112,43 @@ $current_app = "npp";
                     <div class="listHeaderTitle"><a name="download" title="Download"></a>Download</div>
                 </div>
                 <div class="listContainer">
-                    <p><a class="lastestNews" href="http://www.sunjw.us/jstoolnpp/download.php">JSToolNpp 1.1810.3 Released</a><span class="newsDate"> - 2018-10-30</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/download.php">JSToolNpp 1.22.0 Released</a><span class="newsDate"> - 2018-04-15</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.21.6 Released</a><span class="newsDate"> - 2017-12-16</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.21.1 Released</a><span class="newsDate"> - 2017-10-29</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.21.0 Released</a><span class="newsDate"> - 2017-05-15</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.20.2 Released</a><span class="newsDate"> - 2016-12-18</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.20.0 Released</a><span class="newsDate"> - 2016-10-09</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.18.0 Released</a><span class="newsDate"> - 2016-05-21</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.17.2 Released</a><span class="newsDate"> - 2016-01-10</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.16.10 Released</a><span class="newsDate"> - 2015-05-29</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.16.8 Released</a><span class="newsDate"> - 2014-12-07</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.16.6 Released</a><span class="newsDate"> - 2014-09-15</span></p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">JSToolNpp 1.16.5 Released</a><span class="newsDate"> - 2014-03-15</span></p>
-                    <p>&nbsp;</p>
-                    <p><a href="http://www.sunjw.us/jstoolnpp/changelog.php">More...</a></p>
+<?php
+if ($checking) {
+?>
+                    <div>
+<?php
+    if ($is_lastest)
+        echo "<p>Congratulations! You are using the latest version of JSToolNpp.</p>";
+    else
+        echo "<p>You are <strong>NOT</strong> using the latest version of JSToolNpp. Download new version below.</p>";
+?>
+                    </div>
+<?php
+}
+?>
+                    <ul class="indentList discList">
+                        <li>
+                            <div>
+                            <p>Unicode build:</p>
+                            <p>32bit - JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
+                            <p>64bit - JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <p>ASCII build (<em>no more updates after 1.20.2</em>):</p>
+                            <p>32bit - JSToolNPP.1.20.2.asc.32.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
+                            <p>64bit - JSToolNPP.1.20.2.asc.64.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="divListwHeader">
                 <div class="listHeader">
                     <div class="listHeaderTitle"><a name="help" title="Help"></a>Help</div>
                 </div>
-                <div class="listContainer foldingContainer">
+                <div class="listContainer">
                     <p>You can install JSToolNpp through Plugin Manager in Notepad++:</p>
                     <ul class="indentList">
                         <li>1. Run Notepad++.</li>
