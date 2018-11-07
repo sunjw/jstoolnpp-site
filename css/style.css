@@ -141,15 +141,17 @@ input[type="submit"],input[type="button"] {
 
 /* List with header */
 .divListwHeader .listHeader {
-    border-bottom: 1px solid black;
-}
-.divListwHeader .listHeader,.divListwHeader .listHeader .listHeaderTitle {
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+} 
+.divListwHeader .listHeader .listHeaderTitle {
+    height: 38px;
+    line-height: 38px;
+    font-size: 32px;
 } 
 .divListwHeader .listHeader .listHeaderTitle {
     float: left;
-    width: 740px;
+    width: 480px;
+    border-bottom: 1px solid black;
 }
 /* List with header */
 
