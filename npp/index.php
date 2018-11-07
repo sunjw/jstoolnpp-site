@@ -120,6 +120,7 @@ if ($checking) {
 ?>
                 </div>
                 <div class="listContainer">
+                    <p>The latest release build:</p>
                     <ul class="indentList discList">
                         <li>
                             <div>
@@ -134,6 +135,22 @@ if ($checking) {
                             <p>32bit - JSToolNPP.1.20.2.asc.32.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
                             <p>64bit - JSToolNPP.1.20.2.asc.64.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
                             </div>
+                        </li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>Other files:</p>
+                    <ul class="indentList discList">
+                        <li>
+                        README: <a href="https://github.com/sunjw/jstoolnpp/blob/master/README.md" target="_blank">https://github.com/sunjw/jstoolnpp/blob/master/README.md</a>
+                        </li>
+                        <li>
+                        Change log: <a href="https://github.com/sunjw/jstoolnpp/blob/master/CHANGELOG.md" target="_blank">https://github.com/sunjw/jstoolnpp/blob/master/CHANGELOG.md</a>
+                        </li>
+                        <li>
+                        Source code: <a href="https://github.com/sunjw/jstoolnpp" target="_blank">https://github.com/sunjw/jstoolnpp</a>
+                        </li>
+                        <li>
+                        All files: <a href="https://sourceforge.net/projects/jsminnpp/files/" target="_blank">https://sourceforge.net/projects/jsminnpp/files/</a>
                         </li>
                     </ul>
                 </div>
