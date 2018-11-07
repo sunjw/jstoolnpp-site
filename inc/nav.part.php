@@ -18,25 +18,25 @@
 if ($current_app == "npp") {
 ?>
             <li>
-                <a href="../vsc/">Switch to JSTool for Visual Studio Code</a>
+                <a href="../vsc/">JSTool for Visual Studio Code</a>
             </li>
 <?php
 } else if ($current_app == "vsc") {
 ?>
             <li>
-                <a href="../npp/">Switch to JSTool for Notepad++</a>
+                <a href="../npp/">JSTool for Notepad++</a>
             </li>
 <?php
 }
 ?>
             <li>
-                <a href="#download">Download</a>
-            </li>
-            <li>
                 <a href="#help">Help</a>
             </li>
             <li>
-                <a href="#overview">Overview</a>
+                <a href="#download">Download</a>
+            </li>
+            <li>
+                <a href="#intro">Intro</a>
             </li>
         </ul>
         <div class="clear"></div>
