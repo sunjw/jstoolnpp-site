@@ -177,6 +177,7 @@ input[type="submit"],input[type="button"] {
 
 /* Footer */
 #divFooter {
+    margin-top: 60px;
     font-size: x-small;
     color: #666;
 }
