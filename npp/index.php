@@ -225,7 +225,7 @@ if ($checking) {
                                 <ol class="indentList">
                                     <li>Open you JavaScript source code file in Notepad++.</li>
                                     <li>Press "Ctrl"+"Alt"+"M".</li>
-                                    <li>Or use menu, open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
+                                    <li>Or open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
                                 </ol>
                                 <p>&nbsp;</p>
                                 <p>Format selected code in a source code file:</p>
@@ -233,15 +233,22 @@ if ($checking) {
                                     <li>Open you JavaScript source code file in Notepad++.</li>
                                     <li>Select source code lines which you want to format.</li>
                                     <li>Press "Ctrl"+"Alt"+"M".</li>
-                                    <li>Or use menu, open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
+                                    <li>Or open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
                                 </ol>
                                 <p>&nbsp;</p>
-                                <p>Json Viewer:</p>
+                                <p>JSON Viewer:</p>
                                 <ol class="indentList">
-                                    <li>Open you JavaScript or json source code file in Notepad++.</li>
+                                    <li>Open you JavaScript or JSON source code file in Notepad++.</li>
                                     <li>Press "Ctrl"+"Alt"+"J".</li>
-                                    <li>Or use menu, open menu: "Plugins" - "JSTool" then click "Json Viewer".</li>
+                                    <li>Or open menu: "Plugins" - "JSTool" then click "JSON Viewer".</li>
                                     <li>Or click <img src="../imgs/icon_toolbar.png"/> on toolbar.</li>
+                                </ol>
+                                <p>&nbsp;</p>
+                                <p>JSON Sort:</p>
+                                <ol class="indentList">
+                                    <li>Open you JSON source code file in Notepad++.</li>
+                                    <li>Open menu: "Plugins" - "JSTool".</li>
+                                    <li>If you want to put sorted JSON source code in current file, click "JSON Sort". Or if you want to put sorted JSON source code in a new file, click "JSON Sort (New file)".</li>
                                 </ol>
                             </div>
                         </li>
