@@ -8,7 +8,7 @@ $current_app = "npp";
     <?php include "../inc/head.part.php" ?>
 </head>
 <body>
-    <div id="divMainContent">
+    <div id="divMainContent" class="<?php echo $current_app; ?>">
         <?php include "../inc/nav.part.php" ?>
         <div class="pageWrapper">
             <div class="divListwHeader">

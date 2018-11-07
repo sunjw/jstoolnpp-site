@@ -84,12 +84,15 @@ input[type="submit"],input[type="button"] {
 #headerTitle {
     height: 48px;
     line-height: 48px;
-    background: black;
+    background-color: black;
 }
 #headerTitle,#headerTitle a {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     color: white;
+}
+.npp #headerTitle {
+    background-color: #6aba60;
 }
 #headerTitle #title{
     padding: 0 10px;
@@ -134,14 +137,19 @@ input[type="submit"],input[type="button"] {
     text-decoration: none;
 }
 #navWrapper #navRight li a:hover {
-    color: #0070c0;
     text-decoration: none;
+}
+.npp #navWrapper #navRight li a:hover {
+    color: #6aba60;
+}
+.npp #navWrapper #navRight li a.switch:hover {
+    color: #0070c0;
 }
 /* Header */
 
 /* List with header */
 .divListwHeader .listHeader {
-    height: 40px;
+    height: 42px;
 } 
 .divListwHeader .listHeader .listHeaderTitle {
     height: 38px;
@@ -151,7 +159,9 @@ input[type="submit"],input[type="button"] {
 .divListwHeader .listHeader .listHeaderTitle {
     float: left;
     width: 480px;
-    border-bottom: 1px solid black;
+}
+.npp .divListwHeader .listHeader .listHeaderTitle {
+    border-bottom: 3px solid #6aba60;
 }
 .divListwHeader .listContainer {
     margin: 20px;
