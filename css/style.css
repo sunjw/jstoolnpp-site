@@ -87,8 +87,7 @@ input[type="submit"],input[type="button"] {
     background-color: black;
 }
 #headerTitle,#headerTitle a {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
     color: white;
 }
 .npp #headerTitle {
