@@ -184,7 +184,10 @@ input[type="submit"],input[type="button"] {
 
 /* Others */
 ul.indentList {
-    margin-left: 1em;
+    margin-left: 16px;
+}
+ol.indentList {
+    margin-left: 18px;
 }
 ul.discList {
     list-style-position: outside;
