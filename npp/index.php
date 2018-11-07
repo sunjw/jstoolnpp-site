@@ -110,22 +110,16 @@ if ($checking) {
             <div class="divListwHeader">
                 <div class="listHeader">
                     <div class="listHeaderTitle"><a name="download" title="Download"></a>Download</div>
-                </div>
-                <div class="listContainer">
 <?php
 if ($checking) {
-?>
-                    <div>
-<?php
     if ($is_lastest)
-        echo "<p>Congratulations! You are using the latest version of JSToolNpp.</p>";
+        echo "<div id=\"checkMsg\" class=\"latest\">🎉 Congratulations! You are using the latest version.</div>";
     else
-        echo "<p>You are <strong>NOT</strong> using the latest version of JSToolNpp. Download new version below.</p>";
-?>
-                    </div>
-<?php
+        echo "<div id=\"checkMsg\" class=\"notLatest\">❌ You are <strong>NOT</strong> using the latest version.</div>";
 }
 ?>
+                </div>
+                <div class="listContainer">
                     <ul class="indentList discList">
                         <li>
                             <div>

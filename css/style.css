@@ -175,6 +175,13 @@ input[type="submit"],input[type="button"] {
 }
 /* List with header */
 
+/* Footer */
+#divFooter {
+    font-size: x-small;
+    color: #666;
+}
+/* Footer */
+
 /* Others */
 ul.indentList {
     margin-left: 1em;
@@ -188,17 +195,14 @@ ul.circleList {
     list-style-type: circle;
 }
 
-.lastestNews {
-    font-weight: bold;
+#checkMsg {
+    padding: 6px;
+    margin-top: 2px;
+    background-color: #6aba60;
+    border-radius: 4px;
+    float: right;
 }
-.newsDate {
-    color: #666666;
+#checkMsg,#checkMsg a {
+    color: white;
 }
 /* Others */
-
-/* Footer */
-#divFooter {
-    font-size: x-small;
-    color: #666;
-}
-/* Footer */
