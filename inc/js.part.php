@@ -7,6 +7,12 @@ function getScrollTop() {
         document.documentElement.scrollTop);
 }
 
+function smoothScrollTo(topWhere) {
+    $("html, body").animate({
+        scrollTop: topWhere
+    }, 333);
+}
+
 var headerLogo = 0;
 
 function onPageScroll() {
@@ -21,6 +27,18 @@ function onPageScroll() {
 
 $(function () {
     headerLogo = $("#navWrapper #navLeft #logo");
+
+    $("#navWrapper a").click(function () {
+        var anchorName = $.attr(this, "href").substr(1);
+        if (anchorName == "top") {
+            smoothScrollTo(0);
+        } else {
+            var scrollToAnchor = $("[name=\"" + anchorName + "\"]").offset().top;
+            scrollToAnchor -= 64;
+            smoothScrollTo(scrollToAnchor);
+        }
+        return false;
+    });
 
     var jqWindow = $(window);
     jqWindow.scroll(function () {
