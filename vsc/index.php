@@ -91,7 +91,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                                     <li>Visit JSTool page in <a href="https://marketplace.visualstudio.com/items?itemName=sunjw.jstool" target="_blank">Visual Studio Marketplace</a>.</li>
                                     <li>Click "Download Extension" on right side.</li>
                                     <li>Run Visual Studio code.</li>
-                                    <li>Using the Install from VSIX... command in the Extensions view command drop-down, or the Extensions: Install from VSIX... command in the Command Palette.</li>
+                                    <li>Using the "Install from VSIX..." command in the Extensions view command drop-down, or the "Extensions: Install from VSIX..." command in the Command Palette.</li>
                                     <li>Select sunjw.jstool-x.y.z.vsix you just downloaded.</li>
                                 </ol>
                             </div>
@@ -118,40 +118,32 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                                 <p>How to use JSTool</p>
                                 <p>Minimize source code:</p>
                                 <ol class="indentList">
-                                    <li>Open you JavaScript source code file in Notepad++.</li>
-                                    <li>Open menu: "Plugins" - "JSTool".</li>
-                                    <li>If you want to put minimized source code in current file, click "JSMin". Or if you want to put minimized source code in a new file, click "JSMin (New file)".</li>
+                                    <li>Open you JavaScript source code file in Visual Studio Code.</li>
+                                    <li>Using the "Minimize JavaScript" command in the Command Palette.</li>
+                                    <li>If you want to put minimized source code in a new file, using the "Minimize JavaScript (New file)" command.</li>
                                 </ol>
                                 <p>&nbsp;</p>
                                 <p>Format all code in a source code file:</p>
                                 <ol class="indentList">
                                     <li>Open you JavaScript source code file in Notepad++.</li>
-                                    <li>Press "Ctrl"+"Alt"+"M".</li>
-                                    <li>Or open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
+                                    <li>Using the "Format JavaScript (JSON)" command in the Command Palette.</li>
                                 </ol>
                                 <p>&nbsp;</p>
                                 <p>Format selected code in a source code file:</p>
                                 <ol class="indentList">
                                     <li>Open you JavaScript source code file in Notepad++.</li>
                                     <li>Select source code lines which you want to format.</li>
-                                    <li>Press "Ctrl"+"Alt"+"M".</li>
-                                    <li>Or open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
+                                    <li>Using the "Format JavaScript (JSON)" command in the Command Palette.</li>
                                 </ol>
-                                <p>&nbsp;</p>
-                                <p>JSON Viewer:</p>
-                                <ol class="indentList">
-                                    <li>Open you JavaScript or JSON source code file in Notepad++.</li>
-                                    <li>Press "Ctrl"+"Alt"+"J".</li>
-                                    <li>Or open menu: "Plugins" - "JSTool" then click "JSON Viewer".</li>
-                                    <li>Or click <img src="../imgs/icon_toolbar.png"/> on toolbar.</li>
-                                </ol>
-                                <p>&nbsp;</p>
-                                <p>JSON Sort:</p>
-                                <ol class="indentList">
-                                    <li>Open you JSON source code file in Notepad++.</li>
-                                    <li>Open menu: "Plugins" - "JSTool".</li>
-                                    <li>If you want to put sorted JSON source code in current file, click "JSON Sort". Or if you want to put sorted JSON source code in a new file, click "JSON Sort (New file)".</li>
-                                </ol>
+                            </div>
+                        </li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <ul class="indentList discList">
+                        <li>
+                            <div>
+                                <p>How to bind shortcuts to JSTool command</p>
+                                <p>Visit <a href="https://code.visualstudio.com/docs/getstarted/keybindings" target="_blank">Key Bindings for Visual Studio Code</a> and follow the steps.</p>
                             </div>
                         </li>
                     </ul>
