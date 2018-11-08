@@ -66,7 +66,7 @@ if ($checking) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSToolNpp - A JavaScript plugin for Notepad++</title>
+    <title>JSToolNpp - A JavaScript tool for Notepad++</title>
     <?php include "../inc/head.part.php" ?>
 </head>
 <body>
@@ -78,7 +78,7 @@ if ($checking) {
                     <div class="listHeaderTitle"><a name="intro" title="Intro"></a>Intro</div>
                 </div>
                 <div class="listContainer">
-                    <p>A JavaScript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
+                    <p>A JavaScript tool for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
                     <ul class="indentList discList">
                         <li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize JavaScript code.</li>
                         <li>My own algorithm to format JavaScript code.</li>
