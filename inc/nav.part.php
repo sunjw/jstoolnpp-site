@@ -33,9 +33,21 @@ if ($current_app == "npp") {
             <li>
                 <a href="#help">Help</a>
             </li>
+            <?php
+if ($current_app == "npp") {
+?>
             <li>
                 <a href="#download">Download</a>
             </li>
+<?php
+} else if ($current_app == "vsc") {
+?>
+            <li>
+                <a href="#install">Install</a>
+            </li>
+<?php
+}
+?>
             <li>
                 <a href="#intro">Intro</a>
             </li>

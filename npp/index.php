@@ -201,7 +201,7 @@ if ($checking) {
                         <li>
                             <div>
                                 <p>Uninstall JSTool</p>
-                                <p>Uninstall through Plugin Manager:</p>
+                                <p>Uninstall in Plugin Manager:</p>
                                 <ol class="indentList">
                                     <li>Run Notepad++.</li>
                                     <li>Open menu: "Plugins" - "Plugin Manager" - "Show Plugin Manager".</li>

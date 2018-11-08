@@ -40,7 +40,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                         <li>More to come...</li>
                     </ul>
                     <p>&nbsp;</p>
-                    <p>What's New in <a class="smoothAnchor" href="#download">1.1810.3</a>:</p>
+                    <p>What's New in <a class="smoothAnchor" href="#install">1.1810.3</a>:</p>
                     <ul class="indentList discList">
                         <li>Fix "export default" format.</li>
                         <li>Fix '/' in [] within regular expression format.</li>
@@ -52,40 +52,28 @@ $cur_version = $download_array["JSMinNpp"]["version"];
             </div>
             <div class="divListwHeader">
                 <div class="listHeader">
-                    <div class="listHeaderTitle"><a name="download" title="Download"></a>Download</div>
+                    <div class="listHeaderTitle"><a name="install" title="Install"></a>Install</div>
                 </div>
                 <div class="listContainer">
-                    <p>The latest release build:</p>
-                    <ul class="indentList discList">
-                        <li>
-                            <div>
-                                <p>Unicode build:</p>
-                                <p>32bit - JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
-                                <p>64bit - JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Uni/JSToolNPP.<?php echo $cur_version; ?>.uni.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <p>ASCII build (<em>no more updates after 1.20.2</em>):</p>
-                                <p>32bit - JSToolNPP.1.20.2.asc.32.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.32.zip/download" target="_blank">Download from SourceForget.net</a></p>
-                                <p>64bit - JSToolNPP.1.20.2.asc.64.zip:&nbsp;<a href="https://sourceforge.net/projects/jsminnpp/files/Asc/JSToolNPP.1.20.2.asc.64.zip/download" target="_blank">Download from SourceForget.net</a></p>
-                            </div>
-                        </li>
-                    </ul>
+                    <p>Install JSTool from Extensions:</p>
+                    <ol class="indentList">
+                        <li>Run Visual Studio Code.</li>
+                        <li>Open "Extensions" from Activity Bar.<br/><img src="../imgs/extensions-view-icon.png" width="48" height="48" /></li>
+                        <li>Search "jstool".<br/><img src="../imgs/extensions-jstool.png" /></li>
+                        <li>Click "Install" button. After install finished, then click "Reload".<br/><img src="../imgs/extensions-jstool-reload.png" /></li>
+                    </ol>
+                    <p>Or install JSTool manually, see <a class="smoothAnchor" href="#help">Help</a>.</p>
                     <p>&nbsp;</p>
                     <p>Other files:</p>
                     <ul class="indentList discList">
                         <li>
-                        README: <a href="https://github.com/sunjw/jstoolnpp/blob/master/README.md" target="_blank">https://github.com/sunjw/jstoolnpp/blob/master/README.md</a>
+                        README: <a href="https://github.com/sunjw/jstoolnpp/blob/master/sub-proj/JSFormatterJS/README.md" target="_blank">https://github.com/sunjw/jstoolnpp/blob/master/sub-proj/JSFormatterJS/README.md</a>
                         </li>
                         <li>
-                        Change log: <a href="https://github.com/sunjw/jstoolnpp/blob/master/CHANGELOG.md" target="_blank">https://github.com/sunjw/jstoolnpp/blob/master/CHANGELOG.md</a>
+                        Change log: <a href="https://github.com/sunjw/jstoolnpp/blob/master/sub-proj/JSFormatterJS/CHANGELOG.md" target="_blank">https://github.com/sunjw/jstoolnpp/blob/master/sub-proj/JSFormatterJS/CHANGELOG.md</a>
                         </li>
                         <li>
                         Source code: <a href="https://github.com/sunjw/jstoolnpp" target="_blank">https://github.com/sunjw/jstoolnpp</a>
-                        </li>
-                        <li>
-                        All files: <a href="https://sourceforge.net/projects/jsminnpp/files/" target="_blank">https://sourceforge.net/projects/jsminnpp/files/</a>
                         </li>
                     </ul>
                 </div>
