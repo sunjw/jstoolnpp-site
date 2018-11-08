@@ -85,8 +85,8 @@ if ($checking) {
                         <li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
                         <li>Support 64bit Notepad++ (from version 1.20.0, ".64.zip" package).</li>
                     </ul>
-                    <p>Really helpful to JavaScript coder on Notepad++ and really easy to <a class="smoothAnchor" href="#help">use</a> it.</p>
                     <p>&nbsp;</p>
+                    <p>Really helpful to JavaScript coder on Notepad++. Easy to <a class="smoothAnchor" href="#help">use</a> it.</p>
                     <p>Made in China.</p>
                     <p>License: <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPL 2.0</a></p>
                     <p>&nbsp;</p>

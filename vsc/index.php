@@ -10,7 +10,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSToolNpp - A JavaScript plugin for notepad++</title>
+    <title>JSTool - A JavaScript tool for Visual Studio Code</title>
     <?php include "../inc/head.part.php" ?>
 </head>
 <body>
@@ -22,15 +22,14 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                     <div class="listHeaderTitle"><a name="intro" title="Intro"></a>Intro</div>
                 </div>
                 <div class="listContainer">
-                    <p>A JavaScript plugin for <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a>.</p>
+                    <p>A JavaScript tool for <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>.</p>
                     <ul class="indentList discList">
+                        <li>Porting from <a href="https://sourceforge.net/projects/jsminnpp/files/stats/timeline?dates=2010-09-09%20to%202018-09-09&period=daily" target="_blank">2M+</a> downloads JavaScript tool for Notepad++.</li>
                         <li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize JavaScript code.</li>
                         <li>My own algorithm to format JavaScript code.</li>
-                        <li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
-                        <li>Support 64bit Notepad++ (from version 1.20.0, ".64.zip" package).</li>
                     </ul>
-                    <p>Really helpful to JavaScript coder on Notepad++ and really easy to <a class="smoothAnchor" href="#help">use</a> it.</p>
                     <p>&nbsp;</p>
+                    <p>Really helpful to JavaScript coder on Visual Studio Code. Easy to <a class="smoothAnchor" href="#help">use</a> it.</p>
                     <p>Made in China.</p>
                     <p>License: <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPL 2.0</a></p>
                     <p>&nbsp;</p>
@@ -38,16 +37,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                     <ul class="indentList discList">
                         <li>JavaScript minify.</li>
                         <li>JavaScript/JSON format.</li>
-                        <li>Sort JSON data alphabetically.</li>
-                        <li>
-                            JSON viwer with:
-                            <ul class="indentList circleList">
-                                <li>Search</li>
-                                <li>Node expand/collapse</li>
-                                <li>Node data copy</li>
-                            </ul>
-                        </li>
-                        <li>JSON sort.</li>
+                        <li>More to come...</li>
                     </ul>
                     <p>&nbsp;</p>
                     <p>What's New in <a class="smoothAnchor" href="#download">1.1810.3</a>:</p>
@@ -55,7 +45,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                         <li>Fix "export default" format.</li>
                         <li>Fix '/' in [] within regular expression format.</li>
                         <li>Not to format Unix Shebang at begining of a script.</li>
-                        <li>Fix json parser remove escaped ' or " at the end of string.</li>
+                        <li>Only set file type to "javascript" when format whole document.</li>
                         <li>Change version naming to MAJOR.YEAR-MONTH.BUILD.</li>
                     </ul>
                 </div>
