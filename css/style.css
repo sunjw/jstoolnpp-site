@@ -44,6 +44,7 @@ input[type="submit"],input[type="button"] {
 
 :root {
     --npp-color: #6aba60;
+    --vsc-color: #0070c0;
 }
 /* Common */
 
@@ -153,7 +154,7 @@ input[type="submit"],input[type="button"] {
     color: var(--npp-color);
 }
 .npp #navWrapper #navRight li a.switchApp:hover {
-    color: #0070c0;
+    color: var(--vsc-color);
 }
 /* Header */
 
