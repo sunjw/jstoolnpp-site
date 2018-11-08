@@ -66,7 +66,7 @@ if ($checking) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSToolNpp - A JavaScript tool for Notepad++</title>
+    <title>JSTool - A JavaScript tool for Notepad++</title>
     <?php include "../inc/head.part.php" ?>
 </head>
 <body>
@@ -172,7 +172,7 @@ if ($checking) {
                     <ul class="indentList discList">
                         <li>
                             <div>
-                                <p>Install through Plugin Manager</p>
+                                <p>Install JSTool from Plugin Manager</p>
                                 <ol class="indentList">
                                     <li>Run Notepad++.</li>
                                     <li>Open menu: "Plugins" - "Plugin Manager" - "Show Plugin Manager". If you can't find "Plugin Manager" in your Notepad++ menu, please go to <a href="https://github.com/bruderstein/nppPluginManager" target="_blank">Notepad++ Plugin Manager</a>, download and install "Plugin Manager" manually.</li>
@@ -186,9 +186,9 @@ if ($checking) {
                     <ul class="indentList discList">
                         <li>
                             <div>
-                                <p>Install manually</p>
+                                <p>Install JSTool manually</p>
                                 <ol class="indentList">
-                                    <li><a class="smoothAnchor" href="#download">Download JSToolNpp</a>.</li>
+                                    <li><a class="smoothAnchor" href="#download">Download JSTool</a>.</li>
                                     <li>Extract JSMinNpp.dll from JSToolNpp.x.y.z.uni.zip (or JSToolNpp.x.y.z.asc.zip) you just downloaded.</li>
                                     <li>Copy JSMinNpp.dll to plugins directory under your Notepad++ installation path, like "C:\Program Files (x86)\Notepad++\plugins\".</li>
                                     <li>Run Notepad++, you will see JSTool in "Plugins" menu.</li>
@@ -200,7 +200,7 @@ if ($checking) {
                     <ul class="indentList discList">
                         <li>
                             <div>
-                                <p>Uninstall JSToolNpp</p>
+                                <p>Uninstall JSTool</p>
                                 <p>Uninstall through Plugin Manager:</p>
                                 <ol class="indentList">
                                     <li>Run Notepad++.</li>
@@ -222,7 +222,7 @@ if ($checking) {
                     <ul class="indentList discList">
                         <li>
                             <div>
-                                <p>How to use JSToolNpp</p>
+                                <p>How to use JSTool</p>
                                 <p>Minimize source code:</p>
                                 <ol class="indentList">
                                     <li>Open you JavaScript source code file in Notepad++.</li>
