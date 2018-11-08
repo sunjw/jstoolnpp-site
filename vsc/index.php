@@ -1,72 +1,16 @@
 <?php
 include_once "../inc/common.inc.php";
 
-$current_app = "npp";
-
-$checking = false;
-$is_lastest = false;
+$current_app = "vsc";
 
 $download_array = parse_ini_file("../inc/version.ini", true);
 $cur_version = $download_array["JSMinNpp"]["version"];
-
-$ver = get_query("ver");
-if ($ver != "")
-    $checking = true;
-
-if ($checking) {
-    $ver_array = explode(".", $ver);
-    $major_ver = $ver_array[0];
-    $minor_ver = 0;
-    if (count($ver_array) > 1) {
-        $minor_ver = $ver_array[1];
-    }
-    $maintenance_ver = 0;
-    if (count($ver_array) > 2) {
-        $maintenance_ver = $ver_array[2];
-    }
-    $build_ver = 0;
-    if (count($ver_array) > 3) {
-        $build_ver = $ver_array[3];
-    }
-
-    $cur_ver_array = explode(".", $cur_version);
-    $cur_major_ver = $cur_ver_array[0];
-    $cur_minor_ver = $cur_ver_array[1];
-    $cur_maintenance_ver = $cur_ver_array[2];
-    $cur_build_ver = 0;
-    if (count($cur_ver_array) > 3) {
-        $cur_build_ver = $cur_ver_array[3];
-    }
-
-    if ($major_ver < $cur_major_ver)
-        $is_lastest = false;
-    else if ($major_ver > $cur_major_ver)
-        $is_lastest = true;
-    else if ($minor_ver < $cur_minor_ver)
-        $is_lastest = false;
-    else if ($minor_ver > $cur_minor_ver)
-        $is_lastest = true;
-    else if (!is_numeric($cur_maintenance_ver))
-        $is_lastest = true;
-    else if ($maintenance_ver < $cur_maintenance_ver)
-        $is_lastest = false;
-    else if ($maintenance_ver > $cur_maintenance_ver)
-        $is_lastest = true;
-    else if (!is_numeric($cur_build_ver))
-        $is_lastest = true;
-    else if ($build_ver < $cur_build_ver)
-        $is_lastest = false;
-    else if ($build_ver > $cur_build_ver)
-        $is_lastest = true;
-    else if ($build_ver == $cur_build_ver)
-        $is_lastest = true;
-}
 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSToolNpp - A JavaScript plugin for Notepad++</title>
+    <title>JSToolNpp - A JavaScript plugin for notepad++</title>
     <?php include "../inc/head.part.php" ?>
 </head>
 <body>
@@ -119,14 +63,6 @@ if ($checking) {
             <div class="divListwHeader">
                 <div class="listHeader">
                     <div class="listHeaderTitle"><a name="download" title="Download"></a>Download</div>
-<?php
-if ($checking) {
-    if ($is_lastest)
-        echo "<div id=\"checkMsg\" class=\"latest\">🎉 Congratulations! You are using the latest version.</div>";
-    else
-        echo "<div id=\"checkMsg\" class=\"notLatest\">❌ You are <strong>NOT</strong> using the latest version.</div>";
-}
-?>
                 </div>
                 <div class="listContainer">
                     <p>The latest release build:</p>

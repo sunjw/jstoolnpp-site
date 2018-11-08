@@ -44,7 +44,7 @@ input[type="submit"],input[type="button"] {
 
 :root {
     --npp-color: #6aba60;
-    --vsc-color: #0070c0;
+    --vsc-color: #007acc;
 }
 /* Common */
 
@@ -94,6 +94,9 @@ input[type="submit"],input[type="button"] {
 .npp #headerTitle {
     background-color: var(--npp-color);
 }
+.vsc #headerTitle {
+    background-color: var(--vsc-color);
+}
 #headerTitle #logo {
     float: left;
     width: 42px;
@@ -117,6 +120,9 @@ input[type="submit"],input[type="button"] {
 }
 .npp #navWrapper.appBorder {
     border-top-color: var(--npp-color);
+}
+.vsc #navWrapper.appBorder {
+    border-top-color: var(--vsc-color);
 }
 #navWrapper #navLeft {
     float: left;
@@ -153,8 +159,14 @@ input[type="submit"],input[type="button"] {
 .npp #navWrapper #navRight li a:hover {
     color: var(--npp-color);
 }
+.vsc #navWrapper #navRight li a:hover {
+    color: var(--vsc-color);
+}
 .npp #navWrapper #navRight li a.switchApp:hover {
     color: var(--vsc-color);
+}
+.vsc #navWrapper #navRight li a.switchApp:hover {
+    color: var(--npp-color);
 }
 /* Header */
 
@@ -170,9 +182,13 @@ input[type="submit"],input[type="button"] {
 .divListwHeader .listHeader .listHeaderTitle {
     float: left;
     width: 480px;
+    border-bottom: 3px solid black;
 }
 .npp .divListwHeader .listHeader .listHeaderTitle {
-    border-bottom: 3px solid var(--npp-color);
+    border-bottom-color: var(--npp-color);
+}
+.vsc .divListwHeader .listHeader .listHeaderTitle {
+    border-bottom-color: var(--vsc-color);
 }
 .divListwHeader .listContainer {
     margin: 20px;
