@@ -86,12 +86,13 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                     <ul class="indentList discList">
                         <li>
                             <div>
-                                <p>Install through Plugin Manager</p>
+                                <p>Install JSTool manually</p>
                                 <ol class="indentList">
-                                    <li>Run Notepad++.</li>
-                                    <li>Open menu: "Plugins" - "Plugin Manager" - "Show Plugin Manager". If you can't find "Plugin Manager" in your Notepad++ menu, please go to <a href="https://github.com/bruderstein/nppPluginManager" target="_blank">Notepad++ Plugin Manager</a>, download and install "Plugin Manager" manually.</li>
-                                    <li>Under "Available" tab, select "JSTool".</li>
-                                    <li>Click "Install" button. Then Plugin Manager will do downloading and installing automatically.</li>
+                                    <li>Visit JSTool page in <a href="https://marketplace.visualstudio.com/items?itemName=sunjw.jstool" target="_blank">Visual Studio Marketplace</a>.</li>
+                                    <li>Click "Download Extension" on right side.</li>
+                                    <li>Run Visual Studio code.</li>
+                                    <li>Using the Install from VSIX... command in the Extensions view command drop-down, or the Extensions: Install from VSIX... command in the Command Palette.</li>
+                                    <li>Select sunjw.jstool-x.y.z.vsix you just downloaded.</li>
                                 </ol>
                             </div>
                         </li>
@@ -100,12 +101,12 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                     <ul class="indentList discList">
                         <li>
                             <div>
-                                <p>Install manually</p>
+                                <p>Uninstall JSTool</p>
                                 <ol class="indentList">
-                                    <li><a class="smoothAnchor" href="#download">Download JSToolNpp</a>.</li>
-                                    <li>Extract JSMinNpp.dll from JSToolNpp.x.y.z.uni.zip (or JSToolNpp.x.y.z.asc.zip) you just downloaded.</li>
-                                    <li>Copy JSMinNpp.dll to plugins directory under your Notepad++ installation path, like "C:\Program Files (x86)\Notepad++\plugins\".</li>
-                                    <li>Run Notepad++, you will see JSTool in "Plugins" menu.</li>
+                                    <li>Run Visual Studio Code.</li>
+                                    <li>Open "Extensions" from Activity Bar.</li>
+                                    <li>Under "Enabled" section, select "JSTool".</li>
+                                    <li>Click "Uninstall" button.</li>
                                 </ol>
                             </div>
                         </li>
@@ -114,29 +115,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                     <ul class="indentList discList">
                         <li>
                             <div>
-                                <p>Uninstall JSToolNpp</p>
-                                <p>Uninstall through Plugin Manager:</p>
-                                <ol class="indentList">
-                                    <li>Run Notepad++.</li>
-                                    <li>Open menu: "Plugins" - "Plugin Manager" - "Show Plugin Manager".</li>
-                                    <li>Under "Installed" tab, select "JSTool".</li>
-                                    <li>Click "Remove" button. Then Plugin Manager will do uninstalling automatically.</li>
-                                </ol>
-                                <p>&nbsp;</p>
-                                <p>Or you can uninstall manually:</p>
-                                <ol class="indentList">
-                                    <li>Exit any running Notepad++.</li>
-                                    <li>Go to plugins directory under your Notepad++ installation path, like "C:\Program Files (x86)\Notepad++\plugins\".</li>
-                                    <li>Delete JSMinNpp.dll.</li>
-                                </ol>
-                            </div>
-                        </li>
-                    </ul>
-                    <p>&nbsp;</p>
-                    <ul class="indentList discList">
-                        <li>
-                            <div>
-                                <p>How to use JSToolNpp</p>
+                                <p>How to use JSTool</p>
                                 <p>Minimize source code:</p>
                                 <ol class="indentList">
                                     <li>Open you JavaScript source code file in Notepad++.</li>
