@@ -1,10 +1,19 @@
-<!--<div id="icon">
-    <a href="index.php"><img src="../imgs/icon_048.png" alt="icon"/></a>
-</div>-->
+<?php
+$switch_app = "";
+$header_title_app_list = "";
+
+if ($current_app == "npp") {
+    $switch_app = "<a class=\"switchApp\" href=\"../vsc/\">JSTool for Visual Studio Code</a>";
+    $header_title_app_list = "<a href=\"../npp/\">Notepad++</a> and <a href=\"../vsc/\">Visual Studio Code</a>";
+} else if ($current_app == "vsc") {
+    $switch_app = "<a class=\"switchApp\" href=\"../npp/\">JSTool for Notepad++</a>";
+    $header_title_app_list = "<a href=\"../vsc/\">Visual Studio Code</a> and <a href=\"../npp/\">Notepad++</a>";
+}
+?>
 <div id="headerTitle">
     <div class="headerContent">
         <img id="logo" src="../imgs/icon_048.png"/>
-        <div id="title">JSTool - A JavaScript tool for <a href="../npp/">Notepad++</a> and <a href="../vsc/">Visual Studio Code</a></div>
+        <div id="title">JSTool - A JavaScript tool for <?php echo $header_title_app_list; ?></div>
     </div>
 </div>
 <div id="navWrapper" class="appBorder">
@@ -15,21 +24,9 @@
             </a>
         </div>
         <ul id="navRight">
-<?php
-if ($current_app == "npp") {
-?>
             <li>
-                <a class="switchApp" href="../vsc/">JSTool for Visual Studio Code</a>
+                <?php echo $switch_app; ?>
             </li>
-<?php
-} else if ($current_app == "vsc") {
-?>
-            <li>
-                <a class="switchApp" href="../npp/">JSTool for Notepad++</a>
-            </li>
-<?php
-}
-?>
             <li>
                 <a href="#help">Help</a>
             </li>
