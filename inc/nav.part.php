@@ -7,7 +7,7 @@
         <div id="title">JSTool - A JavaScript tool for <a href="../npp/">Notepad++</a> and <a href="../vsc/">Visual Studio Code</a></div>
     </div>
 </div>
-<div id="navWrapper">
+<div id="navWrapper" class="appBorder">
     <div class="headerContent">
         <div id="navLeft">
             <a href="#top">

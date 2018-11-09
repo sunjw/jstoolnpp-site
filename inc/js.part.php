@@ -2,7 +2,6 @@
 <script type="text/javascript">
 //<![CDATA[
 var headerLogo = 0;
-var navWrapper = 0;
 
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
@@ -50,16 +49,13 @@ function onPageScroll() {
 
     if (scrollTopPos < 48) {
         headerLogo.removeClass("logoShow");
-        navWrapper.removeClass("appBorder");
     } else {
         headerLogo.addClass("logoShow");
-        navWrapper.addClass("appBorder");
     }
 }
 
 $(function () {
     headerLogo = $("#navWrapper #navLeft #logo");
-    navWrapper = $("#navWrapper");
 
     $("#navWrapper a").click(function () {
         return scrollFromLink(this);
