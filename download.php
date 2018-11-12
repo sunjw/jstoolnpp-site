@@ -1,4 +1,6 @@
 <?php 
+include "inc/navtonewsite.php";
+
 include_once "inc/common.inc.php";
 
 $checking = false;
