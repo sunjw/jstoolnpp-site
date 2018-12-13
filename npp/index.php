@@ -190,7 +190,8 @@ if ($checking) {
                                 <ol class="indentList">
                                     <li><a class="smoothAnchor" href="#download">Download JSTool</a>.</li>
                                     <li>Extract JSMinNpp.dll from JSToolNpp.x.y.z.uni.zip (or JSToolNpp.x.y.z.asc.zip) you just downloaded.</li>
-                                    <li>Copy JSMinNpp.dll to plugins directory under your Notepad++ installation path, like "C:\Program Files (x86)\Notepad++\plugins\".</li>
+                                    <li>For before Notepad++ 7.6: copy JSMinNpp.dll to plugins directory under your Notepad++ installation path, like "C:\Program Files (x86)\Notepad++\plugins\".</li>
+                                    <li>For <a href="https://notepad-plus-plus.org/news/notepad-7.6-released.html" target="_blank">after Notepad++ 7.6 (include 7.6)</a>: copy JSMinNpp.dll to %LOCALAPPDATA%\Notepad++\plugins\JSMinNPP\ directory (you may need to create a directory named "JSMinNPP"), like "C:\Users\YOUR_USER_NAME\AppData\Local\Notepad++\plugins\JSMinNPP\".</li>
                                     <li>Run Notepad++, you will see JSTool in "Plugins" menu.</li>
                                 </ol>
                             </div>
@@ -212,8 +213,8 @@ if ($checking) {
                                 <p>Or you can uninstall manually:</p>
                                 <ol class="indentList">
                                     <li>Exit any running Notepad++.</li>
-                                    <li>Go to plugins directory under your Notepad++ installation path, like "C:\Program Files (x86)\Notepad++\plugins\".</li>
-                                    <li>Delete JSMinNpp.dll.</li>
+                                    <li>For before Notepad++ 7.6: go to plugins directory under your Notepad++ installation path, like "C:\Program Files (x86)\Notepad++\plugins\", delete JSMinNpp.dll.</li>
+                                    <li>For <a href="https://notepad-plus-plus.org/news/notepad-7.6-released.html" target="_blank">after Notepad++ 7.6 (include 7.6)</a>: go to %LOCALAPPDATA%\Notepad++\plugins\ directory, like "C:\Users\YOUR_USER_NAME\AppData\Local\Notepad++\plugins\", delete JSMinNPP directory.</li>
                                 </ol>
                             </div>
                         </li>
