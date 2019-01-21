@@ -3,11 +3,11 @@ $switch_app = "";
 $header_title_app_list = "";
 
 if ($current_app == "npp") {
-    $switch_app = "<a class=\"switchApp\" href=\"../vsc/\">JSTool for Visual Studio Code</a>";
-    $header_title_app_list = "<a href=\"../npp/\">Notepad++</a> and <a href=\"../vsc/\">Visual Studio Code</a>";
+    $switch_app = "<a class=\"switchApp\" href=\"../vsc/?redirect_src=".$current_app."\">JSTool for Visual Studio Code</a>";
+    $header_title_app_list = "<a href=\"../npp/\">Notepad++</a> and <a href=\"../vsc/?redirect_src=".$current_app."\">Visual Studio Code</a>";
 } else if ($current_app == "vsc") {
-    $switch_app = "<a class=\"switchApp\" href=\"../npp/\">JSTool for Notepad++</a>";
-    $header_title_app_list = "<a href=\"../vsc/\">Visual Studio Code</a> and <a href=\"../npp/\">Notepad++</a>";
+    $switch_app = "<a class=\"switchApp\" href=\"../npp/?redirect_src=".$current_app."\">JSTool for Notepad++</a>";
+    $header_title_app_list = "<a href=\"../vsc/\">Visual Studio Code</a> and <a href=\"../npp/?redirect_src=".$current_app."\">Notepad++</a>";
 }
 ?>
 <div id="headerTitle">
