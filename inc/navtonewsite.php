@@ -1,6 +1,16 @@
 <?php
 include_once "common.inc.php";
 
+function endsWith($haystack, $needle)
+{
+    $length = strlen($needle);
+    if ($length == 0) {
+        return true;
+    }
+
+    return (substr($haystack, -$length) === $needle);
+}
+
 $new_site_location = "Location: ../jstool/";
 $redirect_src_here = "jstoolnpp";
 
@@ -13,6 +23,10 @@ if ($request_file == "download.php" && $ver != "") {
     $redirect_src = get_query("redirect_src");
     if ($redirect_src == "") {
         $redirect_src = $redirect_src_here;
+    } else {
+        if (endsWith($redirect_src, "/")) {
+            $redirect_src = rtrim($redirect_src, "/");
+        }
     }
     $new_site_location = $new_site_location."?redirect_src=".$redirect_src;
 }
