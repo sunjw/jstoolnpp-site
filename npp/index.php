@@ -106,13 +106,9 @@ if ($checking) {
                         <li>JSON sort.</li>
                     </ul>
                     <p>&nbsp;</p>
-                    <p>What's New in <a class="smoothAnchor" href="#download">1.1810.3</a>:</p>
+                    <p>What's New in <a class="smoothAnchor" href="#download">1.1901.2</a>:</p>
                     <ul class="indentList discList">
-                        <li>Fix "export default" format.</li>
-                        <li>Fix '/' in [] within regular expression format.</li>
-                        <li>Not to format Unix Shebang at begining of a script.</li>
-                        <li>Fix json parser remove escaped ' or " at the end of string.</li>
-                        <li>Change version naming to MAJOR.YEAR-MONTH.BUILD.</li>
+                        <li>UI tweak.</li>
                     </ul>
                 </div>
             </div>

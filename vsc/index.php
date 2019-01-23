@@ -37,16 +37,13 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                     <ul class="indentList discList">
                         <li>JavaScript minify.</li>
                         <li>JavaScript/JSON format.</li>
+                        <li>Sort JSON data alphabetically.</li>
                         <li>More to come...</li>
                     </ul>
                     <p>&nbsp;</p>
-                    <p>What's New in <a class="smoothAnchor" href="#install">1.1810.3</a>:</p>
+                    <p>What's New in <a class="smoothAnchor" href="#install">1.1901.2</a>:</p>
                     <ul class="indentList discList">
-                        <li>Fix "export default" format.</li>
-                        <li>Fix '/' in [] within regular expression format.</li>
-                        <li>Not to format Unix Shebang at begining of a script.</li>
-                        <li>Only set file type to "javascript" when format whole document.</li>
-                        <li>Change version naming to MAJOR.YEAR-MONTH.BUILD.</li>
+                        <li>Add JSON Sort function.</li>
                     </ul>
                 </div>
             </div>
@@ -134,6 +131,13 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                                     <li>Open you JavaScript source code file in Notepad++.</li>
                                     <li>Select source code lines which you want to format.</li>
                                     <li>Using the "Format JavaScript (JSON)" command in the Command Palette.</li>
+                                </ol>
+                                <p>&nbsp;</p>
+                                <p>Sort JSON data alphabetically:</p>
+                                <ol class="indentList">
+                                    <li>Open you JSON data file in Visual Studio Code.</li>
+                                    <li>Using the "JSON Sort" command in the Command Palette.</li>
+                                    <li>If you want to put sorted JSON data in a new file, using the "JSON Sort (New file)" command.</li>
                                 </ol>
                             </div>
                         </li>
