@@ -106,9 +106,9 @@ if ($checking) {
                         <li>JSON sort.</li>
                     </ul>
                     <p>&nbsp;</p>
-                    <p>What's New in <a class="smoothAnchor" href="#download">1.1901.2</a>:</p>
+                    <p>What's New in <a class="smoothAnchor" href="#download">1.1903.0</a>:</p>
                     <ul class="indentList discList">
-                        <li>UI tweak.</li>
+                        <li>Fix template output in some senario.</li>
                     </ul>
                 </div>
             </div>

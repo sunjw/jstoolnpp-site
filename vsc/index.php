@@ -41,9 +41,9 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                         <li>More to come...</li>
                     </ul>
                     <p>&nbsp;</p>
-                    <p>What's New in <a class="smoothAnchor" href="#install">1.1901.2</a>:</p>
+                    <p>What's New in <a class="smoothAnchor" href="#install">1.1903.0</a>:</p>
                     <ul class="indentList discList">
-                        <li>Add JSON Sort function.</li>
+                        <li>Fix template output in some senario.</li>
                     </ul>
                 </div>
             </div>
