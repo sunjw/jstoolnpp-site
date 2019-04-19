@@ -106,9 +106,10 @@ if ($checking) {
                         <li>JSON sort.</li>
                     </ul>
                     <p>&nbsp;</p>
-                    <p>What's New in <a class="smoothAnchor" href="#download">1.1903.0</a>:</p>
+                    <p>What's New in <a class="smoothAnchor" href="#download"><?php echo $cur_version; ?></a>:</p>
                     <ul class="indentList discList">
-                        <li>Fix template output in some senario.</li>
+                        <li>Guess JSON content, set document languange type according to it.</li>
+                        <li>Performance tweak.</li>
                     </ul>
                 </div>
             </div>
