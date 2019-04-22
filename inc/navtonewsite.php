@@ -11,8 +11,8 @@ function endsWith($haystack, $needle)
     return (substr($haystack, -$length) === $needle);
 }
 
-$new_site_location = "Location: ../jstool/";
-$redirect_src_here = "jstoolnpp";
+$new_site_location = "Location: http://www.sunjw.us/jstool/";
+$redirect_src_here = "sf.net";
 
 $request_path = $_SERVER["PHP_SELF"];
 $request_file = basename($request_path);
