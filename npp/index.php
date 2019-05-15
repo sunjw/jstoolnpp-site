@@ -82,7 +82,7 @@ if ($checking) {
                     <ul class="indentList discList">
                         <li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize JavaScript code.</li>
                         <li>My own algorithm to format JavaScript code.</li>
-                        <li>A JSON data viewer. This JSON data viewer can handle >10MB JSON file easily.</li>
+                        <li>A JSON tree viewer. The JSON tree viewer for Notepad++ can handle >10MB JSON file easily.</li>
                         <li>Support 64bit Notepad++ (from version 1.20.0, ".64.zip" package).</li>
                     </ul>
                     <p>&nbsp;</p>
@@ -95,15 +95,7 @@ if ($checking) {
                         <li>JavaScript minify.</li>
                         <li>JavaScript/JSON format.</li>
                         <li>Sort JSON data alphabetically.</li>
-                        <li>
-                            JSON viwer with:
-                            <ul class="indentList circleList">
-                                <li>Search</li>
-                                <li>Node expand/collapse</li>
-                                <li>Node data copy</li>
-                            </ul>
-                        </li>
-                        <li>JSON sort.</li>
+                        <li>JSON tree viewer.</li>
                     </ul>
                     <p>&nbsp;</p>
                     <p>What's New in <a class="smoothAnchor" href="#download"><?php echo $cur_version; ?></a>:</p>
@@ -245,19 +237,19 @@ if ($checking) {
                                     <li>Or open menu: "Plugins" - "JSTool" then click "JSFormat".</li>
                                 </ol>
                                 <p>&nbsp;</p>
+                                <p>JSON Sort:</p>
+                                <ol class="indentList">
+                                    <li>Open you JSON source code file in Notepad++.</li>
+                                    <li>Open menu: "Plugins" - "JSTool".</li>
+                                    <li>If you want to put sorted JSON source code in current file, click "JSON Sort". Or if you want to put sorted JSON source code in a new file, click "JSON Sort (New file)".</li>
+                                </ol>
+                                <p>&nbsp;</p>
                                 <p>JSON Viewer:</p>
                                 <ol class="indentList">
                                     <li>Open you JavaScript or JSON source code file in Notepad++.</li>
                                     <li>Press "Ctrl"+"Alt"+"J".</li>
                                     <li>Or open menu: "Plugins" - "JSTool" then click "JSON Viewer".</li>
                                     <li>Or click <img src="../imgs/icon_toolbar.png"/> on toolbar.</li>
-                                </ol>
-                                <p>&nbsp;</p>
-                                <p>JSON Sort:</p>
-                                <ol class="indentList">
-                                    <li>Open you JSON source code file in Notepad++.</li>
-                                    <li>Open menu: "Plugins" - "JSTool".</li>
-                                    <li>If you want to put sorted JSON source code in current file, click "JSON Sort". Or if you want to put sorted JSON source code in a new file, click "JSON Sort (New file)".</li>
                                 </ol>
                             </div>
                         </li>

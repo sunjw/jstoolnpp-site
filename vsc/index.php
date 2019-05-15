@@ -27,6 +27,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                         <li>Porting from <a href="https://sourceforge.net/projects/jsminnpp/files/stats/timeline?dates=2010-09-09%20to%202018-09-09&period=daily" target="_blank">2M+</a> downloads JavaScript tool for Notepad++.</li>
                         <li><a href="http://www.crockford.com/Javascript/jsmin.html" target="_blank">Douglas Crockford's JSMin</a>  algorithm to minimize JavaScript code.</li>
                         <li>My own algorithm to format JavaScript code.</li>
+                        <li>A JSON tree viewer.</li>
                     </ul>
                     <p>&nbsp;</p>
                     <p>Really helpful to JavaScript coder on Visual Studio Code. Easy to <a class="smoothAnchor" href="#help">use</a> it.</p>
@@ -38,7 +39,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                         <li>JavaScript minify.</li>
                         <li>JavaScript/JSON format.</li>
                         <li>Sort JSON data alphabetically.</li>
-                        <li>More to come...</li>
+                        <li>JSON tree viewer.</li>
                     </ul>
                     <p>&nbsp;</p>
                     <p>What's New in <a class="smoothAnchor" href="#install"><?php echo $cur_version; ?></a>:</p>
@@ -138,6 +139,12 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                                     <li>Open you JSON data file in Visual Studio Code.</li>
                                     <li>Using the "JSON Sort" command in the Command Palette.</li>
                                     <li>If you want to put sorted JSON data in a new file, using the "JSON Sort (New file)" command.</li>
+                                </ol>
+                                <p>Show and refresh JSON tree view:</p>
+                                <ol class="indentList">
+                                    <li>Open you JSON data file in Visual Studio Code.</li>
+                                    <li>Using the "Refresh JSON Tree View" command in the Command Palette.</li>
+                                    <li>Or right click ROOT node in "JSTool: JSON Tree", click "Refresh" in context menu.</li>
                                 </ol>
                             </div>
                         </li>
