@@ -44,7 +44,8 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                     <p>&nbsp;</p>
                     <p>What's New in <a class="smoothAnchor" href="#install"><?php echo $cur_version; ?></a>:</p>
                     <ul class="indentList discList">
-                        <li>Guess JSON content, set document languange type according to it.</li>
+                        <li>Register JSTool as JavaScript and JSON formatter.</li>
+                        <li>Add JSON tree viewer.</li>
                     </ul>
                 </div>
             </div>

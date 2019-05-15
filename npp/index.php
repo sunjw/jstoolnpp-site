@@ -100,8 +100,7 @@ if ($checking) {
                     <p>&nbsp;</p>
                     <p>What's New in <a class="smoothAnchor" href="#download"><?php echo $cur_version; ?></a>:</p>
                     <ul class="indentList discList">
-                        <li>Guess JSON content, set document languange type according to it.</li>
-                        <li>Performance tweak.</li>
+                        <li>Change default settings.</li>
                     </ul>
                 </div>
             </div>
