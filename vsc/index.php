@@ -140,6 +140,7 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                                     <li>Using the "JSON Sort" command in the Command Palette.</li>
                                     <li>If you want to put sorted JSON data in a new file, using the "JSON Sort (New file)" command.</li>
                                 </ol>
+                                <p>&nbsp;</p>
                                 <p>Show and refresh JSON tree view:</p>
                                 <ol class="indentList">
                                     <li>Open you JSON data file in Visual Studio Code.</li>
