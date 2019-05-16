@@ -133,13 +133,7 @@ input[type="submit"],input[type="button"] {
     height: 48px;
     padding-top: 5px;
     padding-left: 5px;
-    visibility: hidden;
-    opacity: 0;
-}
-#navWrapper #navLeft #logo.logoShow {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s, opacity 0.5s linear;
+    display: none;
 }
 #navWrapper #navRight,#navWrapper #navRight li {
     float: right;

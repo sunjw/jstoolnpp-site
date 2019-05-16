@@ -48,9 +48,9 @@ function onPageScroll() {
     var scrollTopPos = getScrollTop();
 
     if (scrollTopPos < 48) {
-        headerLogo.removeClass("logoShow");
+        headerLogo.hide();
     } else {
-        headerLogo.addClass("logoShow");
+        headerLogo.fadeIn();
     }
 }
 
