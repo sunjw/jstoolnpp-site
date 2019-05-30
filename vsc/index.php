@@ -124,13 +124,13 @@ $cur_version = $download_array["JSMinNpp"]["version"];
                                 <p>&nbsp;</p>
                                 <p>Format all code in a source code file:</p>
                                 <ol class="indentList">
-                                    <li>Open you JavaScript source code file in Notepad++.</li>
+                                    <li>Open you JavaScript source code file in Visual Studio Code.</li>
                                     <li>Using the "Format JavaScript (JSON)" command in the Command Palette.</li>
                                 </ol>
                                 <p>&nbsp;</p>
                                 <p>Format selected code in a source code file:</p>
                                 <ol class="indentList">
-                                    <li>Open you JavaScript source code file in Notepad++.</li>
+                                    <li>Open you JavaScript source code file in Visual Studio Code.</li>
                                     <li>Select source code lines which you want to format.</li>
                                     <li>Using the "Format JavaScript (JSON)" command in the Command Palette.</li>
                                 </ol>
